@@ -40,19 +40,6 @@ jobs:
           echo "dwd_file=$LATEST_DWD" >> "$GITHUB_OUTPUT"
           echo "thermal_file=$LATEST_THERMAL" >> "$GITHUB_OUTPUT"
 
-      - name: Google-Service-Account-Key schreiben
-        run: echo '${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}' > gdrive_credentials.json
-
-      - name: DWD-Datei zu Google Drive hochladen
-        run: python upload_to_drive.py gdrive_credentials.json "${{ steps.latest_files.outputs.dwd_file }}"
-
-      - name: Thermalmap-Datei zu Google Drive hochladen
-        run: python upload_to_drive.py gdrive_credentials.json "${{ steps.latest_files.outputs.thermal_file }}"
-
-      - name: Service-Account-Key löschen
-        if: always()
-        run: rm -f gdrive_credentials.json
-
       - name: Ergebnis committen
         run: |
           git config user.name "github-actions[bot]"
