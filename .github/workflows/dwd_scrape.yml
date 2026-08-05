@@ -17,8 +17,8 @@ jobs:
 
       - name: Output-Verzeichnis leeren
         run: |
-          rm -rf output
           mkdir -p output
+          rm -f output/*
 
       - name: Python einrichten
         uses: actions/setup-python@v5
