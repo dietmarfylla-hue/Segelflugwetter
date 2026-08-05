@@ -1,0 +1,50 @@
+=== DWD SEGELFLUG-DATEN ===
+Gebiet: GAFOR-Gebiet 34 - Niederrheinische Bucht (213 m)
+Vorhersage: Vorhersage ausgegeben 05.08.2026 11:00 UTC (ICON-EU 2026-08-05 06 UTC)
+Gültig für: Vorhersagen für Mittwoch, 05.08.2026
+
+--- Astronomische Angaben ---
+Sonnenaufgang: 04:05 UTC = 05:05 Lokalzeit
+Sonnenuntergang: 19:12 UTC = 20:12 Lokalzeit
+Mondphase: 7 Tage nach Vollmond
+
+--- Thermik-Gebietsangaben ---
+  Gebietsmittel: Beginn /, Ende 18:30, PFD/Tag 00 UTC-Lauf:   511 km
+  Maximum im Gebiet: Beginn /, Ende 19:30, PFD/Tag 00 UTC-Lauf:   728 km
+  Referenzstation: Beginn /, Ende 18:30, PFD/Tag 00 UTC-Lauf:   495 km
+
+Thermik Gebietsmittel (Lokal | Arbeitshöhe | Steigen | PFD/1h):
+  13:00: AH=1780m, Steigen=1m/s, PFD=63km
+  14:00: AH=1940m, Steigen=1.2m/s, PFD=69km
+  15:00: AH=1990m, Steigen=1.3m/s, PFD=72km
+  16:00: AH=1920m, Steigen=1.2m/s, PFD=69km
+  17:00: AH=1900m, Steigen=1.2m/s, PFD=69km
+  18:00: AH=1790m, Steigen=1.1m/s, PFD=66km
+
+--- Referenzstation (stündliche Werte) ---
+Alle Windangaben in km/h. Windrichtung in Grad.
+
+Stunde(Lok) | Temp°C | Taupunkt°C | WindRi° | WindMittel | Böen | Wetter | BewTief/8 | BewMittel/8 | BewHoch/8 | Steigen m/s | ArbHöhe m
+--------------------------------------------------------------------------------------------------------------
+     13:00 |    29 |        16 |    240 |         17 |   30 |      - |         5 |           4 |         0 |         1.2 |       1800
+     14:00 |    29 |        15 |    250 |         20 |   35 |      - |         5 |           5 |         0 |         1.4 |       2010
+     15:00 |    29 |        14 |    250 |         20 |   37 |      - |         5 |           5 |         0 |         1.4 |       2010
+     16:00 |    28 |        14 |    260 |         20 |   39 |      - |         3 |           5 |         0 |         1.2 |       1800
+     17:00 |    28 |        14 |    260 |         19 |   35 |      - |         5 |           6 |         0 |         1.2 |       1800
+     18:00 |    27 |        14 |    270 |         19 |   35 |      - |         4 |           6 |         0 |         1.2 |       1800
+     19:00 |    26 |        14 |    280 |         17 |   35 |      - |         3 |           4 |         0 |           - |          -
+     20:00 |    24 |        14 |    270 |          9 |   28 |      - |         4 |           4 |         0 |           - |          -
+     21:00 |    22 |        14 |    280 |          6 |   15 |      - |         4 |           4 |         0 |           - |          -
+     22:00 |    21 |        14 |    270 |          6 |   11 |      - |         3 |           0 |         0 |           - |          -
+     23:00 |    20 |        14 |    240 |          6 |    9 |      - |         3 |           6 |         0 |           - |          -
+     00:00 |    19 |        14 |    250 |          7 |   11 |      - |         3 |           5 |         0 |           - |          -
+
+--- Höhenwinde Referenzstation (Grad/km/h) ---
+  Wind 2000 FT (610 m) AMSL [° km/h]:
+    13:00=240/30, 14:00=250/30, 15:00=250/35, 16:00=250/30, 17:00=260/35, 18:00=260/35, 19:00=270/35, 20:00=270/30, 21:00=290/30, 22:00=280/35, 23:00=270/35, 00:00=270/35
+  Wind 3000 FT (914 m) AMSL [° km/h]:
+    13:00=240/30, 14:00=240/30, 15:00=250/35, 16:00=250/30, 17:00=250/35, 18:00=260/35, 19:00=270/35, 20:00=260/35, 21:00=280/30, 22:00=270/35, 23:00=270/35, 00:00=270/35
+  Wind 5000 FT (1524 m) AMSL [° km/h]:
+    13:00=230/30, 14:00=240/30, 15:00=240/35, 16:00=250/35, 17:00=250/35, 18:00=250/35, 19:00=250/35, 20:00=250/45, 21:00=250/30, 22:00=250/30, 23:00=250/35, 00:00=250/35
+
+=== ENDE DWD-DATEN ===
