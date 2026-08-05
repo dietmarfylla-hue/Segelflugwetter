@@ -3,3 +3,6 @@ requests
 beautifulsoup4
 html5lib
 lxml
+selenium
+google-api-python-client
+google-auth
