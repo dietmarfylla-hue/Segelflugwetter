@@ -2,12 +2,12 @@ name: DWD 3-Tage-Prognose Nord
 
 on:
   schedule:
-    - cron: "0 5 * * *"   # täglich 05:00 UTC = 06:00/07:00 MEZ/MESZ
-  workflow_dispatch: {}     # manuelles Auslösen im GitHub-UI
+    - cron: "0 5 * * *"
+  workflow_dispatch: {}
 
 permissions:
-  contents: write   # <-- das hier ist neu
-  
+  contents: write
+
 jobs:
   scrape:
     runs-on: ubuntu-latest
@@ -20,16 +20,43 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Chrome installieren
+        uses: browser-actions/setup-chrome@v1
+
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
-      - name: Skript ausführen
+      - name: DWD-Skript ausführen
         run: python dwd_extract.py
+
+      - name: Thermalmap-Skript ausführen
+        run: python thermalmap_extract.py
+
+      - name: Neueste Ausgabedateien ermitteln
+        id: latest_files
+        run: |
+          LATEST_DWD=$(ls -t output/dwd_nord_3Tage_*.txt | head -n 1)
+          LATEST_THERMAL=$(ls -t output/thermalmap_wolfsaap_*.txt | head -n 1)
+          echo "dwd_file=$LATEST_DWD" >> "$GITHUB_OUTPUT"
+          echo "thermal_file=$LATEST_THERMAL" >> "$GITHUB_OUTPUT"
+
+      - name: Google-Service-Account-Key schreiben
+        run: echo '${{ secrets.GDRIVE_SERVICE_ACCOUNT_JSON }}' > gdrive_credentials.json
+
+      - name: DWD-Datei zu Google Drive hochladen
+        run: python upload_to_drive.py gdrive_credentials.json "${{ steps.latest_files.outputs.dwd_file }}"
+
+      - name: Thermalmap-Datei zu Google Drive hochladen
+        run: python upload_to_drive.py gdrive_credentials.json "${{ steps.latest_files.outputs.thermal_file }}"
+
+      - name: Service-Account-Key löschen
+        if: always()
+        run: rm -f gdrive_credentials.json
 
       - name: Ergebnis committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add output/
-          git diff --staged --quiet || git commit -m "DWD 3-Tages-Prognose aktualisiert"
+          git diff --staged --quiet || git commit -m "DWD & Thermalmap Prognose aktualisiert"
           git push
