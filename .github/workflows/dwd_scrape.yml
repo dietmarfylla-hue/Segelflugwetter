@@ -15,6 +15,11 @@ jobs:
       - name: Repo auschecken
         uses: actions/checkout@v4
 
+      - name: Output-Verzeichnis leeren
+        run: |
+          mkdir -p output
+          rm -f output/*
+
       - name: Python einrichten
         uses: actions/setup-python@v5
         with:
@@ -32,18 +37,10 @@ jobs:
       - name: Thermalmap-Skript ausführen
         run: python thermalmap_extract.py
 
-      - name: Neueste Ausgabedateien ermitteln
-        id: latest_files
-        run: |
-          LATEST_DWD=$(ls -t output/dwd_nord_3Tage_*.txt | head -n 1)
-          LATEST_THERMAL=$(ls -t output/thermalmap_wolfsaap_*.txt | head -n 1)
-          echo "dwd_file=$LATEST_DWD" >> "$GITHUB_OUTPUT"
-          echo "thermal_file=$LATEST_THERMAL" >> "$GITHUB_OUTPUT"
-
       - name: Ergebnis committen
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add output/
+          git add -A output/
           git diff --staged --quiet || git commit -m "DWD & Thermalmap Prognose aktualisiert"
           git push
