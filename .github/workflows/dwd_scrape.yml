@@ -17,8 +17,8 @@ jobs:
 
       - name: Output-Verzeichnis leeren
         run: |
+          rm -rf output
           mkdir -p output
-          rm -f output/*
 
       - name: Python einrichten
         uses: actions/setup-python@v5
@@ -48,7 +48,6 @@ jobs:
 
       - name: DWD-Skript ausführen (Gebiet 36)
         run: python dwd_gebiet36_extract.py
-        
 
       - name: Ergebnis committen
         run: |
