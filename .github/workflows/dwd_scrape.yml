@@ -1,0 +1,32 @@
+name: DWD 3-Tage-Prognose Nord
+
+on:
+  schedule:
+    - cron: "0 5 * * *"   # täglich 05:00 UTC = 06:00/07:00 MEZ/MESZ
+  workflow_dispatch: {}     # manuelles Auslösen im GitHub-UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repo auschecken
+        uses: actions/checkout@v4
+
+      - name: Python einrichten
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Abhängigkeiten installieren
+        run: pip install -r requirements.txt
+
+      - name: Skript ausführen
+        run: python dwd_extract.py
+
+      - name: Ergebnis committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add output/
+          git diff --staged --quiet || git commit -m "DWD 3-Tages-Prognose aktualisiert"
+          git push
