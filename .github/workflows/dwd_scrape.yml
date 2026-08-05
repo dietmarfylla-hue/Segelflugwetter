@@ -31,11 +31,14 @@ jobs:
       - name: Abhängigkeiten installieren
         run: pip install -r requirements.txt
 
-      - name: DWD-Skript ausführen
+      - name: DWD-Skript ausführen (Nord, 3-Tage)
         run: python dwd_extract.py
 
       - name: Thermalmap-Skript ausführen
         run: python thermalmap_extract.py
+
+      - name: DWD-Skript ausführen (Gebiet 31)
+        run: python dwd_gebiet31_extract.py
 
       - name: Ergebnis committen
         run: |
