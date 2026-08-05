@@ -40,6 +40,9 @@ jobs:
       - name: DWD-Skript ausführen (Gebiet 31)
         run: python dwd_gebiet31_extract.py
 
+      - name: DWD-Skript ausführen (Gebiet 34)
+        run: python dwd_gebiet34_extract.py
+
       - name: Ergebnis committen
         run: |
           git config user.name "github-actions[bot]"
