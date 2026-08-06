@@ -36,6 +36,9 @@ jobs:
 
       - name: DWD-Skript ausführen (Nord, 3-Tage)
         run: python dwd_extract.py
+        
+      - name: Wolfsaap Wetter weitere Daten ausführen (3-Tage)
+        run: python wolfsaap_wetter2.py
 
       - name: Thermalmap-Skript ausführen
         run: python thermalmap_extract.py
