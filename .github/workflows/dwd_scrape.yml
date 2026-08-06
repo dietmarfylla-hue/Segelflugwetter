@@ -2,7 +2,10 @@ name: DWD 3-Tage-Prognose Nord
 
 on:
   schedule:
-    - cron: "0 5 * * *"
+
+    - cron: "0 6 * * *"
+      timezone: "Europe/Berlin"
+    
   workflow_dispatch: {}
 
 permissions:
