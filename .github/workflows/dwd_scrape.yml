@@ -87,7 +87,7 @@ jobs:
 
       - name: Wolfsaap Wetter weitere Daten ausführen (3-Tage)
         run: |
-          python wolfsaap_wetter2.py
+          python Wolfsaap_Wetter2.py
 
 
       # ==========================================================
