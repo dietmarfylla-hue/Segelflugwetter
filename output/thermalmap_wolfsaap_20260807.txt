@@ -3,7 +3,7 @@ Standort: Düsseldorf-Wolfsaap
 Code: Dues-W
 Verein: SFG
 Koordinaten: 51.2645, 6.850662
-Vorhersage für: Donnerstag, 06.08.2026
+Vorhersage für: Freitag, 07.08.2026
 Quelle: Thermalmap.info
 
 --- Thermalmap Forecast ---
