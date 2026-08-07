@@ -2,8 +2,8 @@ name: Wolfsaap Segelflug-Wetterdaten
 
 on:
   schedule:
-    - cron: "0 6 * * *"
-      timezone: "Europe/Berlin"
+    - cron: "0 5 * * *"
+      
 
   workflow_dispatch: {}
 
