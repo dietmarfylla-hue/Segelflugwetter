@@ -7,27 +7,22 @@
 3-Tage-Prognose für Sichtflug und Luftsport
 
 für
-Sonntag, den 09.08.2026
+Montag, den 10.08.2026
 bis
-Dienstag, den 11.08.2026
+Mittwoch, den 12.08.2026
 
 herausgegeben von der Luftfahrtberatungszentrale Hamburg
 
-am 08.08.2026 um 13.00 Uhr UTC
+am 09.08.2026 um 13.00 Uhr UTC
 
 --- WETTERLAGE DEUTSCHLAND ---
 
-Am SONNTAG, 09.08.2026 befindet sich Deutschland
-zwischen einem Hochdruckzentrum über Osteuropa und einem Tiefdruckgebiet über
-der Norwegischen See. Die Strömung dreht im Tagesverlauf von Südwest auf West
-und führt vor allem in den mittleren Schichten dann etwas feuchtere und leicht
-labile Warmluft heran. Inneralpin dominiert eine feucht-labile Luftmasse.
-Am MONTAG, 10.08.2026 hat die Kaltfront eines
-norwegischen Tiefs bereits am Morgen die Nordseeküste erreicht. Diese zieht
-unter Abschwächung weiter südostwärts und erreicht zum Abend eine Linie Odermündung-Niederrhein.
-Rückseitig fließt mit nordwestlicher Strömung eine frische Meereskaltluft ein,
-welche recht rasch abtrocknet und von einem Hoch über den Britischen Inseln
-stabilisiert wird.
+Am MONTAG, 10.08.2026 hat die
+Kaltfront eines norwegischen Tiefs bereits am Morgen die Nordseeküste erreicht.
+Diese zieht unter deutlicher Abschwächung weiter südostwärts und erreicht zum
+Abend etwa eine Linie Odermündung - Niederrhein. Rückseitig fließt mit
+nordwestlicher Strömung eine frische Meereskaltluft ein, welche recht rasch
+abtrocknet und von einem Hoch über den Britischen Inseln stabilisiert wird.
 Südlich der Front bestimmt weiterhin
 eine in mittleren Höhen etwas feuchtere und leicht labil geschichtete Warmluft
 das Wettergeschehen. Auch innerhalb der Alpen bleibt die Luft labil
@@ -35,7 +30,11 @@ geschichtet.
 Am DIENSTAG, 11.08.2026 verlagert sich der
 Schwerpunkt des Hochdruckgebiets über die Nordsee. Bei einer nordwestlichen
 Strömung bestimmt dabei eine stabil geschichtete und trockene Warmluft das
-Wettergeschehen.
+Wettergeschehen. In den Alpen hält sich weiterhin die labile Warmluft.
+Auch am MITTWOCH, 12.08.2026 ist Hochdruckeinfluss
+mit trockener und stabiler Warmluft dominierend. Das Hoch hat seinen
+Schwerpunkt dann über Norddeutschland in Richtung Ostsee verlagert. Südlich des
+Alpenhauptkammes hält sich immer noch die labile Warmluft.
 
 Vorhersage für den Bereich Nord
 (GAFOR-Gebiete 00 bis 23 und 31 bis 36)
@@ -43,66 +42,68 @@ Vorhersage für den Bereich Nord
 --- SICHTFLUGWETTER ---
 
 Am
-SONNTAG, 09.08.2026 ist es, abgesehen von durchziehender CI-Bewölkung oberhalb von FL250
-und später aufkommender FEW/SCT AC-Bewölkung um FL120, meist wolkenlos bei
-Sichtweiten um 30 km. Zum späten Nachmittag bzw. gegen Abend besteht allerdings
-in einem Streifen, der sich von Mecklenburg-Vorpommern bis zum
-Mittelgebirgsraum erstreckt, die Gefahr, dass sich der ein oder andere CB um
-FL080 bildet, der mit Gewittern, Hagelschlag und Sturmböen einhergeht.
-Überwiegend bleibt es aber trocken.
+MONTAGmorgen ist es südöstlich etwa einer Linie Kieler Bucht - Dollart mit
+mittelhoher und hoher Bewölkung oberhalb von FL100 niederschlagsfrei. Nordwestlich
+dieser Linie zeigt sich hingegen BKN/OVC CU/SC/AC/CI mit Untergrenzen in 1500
+bis 3000 FT AMSL. Daraus fällt leichter bis mäßiger Regen und die
+Wolkenuntergrenzen sinken kurzzeitig auf 500 bis 900 FT AGL ab. Diese frontalen
+Bedingungen kommen südostwärts voran, erreichen um die Mittagszeit die Linie
+Pommersche Bucht  Emsland und ziehen zum Abend unter Auflösung nach Südosten
+ab. Sowohl vorderseitig als auch rückseitig der Front bildet sich im Laufe des
+Tages FEW/SCT CU, frontvorderseitig mit Basis um FL060 und rückseitig mit Basis
+bei 2500 bis 3500 FT AMSL. An der Vorderkante der Front können sich dabei ganz
+vereinzelt auch CB entwickeln, die den Regen schauerartig verstärken und ein
+kurzes Gewitter hervorbringen können.
+
+Die
+Sichten liegen bei 20 bis 50 km und gehen im Niederschlag je nach Art und
+Intensität auf 3 bis 8 km zurück.
 
 Am
-MONTAGmorgen ist es südöstlich etwa einer Linie Kieler Bucht-Dollart noch
-störungsfrei und trocken bei überwiegend wolkenlosem Himmel und Sichtweiten um
-30 km. Nordwestlich der Linie ist dagegen kompakte frontale Bewölkung mit BKN/OVC
-SC/AC/AS-Bewölkung mit Untergrenzen in 1500-2500 FT AMSL aufgezogen. Daraus
-fällt zusehends Regen mit absinkenden Wolkenuntergrenzen auf 500-800 FT AGL und
-Sichtrückgang auf 3-8 km. Diese Bedingungen kommen südostwärts voran, beeinflussen
-gegen Mittag einen breiten Streifen, der sich von der Ostsee bis zum Ijsselmeer
-erstreckt und zieht zum Abend unter Auflösung nach Südosten ab. Sowohl
-vorderseitig als auch rückseitig der Front bildet sich im Laufe des Tages
-FEW/SCT CU-Bewölkung aus, vorderseitig der Front mit Basis um FL060, rückseitig
-der Front mit Basis zwischen 2500 und 3000 FT AMSL. An der Vorderkante der
-Front können sich dabei ganz vereinzelt auch CBs entwickeln, die ein kurzes
-Gewitter hervorbringen.
+DIENSTAGmorgen kann es stellenweise etwas dunstig sein, nach Sonnenaufgang aber
+rasch auflösend. Ansonsten bilden sich im Laufe des Vormittags SCT/BKN CU mit
+einer Anfangsbasis bei 2500 bis 3500 FT AMSL und nachmittags ansteigend auf
+3500 bis 5000 FT AMSL. Am Abend lösen sich die Quellwolken auf. Es bleibt
+niederschlagsfrei.
+
+Die
+Sichten liegen nach morgendlicher Dunstauflösung zwischen 30 und 60 km.
 
 Am
-DIENSTAG, 11.08.2026 wird störungsfreies Flugwetter erwartet. Bei Sichtweiten von 30-50 km
-bildet sich im Tagesverlauf SCT/BKN CU-Bewölkung aus mit Basis anfangs bei 3000-3500
-FT AMSL, nachmittags auf 4000-4500 FT AMSL, im Süden und Südosten auf 5000-5500
-FT AMSL ansteigend. Es bleibt niederschlagsfrei.
+MITTWOCH, 12.08.2026 bilden sich im Vormittagsverlauf FEW/SCT CU mit Basis bei 2000 bis
+2500 FT AMSL, bis zum Nachmittag auf 4000 bis 5000 FT AMSL ansteigend und von
+Südwesten her rasch abtrocknend. Es bleibt niederschlagsfrei.
+
+Die
+Sichten liegen bei 40 bis 70 km.
 
 --- SEGELFLUGWETTER ---
 
 Am
-SONNTAG, 09.08.2026 wird überwiegend Blauthermik erwartet, die maximalen
-
-Arbeitshöhen
-liegen dabei zwischen 1200-1500 m im Norden und 2000-2500 m im Süden und Südosten.
+MONTAG, 10.08.2026 kann sich abseits der Kaltfront mäßige bis gute Wolkenthermik
+entwickeln.
 
 Am
-MONTAG, 10.08.2026 vorderseitig der südostwärts ziehenden Front gute
-
-Wolkenthermik
-mit örtlich Überentwicklungen und rückseitig der Front
-
-meist
-mäßige Wolkenthermik.
+DIENSTAG, 11.08.2026 wird mäßige bis gute Wolkenthermik erwartet, die teils durch Ausbreitungstendenzen
+gedämpft wird.
 
 Am
-DIENSTAG, 11.08.2026 kann sich mäßige, im Süden und Südosten gute Wolkenthermik entwickeln,
-die allerdings durch Ausbreitungstendenzen gebietsweise gedämpft wird.
+MITTWOCH, 12.08.2026 wird meist gute Blauthermik erwartet, die vor allem nach Nordosten hin
+gezeichnet ist.
 
 --- NULLGRADGRENZE ---
 
 Am
-SONNTAG, 09.08.2026 bei FL120-FL130.
+MONTAG, 10.08.2026 zwischen FL090 und FL100 im Bereich der Deutschen Bucht und um FL120 am
+Scharmützelsee.
 
 Am
-MONTAG, 10.08.2026 zwischen FL085-FL095 im Norden und um FL120 im Süden.
+DIENSTAG, 11.08.2026 zwischen FL085 und FL100 an der Mecklenburgischen Seenplatte und bei FL130
+bis FL140 im Ruhrgebiet.
 
 Am
-DIENSTAG, 11.08.2026 zwischen anfangs um FL095, später auf FL115 ansteigenden Werten im
-Nordosten und um FL140 im Südwesten.
+MITTWOCHmorgen bei FL125 im Norden und bei FL135 im Süden. Bis zum Nachmittag
+leicht ansteigend mit Werten um FL130 im Norden und bei FL140 bis FL145 im
+Süden.
 
 === ENDE DWD 3-TAGES-PROGNOSE NORD ===
