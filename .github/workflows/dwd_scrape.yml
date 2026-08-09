@@ -114,8 +114,7 @@ jobs:
 
       - name: DWD-Skript ausführen (Gebiet 33)
         run: |
-
-          dwd_gebiet33_extract.py
+          python dwd_gebiet33_extract.py
 
 
       # ==========================================================
