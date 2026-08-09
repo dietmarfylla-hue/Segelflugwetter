@@ -1,494 +1,130 @@
-"""
-Thermalmap Forecast Extraktor
-=============================
-
-Standort:
-    Düsseldorf-Wolfsaap
-
-Koordinaten:
-    51.2645 N
-    6.850662 E
-
-Quelle:
-    https://www.thermalmap.info/forecast/widget.php
-"""
-
-import re
-import time
-from pathlib import Path
-from datetime import datetime
-from zoneinfo import ZoneInfo
-
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.support.ui import WebDriverWait
-
-from bs4 import BeautifulSoup
-
-
-# ================================================================
-# KONFIGURATION
-# ================================================================
-
-LATITUDE = 51.2645
-LONGITUDE = 6.850662
-
-LOCATION_NAME = "Düsseldorf-Wolfsaap"
-LOCATION_CODE = "Dues-W"
-CLUB = "SFG"
-
-DAYS = 5
-INTERVAL = 1
-
-TIMEZONE = ZoneInfo("Europe/Berlin")
-
-# Relativer Ausgabeordner im Repo (statt Windows-Pfad)
-BASE_DIR = Path("output")
-
-URL = (
-    "https://www.thermalmap.info/forecast/widget.php"
-    f"?lat={LATITUDE}"
-    f"&lon={LONGITUDE}"
-    f"&interval={INTERVAL}"
-    f"&days={DAYS}"
-)
-
-
-# ================================================================
-# TEXT BEREINIGEN
-# ================================================================
-
-def clean_text(text):
-    if text is None:
-        return ""
-
-    text = text.replace("\xa0", " ")
-    text = re.sub(r"[ \t]+", " ", text)
-    text = re.sub(r"\n\s*\n+", "\n", text)
-
-    return text.strip()
-
-
-# ================================================================
-# THERMALMAP MIT SELENIUM LADEN
-# ================================================================
-
-def load_thermalmap():
-    """
-    Lädt das Thermalmap-Widget vollständig im Browser (headless).
-    """
-
-    options = Options()
-    options.add_argument("--headless=new")
-    options.add_argument("--window-size=1920,1080")
-    options.add_argument("--disable-gpu")
-    options.add_argument("--no-sandbox")
-    options.add_argument("--disable-dev-shm-usage")
-
-    driver = webdriver.Chrome(options=options)
-
-    try:
-        print()
-        print("Thermalmap wird geladen ...")
-        print(URL)
-
-        driver.get(URL)
-
-        WebDriverWait(driver, 30).until(
-            lambda d: d.execute_script("return document.readyState") == "complete"
-        )
-
-        # Zeit für JavaScript / Forecast-Inhalte
-        time.sleep(5)
-
-        return driver.page_source
-
-    finally:
-        driver.quit()
-
-
-# ================================================================
-# HTML ZUR KONTROLLE SPEICHERN
-# ================================================================
-
-def save_raw_html(html):
-    BASE_DIR.mkdir(parents=True, exist_ok=True)
-    output_file = BASE_DIR / "thermalmap_wolfsaap_raw.html"
-    output_file.write_text(html, encoding="utf-8")
-    return output_file
-
-
-# ================================================================
-# TABELLEN AUSLESEN
-# ================================================================
-
-def extract_tables(soup):
-    result = []
-    tables = soup.find_all("table")
-
-    for table_number, table in enumerate(tables, start=1):
-        rows = []
-
-        for tr in table.find_all("tr"):
-            cells = tr.find_all(["th", "td"])
-            values = [
-                clean_text(cell.get_text(" ", strip=True))
-                for cell in cells
-            ]
-
-            if values:
-                rows.append(values)
-
-        if rows:
-            result.append({"number": table_number, "rows": rows})
-
-    return result
-
-
-# ================================================================
-# SICHTBARE TEXTBLÖCKE AUSLESEN
-# ================================================================
-
-def extract_text_blocks(soup):
-    blocks = []
-    tags = soup.find_all(["h1", "h2", "h3", "h4", "p", "div", "span"])
-    seen = set()
-
-    for tag in tags:
-        if tag.find_parent("table"):
-            continue
-
-        text = clean_text(tag.get_text(" ", strip=True))
-
-        if not text or len(text) < 2 or text in seen:
-            continue
-
-        seen.add(text)
-        blocks.append(text)
-
-    return blocks
-
-
-# ================================================================
-# HEUTIGES DATUM
-# ================================================================
-
-def today_data():
-    now = datetime.now(TIMEZONE)
-
-    weekdays = [
-        "Montag", "Dienstag", "Mittwoch", "Donnerstag",
-        "Freitag", "Samstag", "Sonntag",
-    ]
-
-    return {
-        "datetime": now,
-        "date": now.strftime("%d.%m.%Y"),
-        "date_filename": now.strftime("%Y%m%d"),
-        "weekday": weekdays[now.weekday()],
-    }
-
-
-# ================================================================
-# DATUM / UHRZEIT AUS TABELLEN ERKENNEN
-# ================================================================
-
-DATE_PATTERNS = [
-    re.compile(r"(?<!\d)(\d{1,2})\.(\d{1,2})\.(\d{4})(?!\d)"),
-    re.compile(r"(?<!\d)(\d{4})-(\d{1,2})-(\d{1,2})(?!\d)"),
-    re.compile(r"(?<!\d)(\d{1,2})\.(\d{1,2})\.(?!\d)"),
-]
-
-TIME_PATTERN = re.compile(r"(?<!\d)([01]?\d|2[0-3])(?::|\.)([0-5]\d)(?!\d)")
-HOUR_PATTERN = re.compile(r"^\s*([01]?\d|2[0-3])\s*(?:h|Uhr)?\s*$", re.IGNORECASE)
-
-
-def parse_date_from_text(text, reference_datetime):
-    """Erkennt ein Datum in einem Text und liefert ein date-Objekt zurück."""
-    text = clean_text(text)
-
-    match = DATE_PATTERNS[0].search(text)
-    if match:
-        day, month, year = map(int, match.groups())
-        try:
-            return datetime(year, month, day).date()
-        except ValueError:
-            return None
-
-    match = DATE_PATTERNS[1].search(text)
-    if match:
-        year, month, day = map(int, match.groups())
-        try:
-            return datetime(year, month, day).date()
-        except ValueError:
-            return None
-
-    match = DATE_PATTERNS[2].search(text)
-    if match:
-        day, month = map(int, match.groups())
-        year = reference_datetime.year
-
-        try:
-            candidate = datetime(year, month, day).date()
-        except ValueError:
-            return None
-
-        # Forecasts über den Jahreswechsel korrekt zuordnen.
-        delta_days = (candidate - reference_datetime.date()).days
-        if delta_days < -180:
-            candidate = datetime(year + 1, month, day).date()
-        elif delta_days > 180:
-            candidate = datetime(year - 1, month, day).date()
-
-        return candidate
-
-    return None
-
-
-def parse_time_from_text(text):
-    """Erkennt HH:MM, HH.MM oder eine reine Stundenangabe."""
-    text = clean_text(text)
-
-    match = TIME_PATTERN.search(text)
-    if match:
-        return int(match.group(1)), int(match.group(2))
-
-    match = HOUR_PATTERN.match(text)
-    if match:
-        return int(match.group(1)), 0
-
-    return None
-
-
-def find_date_in_row(row, reference_datetime):
-    for value in row:
-        parsed = parse_date_from_text(value, reference_datetime)
-        if parsed is not None:
-            return parsed
-    return None
-
-
-def find_time_in_row(row):
-    for value in row:
-        parsed = parse_time_from_text(value)
-        if parsed is not None:
-            return parsed
-    return None
-
-
-# ================================================================
-# FORECAST-DATENSÄTZE NACH TAG UND STUNDE STRUKTURIEREN
-# ================================================================
-
-def extract_forecast_records(tables, reference_datetime):
-    """
-    Wandelt die gefundenen HTML-Tabellen in sortierbare Datensätze um.
-
-    Ein Datensatz enthält:
-        - Datum
-        - Uhrzeit
-        - ursprüngliche Tabellenzeile
-        - Tabellennummer
-
-    Ein Datum, das nur einmal als Überschrift vorkommt, wird für die
-    folgenden Stundenzeilen derselben Tabelle weiterverwendet.
-    """
-    records = []
-
-    for table in tables:
-        current_date = None
-
-        for row in table["rows"]:
-            row_date = find_date_in_row(row, reference_datetime)
-            if row_date is not None:
-                current_date = row_date
-
-            row_time = find_time_in_row(row)
-
-            # Nur Zeilen mit einer Uhrzeit sind stündliche Datensätze.
-            if current_date is None or row_time is None:
-                continue
-
-            hour, minute = row_time
-            timestamp = datetime(
-                current_date.year,
-                current_date.month,
-                current_date.day,
-                hour,
-                minute,
-                tzinfo=TIMEZONE,
-            )
-
-            records.append({
-                "timestamp": timestamp,
-                "date": current_date,
-                "time": row_time,
-                "table_number": table["number"],
-                "values": row,
-            })
-
-    records.sort(key=lambda record: record["timestamp"])
-    return records
-
-
-def group_records_by_day(records):
-    grouped = {}
-
-    for record in records:
-        grouped.setdefault(record["date"], []).append(record)
-
-    return grouped
-
-
-def format_record(record):
-    """Formatiert eine Tabellenzeile ohne unnötige Leerfelder."""
-    values = [clean_text(value) for value in record["values"]]
-    values = [value for value in values if value]
-    return " | ".join(values)
-
-
-# ================================================================
-# THERMALMAP-DATEN STRUKTURIEREN
-# ================================================================
-
-def build_output_text(html):
-    soup = BeautifulSoup(html, "html.parser")
-
-    tables = extract_tables(soup)
-    current = today_data()
-    execution_time = current["datetime"]
-
-    records = extract_forecast_records(tables, execution_time)
-    grouped_records = group_records_by_day(records)
-
-    if records:
-        window_start = records[0]["timestamp"]
-        window_end = records[-1]["timestamp"]
-        window_text = (
-            f"{window_start.strftime('%d.%m.%Y %H:%M')} bis "
-            f"{window_end.strftime('%d.%m.%Y %H:%M')}"
-        )
-    else:
-        window_text = "Nicht aus den Tabellendaten ermittelbar"
-
-    lines = []
-
-    # ------------------------------------------------------------
-    # KOPFBEREICH
-    # ------------------------------------------------------------
-    lines.append("=" * 72)
-    lines.append("THERMALMAP SEGELFLUG-DATEN")
-    lines.append("=" * 72)
-    lines.append("")
-    lines.append("KOPFBEREICH")
-    lines.append("-" * 72)
-    lines.append(f"Quelle:                 {URL}")
-    lines.append(
-        "Datum/Uhrzeit Ausführung: "
-        f"{execution_time.strftime('%d.%m.%Y %H:%M:%S %Z')}"
-    )
-    lines.append(f"Zeitfenster der Daten:  {window_text}")
-    lines.append(f"Standort:               {LOCATION_NAME}")
-    lines.append(f"Code:                   {LOCATION_CODE}")
-    lines.append(f"Verein:                 {CLUB}")
-    lines.append(f"Koordinaten:            {LATITUDE}, {LONGITUDE}")
-    lines.append(f"Forecast-Konfiguration: {DAYS} Tage, Intervall {INTERVAL} h")
-    lines.append(f"Anzahl Datensätze:      {len(records)}")
-    lines.append("")
-
-    # ------------------------------------------------------------
-    # DATENBEREICH
-    # ------------------------------------------------------------
-    lines.append("=" * 72)
-    lines.append("DATENBEREICH")
-    lines.append("=" * 72)
-    lines.append("")
-
-    if grouped_records:
-        weekdays = [
-            "Montag", "Dienstag", "Mittwoch", "Donnerstag",
-            "Freitag", "Samstag", "Sonntag",
-        ]
-
-        for day in sorted(grouped_records):
-            day_records = sorted(
-                grouped_records[day],
-                key=lambda record: record["timestamp"],
-            )
-
-            lines.append("-" * 72)
-            lines.append(
-                f"TAG: {weekdays[day.weekday()]}, {day.strftime('%d.%m.%Y')}"
-            )
-            lines.append("-" * 72)
-            lines.append("")
-
-            for record in day_records:
-                time_text = record["timestamp"].strftime("%H:%M")
-                lines.append(f"{time_text} | {format_record(record)}")
-
-            lines.append("")
-    else:
-        lines.append("Keine stündlichen Datensätze mit erkennbarem Datum und Uhrzeit gefunden.")
-        lines.append("")
-        lines.append("Gefundene Tabellen werden zur Diagnose unverändert ausgegeben:")
-        lines.append("")
-
-        for table in tables:
-            lines.append(f"Tabelle {table['number']}:")
-            for row in table["rows"]:
-                lines.append(" | ".join(row))
-            lines.append("")
-
-    lines.append("=" * 72)
-    lines.append("ENDE THERMALMAP-DATEN")
-    lines.append("=" * 72)
-
-    return "\n".join(lines)
-
-
-# ================================================================
-# TEXTDATEI SPEICHERN
-# ================================================================
-
-def save_output(text):
-    BASE_DIR.mkdir(parents=True, exist_ok=True)
-
-    current = today_data()
-    filename = f"thermalmap_wolfsaap_{current['date_filename']}.txt"
-    output_file = BASE_DIR / filename
-
-    output_file.write_text(text, encoding="utf-8")
-    return output_file
-
-
-# ================================================================
-# MAIN
-# ================================================================
-
-if __name__ == "__main__":
-    print()
-    print("============================================")
-    print("THERMALMAP – WOLFS-AAP")
-    print("============================================")
-    print()
-
-    html = load_thermalmap()
-    print(f"HTML geladen: {len(html):,} Zeichen")
-
-    raw_file = save_raw_html(html)
-
-    output_text = build_output_text(html)
-    output_file = save_output(output_text)
-
-    print()
-    print("============================================")
-    print("THERMALMAP-DATEN GESPEICHERT")
-    print("============================================")
-    print()
-    print(f"TXT-Datei:\n{output_file}")
-    print()
-    print(f"Roh-HTML:\n{raw_file}")
-    print()
-    print(f"Dateigröße: {output_file.stat().st_size:,} Bytes")
-    print()
+<html lang="de"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thermal Information Map</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        
+        .weather-widget-table {
+         border-collapse: collapse;
+            table-layout: fixed;
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            margin: auto;
+        }
+
+        .weather-widget-table th, .weather-widget-table td {
+            border: 1px solid #ccc;
+            background: #fff;
+            border-left: 0;
+            border-bottom: 0;
+            padding: 8px 4px;
+            text-align: center;
+            width: 30px;
+            min-width: 30px;
+        }
+
+        .weather-widget-table tbody td:first-child {
+            text-align: left;
+        }
+
+        thead tr th:first-child,
+        tbody tr td:first-child {
+            font-size: 9pt;
+            width: 130px;
+            min-width: 130px;
+            max-width: 130px;
+            word-break: break-all;
+            position: sticky;
+        }
+
+        .weather-widget-table th:first-child, .weather-widget-table td:first-child {
+            position: sticky;
+            left: 0;
+            background-color: #f2f2f2;
+            z-index: 1;
+        }
+
+        .weather-widget-table thead th:first-child, .weather-widget-table tbody td:first-child {
+            z-index: 2;
+        }
+
+        .weather-widget-table thead {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+            position: sticky;
+            top: 0;
+        }
+
+        .weather-widget-table tbody {
+            display: block;
+            overflow-x: scroll;
+            overflow-y: hidden;
+        }
+    </style>
+</head>
+<body>
+<table class="weather-widget-table">
+    <tbody>
+    <tr>
+        <th>✜ 51.2645;6.850662</th>
+                    <th colspan="11">
+                Sonntag, 09.08            </th>
+                    <th colspan="11">
+                Montag, 10.08            </th>
+                    <th colspan="11">
+                Dienstag, 11.08            </th>
+                    <th colspan="11">
+                Mittwoch, 12.08            </th>
+                    <th colspan="11">
+                Donnerstag, 13.08            </th>
+            </tr>
+            <tr>
+            <td>Zeit UTC</td>
+                            <td style="background-color: #ffffff; color: ">7</td><td style="background-color: #ffffff; color: ">8</td><td style="background-color: #ffffff; color: ">9</td><td style="background-color: #ffffff; color: ">10</td><td style="background-color: #ffffff; color: ">11</td><td style="background-color: #ffffff; color: ">12</td><td style="background-color: #ffffff; color: ">13</td><td style="background-color: #ffffff; color: ">14</td><td style="background-color: #ffffff; color: ">15</td><td style="background-color: #ffffff; color: ">16</td><td style="background-color: #ffffff; color: ">17</td>                            <td style="background-color: #ffffff; color: ">7</td><td style="background-color: #ffffff; color: ">8</td><td style="background-color: #ffffff; color: ">9</td><td style="background-color: #ffffff; color: ">10</td><td style="background-color: #ffffff; color: ">11</td><td style="background-color: #ffffff; color: ">12</td><td style="background-color: #ffffff; color: ">13</td><td style="background-color: #ffffff; color: ">14</td><td style="background-color: #ffffff; color: ">15</td><td style="background-color: #ffffff; color: ">16</td><td style="background-color: #ffffff; color: ">17</td>                            <td style="background-color: #ffffff; color: ">7</td><td style="background-color: #ffffff; color: ">8</td><td style="background-color: #ffffff; color: ">9</td><td style="background-color: #ffffff; color: ">10</td><td style="background-color: #ffffff; color: ">11</td><td style="background-color: #ffffff; color: ">12</td><td style="background-color: #ffffff; color: ">13</td><td style="background-color: #ffffff; color: ">14</td><td style="background-color: #ffffff; color: ">15</td><td style="background-color: #ffffff; color: ">16</td><td style="background-color: #ffffff; color: ">17</td>                            <td style="background-color: #ffffff; color: ">7</td><td style="background-color: #ffffff; color: ">8</td><td style="background-color: #ffffff; color: ">9</td><td style="background-color: #ffffff; color: ">10</td><td style="background-color: #ffffff; color: ">11</td><td style="background-color: #ffffff; color: ">12</td><td style="background-color: #ffffff; color: ">13</td><td style="background-color: #ffffff; color: ">14</td><td style="background-color: #ffffff; color: ">15</td><td style="background-color: #ffffff; color: ">16</td><td style="background-color: #ffffff; color: ">17</td>                            <td style="background-color: #ffffff; color: ">7</td><td style="background-color: #ffffff; color: ">8</td><td style="background-color: #ffffff; color: ">9</td><td style="background-color: #ffffff; color: ">10</td><td style="background-color: #ffffff; color: ">11</td><td style="background-color: #ffffff; color: ">12</td><td style="background-color: #ffffff; color: ">13</td><td style="background-color: #ffffff; color: ">14</td><td style="background-color: #ffffff; color: ">15</td><td style="background-color: #ffffff; color: ">16</td><td style="background-color: #ffffff; color: ">17</td>                    </tr>
+            <tr>
+            <td>Thermikstärke [m/s]</td>
+                            <td style="background-color: #0080FF; color: #ffffff">0.9</td><td style="background-color: #00A0FF; color: #000000">1.2</td><td style="background-color: #40C0FF; color: #000000">1.5</td><td style="background-color: #40E0FF; color: #000000">1.7</td><td style="background-color: #40FFFF; color: #000000">1.9</td><td style="background-color: #40FFC0; color: #000000">2.1</td><td style="background-color: #40FFC0; color: #000000">2.1</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40C0FF; color: #000000">1.4</td><td style="background-color: #0080FF; color: #ffffff">0.8</td><td style="background-color: #ffffff; color: #000">0.5</td>                            <td style="background-color: #0080FF; color: #ffffff">0.8</td><td style="background-color: #40C0FF; color: #000000">1.4</td><td style="background-color: #40FFFF; color: #000000">1.8</td><td style="background-color: #40FFC0; color: #000000">2.1</td><td style="background-color: #40FF40; color: #000000">2.4</td><td style="background-color: #40FF40; color: #000000">2.3</td><td style="background-color: #40E0FF; color: #000000">1.7</td><td style="background-color: #40E0FF; color: #000000">1.6</td><td style="background-color: #40E0FF; color: #000000">1.7</td><td style="background-color: #40C0FF; color: #000000">1.3</td><td style="background-color: #0080FF; color: #ffffff">1</td>                            <td style="background-color: #00A0FF; color: #000000">1.2</td><td style="background-color: #40E0FF; color: #000000">1.6</td><td style="background-color: #40FFFF; color: #000000">1.9</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FF40; color: #000000">2.3</td><td style="background-color: #40FF40; color: #000000">2.3</td><td style="background-color: #40FF40; color: #000000">2.3</td><td style="background-color: #40FF40; color: #000000">2.3</td><td style="background-color: #40FFC0; color: #000000">2.1</td><td style="background-color: #40FFFF; color: #000000">1.8</td><td style="background-color: #00A0FF; color: #000000">1.2</td>                            <td style="background-color: #0080FF; color: #ffffff">0.8</td><td style="background-color: #00A0FF; color: #000000">1.2</td><td style="background-color: #40C0FF; color: #000000">1.4</td><td style="background-color: #40E0FF; color: #000000">1.7</td><td style="background-color: #40FFFF; color: #000000">1.8</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">1.8</td><td style="background-color: #40C0FF; color: #000000">1.5</td><td style="background-color: #0080FF; color: #ffffff">0.9</td>                            <td style="background-color: #ffffff; color: #000">0.6</td><td style="background-color: #0080FF; color: #ffffff">1</td><td style="background-color: #40C0FF; color: #000000">1.4</td><td style="background-color: #40E0FF; color: #000000">1.7</td><td style="background-color: #40FFFF; color: #000000">1.9</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">2</td><td style="background-color: #40FFFF; color: #000000">1.8</td><td style="background-color: #40C0FF; color: #000000">1.5</td><td style="background-color: #0080FF; color: #ffffff">0.9</td>                    </tr>
+            <tr>
+            <td>Arbeitshöhe [m AGL]</td>
+                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">100</td><td style="background-color: #4147AD; color: #ffffff">300</td><td style="background-color: #4147AD; color: #ffffff">400</td><td style="background-color: #4777EF; color: #ffffff">500</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #1BD0D5; color: #000000">900</td><td style="background-color: #4777EF; color: #ffffff">600</td><td style="background-color: #4147AD; color: #ffffff">300</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #4147AD; color: #ffffff">300</td><td style="background-color: #4777EF; color: #ffffff">600</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #1BD0D5; color: #000000">1000</td><td style="background-color: #26EDA6; color: #000000">1100</td><td style="background-color: #1BD0D5; color: #000000">900</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #1BD0D5; color: #000000">900</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #4777EF; color: #ffffff">500</td>                            <td style="background-color: #ffffff; color: #000">100</td><td style="background-color: #4147AD; color: #ffffff">400</td><td style="background-color: #4777EF; color: #ffffff">500</td><td style="background-color: #4777EF; color: #ffffff">600</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #1BD0D5; color: #000000">900</td><td style="background-color: #1BD0D5; color: #000000">900</td><td style="background-color: #1BD0D5; color: #000000">1000</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #4777EF; color: #ffffff">500</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">100</td><td style="background-color: #4147AD; color: #ffffff">300</td><td style="background-color: #4147AD; color: #ffffff">400</td><td style="background-color: #4777EF; color: #ffffff">500</td><td style="background-color: #4777EF; color: #ffffff">600</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #4777EF; color: #ffffff">500</td><td style="background-color: #4147AD; color: #ffffff">300</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #4147AD; color: #ffffff">300</td><td style="background-color: #4147AD; color: #ffffff">400</td><td style="background-color: #4777EF; color: #ffffff">600</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">700</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #38A5FB; color: #000000">800</td><td style="background-color: #4777EF; color: #ffffff">500</td><td style="background-color: #4147AD; color: #ffffff">300</td>                    </tr>
+            <tr>
+            <td>PFD pro Stunde [km/h]</td>
+                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #48F882; color: #000000">50</td><td style="background-color: #A4FC3C; color: #000000">60</td><td style="background-color: #18D7CB; color: #000000">35</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #EF5911; color: #ffffff">90</td><td style="background-color: #FEA331; color: #000000">75</td><td style="background-color: #A4FC3C; color: #000000">55</td><td style="background-color: #48F882; color: #000000">50</td><td style="background-color: #48F882; color: #000000">50</td><td style="background-color: #48F882; color: #000000">45</td><td style="background-color: #ffffff; color: #000">15</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #A4FC3C; color: #000000">60</td><td style="background-color: #FEA331; color: #000000">75</td><td style="background-color: #FEA331; color: #000000">75</td><td style="background-color: #E2DC38; color: #000000">70</td><td style="background-color: #A4FC3C; color: #000000">55</td><td style="background-color: #18D7CB; color: #000000">35</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #48F882; color: #000000">50</td><td style="background-color: #48F882; color: #000000">45</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">0</td>                    </tr>
+            <tr>
+            <td>PFD [km]</td>
+                            <td style="background-color: #4662D8; color: #ffffff" colspan="11">155</td>                            <td style="background-color: #1BE5B5; color: #000000" colspan="11">395</td>                            <td style="background-color: #1BE5B5; color: #000000" colspan="11">370</td>                            <td style="background-color: #30123B; color: #ffffff" colspan="11">90</td>                            <td style="background-color: #4662D8; color: #ffffff" colspan="11">135</td>                    </tr>
+            <tr>
+            <td>Hohe Bewölkung [/8]</td>
+                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #D1D1D1; color: #000000">4</td><td style="background-color: #ECECEC; color: #000000">2</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                    </tr>
+            <tr>
+            <td>Mittlere Bewölkung [/8]</td>
+                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #D1D1D1; color: #000000">4</td><td style="background-color: #A8A8A8; color: #000000">6</td><td style="background-color: #A8A8A8; color: #000000">6</td><td style="background-color: #A8A8A8; color: #000000">6</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #DFDFDF; color: #000000">3</td><td style="background-color: #B6B6B6; color: #000000">5</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #FAFAFA; color: #000000">1</td>                    </tr>
+            <tr>
+            <td>Tiefe Bewölkung [/8]</td>
+                            <td style="background-color: #B6B6B6; color: #000000">5</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ECECEC; color: #000000">2</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #B6B6B6; color: #000000">5</td><td style="background-color: #8D8D8D; color: #000000">8</td><td style="background-color: #8D8D8D; color: #000000">8</td><td style="background-color: #8D8D8D; color: #000000">8</td><td style="background-color: #9B9B9B; color: #000000">7</td><td style="background-color: #9B9B9B; color: #000000">7</td><td style="background-color: #9B9B9B; color: #000000">7</td>                            <td style="background-color: #FAFAFA; color: #000000">1</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                            <td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td><td style="background-color: #ffffff; color: #000">0</td>                    </tr>
+            <tr>
+            <td>Wind Richtung 10m [°]</td>
+                            <td style="background-color: #ffffff; color: #000">245</td><td style="background-color: #ffffff; color: #000">230</td><td style="background-color: #ffffff; color: #000">200</td><td style="background-color: #ffffff; color: #000">215</td><td style="background-color: #ffffff; color: #000">220</td><td style="background-color: #ffffff; color: #000">230</td><td style="background-color: #ffffff; color: #000">245</td><td style="background-color: #ffffff; color: #000">260</td><td style="background-color: #ffffff; color: #000">260</td><td style="background-color: #ffffff; color: #000">275</td><td style="background-color: #ffffff; color: #000">270</td>                            <td style="background-color: #ffffff; color: #000">245</td><td style="background-color: #ffffff; color: #000">250</td><td style="background-color: #ffffff; color: #000">260</td><td style="background-color: #ffffff; color: #000">270</td><td style="background-color: #ffffff; color: #000">280</td><td style="background-color: #ffffff; color: #000">290</td><td style="background-color: #ffffff; color: #000">295</td><td style="background-color: #ffffff; color: #000">310</td><td style="background-color: #ffffff; color: #000">310</td><td style="background-color: #ffffff; color: #000">315</td><td style="background-color: #ffffff; color: #000">330</td>                            <td style="background-color: #ffffff; color: #000">165</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">20</td><td style="background-color: #ffffff; color: #000">20</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #ffffff; color: #000">35</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #ffffff; color: #000">35</td><td style="background-color: #ffffff; color: #000">35</td><td style="background-color: #ffffff; color: #000">30</td>                            <td style="background-color: #ffffff; color: #000">60</td><td style="background-color: #ffffff; color: #000">60</td><td style="background-color: #ffffff; color: #000">65</td><td style="background-color: #ffffff; color: #000">70</td><td style="background-color: #ffffff; color: #000">75</td><td style="background-color: #ffffff; color: #000">75</td><td style="background-color: #ffffff; color: #000">80</td><td style="background-color: #ffffff; color: #000">75</td><td style="background-color: #ffffff; color: #000">80</td><td style="background-color: #ffffff; color: #000">75</td><td style="background-color: #ffffff; color: #000">75</td>                            <td style="background-color: #ffffff; color: #000">70</td><td style="background-color: #ffffff; color: #000">95</td><td style="background-color: #ffffff; color: #000">105</td><td style="background-color: #ffffff; color: #000">120</td><td style="background-color: #ffffff; color: #000">130</td><td style="background-color: #ffffff; color: #000">145</td><td style="background-color: #ffffff; color: #000">150</td><td style="background-color: #ffffff; color: #000">155</td><td style="background-color: #ffffff; color: #000">155</td><td style="background-color: #ffffff; color: #000">150</td><td style="background-color: #ffffff; color: #000">135</td>                    </tr>
+            <tr>
+            <td>Wind 10m [km/h]</td>
+                            <td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td>                            <td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00EA9C; color: #000000">18</td><td style="background-color: #00F7B0; color: #000000">14</td>                            <td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td>                            <td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td>                            <td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00AFFF; color: #000000">7</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00F7B0; color: #000000">14</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td><td style="background-color: #00DCE1; color: #000000">11</td>                    </tr>
+            <tr>
+            <td>Temperature [°C]</td>
+                            <td style="background-color: #ffffff; color: #000">19</td><td style="background-color: #ffffff; color: #000">20</td><td style="background-color: #ffffff; color: #000">22</td><td style="background-color: #ffffff; color: #000">24</td><td style="background-color: #ffffff; color: #000">26</td><td style="background-color: #ffffff; color: #000">27</td><td style="background-color: #ffffff; color: #000">28</td><td style="background-color: #ffffff; color: #000">29</td><td style="background-color: #ffffff; color: #000">29</td><td style="background-color: #ffffff; color: #000">28</td><td style="background-color: #ffffff; color: #000">27</td>                            <td style="background-color: #ffffff; color: #000">22</td><td style="background-color: #ffffff; color: #000">24</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">26</td><td style="background-color: #ffffff; color: #000">26</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">24</td>                            <td style="background-color: #ffffff; color: #000">16</td><td style="background-color: #ffffff; color: #000">17</td><td style="background-color: #ffffff; color: #000">18</td><td style="background-color: #ffffff; color: #000">19</td><td style="background-color: #ffffff; color: #000">21</td><td style="background-color: #ffffff; color: #000">22</td><td style="background-color: #ffffff; color: #000">23</td><td style="background-color: #ffffff; color: #000">23</td><td style="background-color: #ffffff; color: #000">24</td><td style="background-color: #ffffff; color: #000">24</td><td style="background-color: #ffffff; color: #000">23</td>                            <td style="background-color: #ffffff; color: #000">17</td><td style="background-color: #ffffff; color: #000">19</td><td style="background-color: #ffffff; color: #000">21</td><td style="background-color: #ffffff; color: #000">23</td><td style="background-color: #ffffff; color: #000">25</td><td style="background-color: #ffffff; color: #000">26</td><td style="background-color: #ffffff; color: #000">27</td><td style="background-color: #ffffff; color: #000">28</td><td style="background-color: #ffffff; color: #000">29</td><td style="background-color: #ffffff; color: #000">29</td><td style="background-color: #ffffff; color: #000">28</td>                            <td style="background-color: #ffffff; color: #000">21</td><td style="background-color: #ffffff; color: #000">23</td><td style="background-color: #ffffff; color: #000">24</td><td style="background-color: #ffffff; color: #000">26</td><td style="background-color: #ffffff; color: #000">28</td><td style="background-color: #ffffff; color: #000">30</td><td style="background-color: #ffffff; color: #000">31</td><td style="background-color: #ffffff; color: #000">31</td><td style="background-color: #ffffff; color: #000">32</td><td style="background-color: #ffffff; color: #000">32</td><td style="background-color: #ffffff; color: #000">31</td>                    </tr>
+            <tr>
+            <td>Taupunkt [°C]</td>
+                            <td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">13</td><td style="background-color: #ffffff; color: #000">13</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">7</td><td style="background-color: #ffffff; color: #000">6</td><td style="background-color: #ffffff; color: #000">4</td><td style="background-color: #ffffff; color: #000">3</td><td style="background-color: #ffffff; color: #000">4</td><td style="background-color: #ffffff; color: #000">5</td>                            <td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">13</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">15</td><td style="background-color: #ffffff; color: #000">14</td><td style="background-color: #ffffff; color: #000">14</td><td style="background-color: #ffffff; color: #000">14</td>                            <td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">8</td><td style="background-color: #ffffff; color: #000">7</td><td style="background-color: #ffffff; color: #000">6</td><td style="background-color: #ffffff; color: #000">6</td><td style="background-color: #ffffff; color: #000">5</td><td style="background-color: #ffffff; color: #000">5</td><td style="background-color: #ffffff; color: #000">5</td><td style="background-color: #ffffff; color: #000">5</td><td style="background-color: #ffffff; color: #000">6</td>                            <td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">12</td><td style="background-color: #ffffff; color: #000">12</td>                            <td style="background-color: #ffffff; color: #000">9</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">10</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">11</td><td style="background-color: #ffffff; color: #000">12</td>                    </tr>
+        <tr>
+        <td colspan="56">
+            <p style="color: red; display: inline">❤</p> Widget proudly present by <a style="color: black" target="_blank" href="https://www.thermalmap.info">Thermalmap.info</a> - See <a target="_blank" href="https://thermalmap.info/api-doc.php">API Doc</a>
+        </td>
+    </tr>
+    </tbody>
+</table>
+
+</body></html>
