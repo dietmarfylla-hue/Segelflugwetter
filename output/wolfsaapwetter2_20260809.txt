@@ -7,7 +7,7 @@ Verein: SFG
 Angefragte Koordinaten: 51.266111 N, 6.853333 E
 API-Gitterkoordinaten: 51.260002 N, 6.860000 E
 Geländehöhe API: 108 m AMSL
-Datenabruf: 09.08.2026 16:14:45 Europe/Berlin
+Datenabruf: 09.08.2026 16:37:55 Europe/Berlin
 Modell: DWD ICON Seamless
 Datenzugriff: Open-Meteo Forecast API
 Vorhersagezeitraum: 3 Tage
