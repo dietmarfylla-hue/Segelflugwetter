@@ -1,0 +1,202 @@
+=== WOLFSAAP WETTER 2 ===
+Zusätzliche Wetterdaten für die Segelflug-Wetteranalyse
+
+Standort: Düsseldorf-Wolfsaap
+Code: Dues-W
+Verein: SFG
+Angefragte Koordinaten: 51.266111 N, 6.853333 E
+API-Gitterkoordinaten: 51.260002 N, 6.860000 E
+Geländehöhe API: 108 m AMSL
+Datenabruf: 11.08.2026 06:18:17 Europe/Berlin
+Modell: DWD ICON Seamless
+Datenzugriff: Open-Meteo Forecast API
+Vorhersagezeitraum: 3 Tage
+Zeitauflösung: stündlich
+Zeitangaben: Lokalzeit Europe/Berlin
+Windgeschwindigkeit: km/h
+Windrichtung: Grad meteorologisch / Kompassrichtung
+Luftdruck: hPa MSL
+Regen und Schauer: mm
+Schneefall: cm
+
+--- Tagesübersicht ---
+
+Dienstag, 11.08.2026: Wettercode 3 (Bedeckt)
+Mittwoch, 12.08.2026: Wettercode 1 (Überwiegend klar)
+Donnerstag, 13.08.2026: Wettercode 2 (Teilweise bewölkt)
+
+======================================================================
+DIENSTAG, 11.08.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 24.5 °C um 17:00
+Minimum Temperatur: 12.6 °C um 06:00
+Maximum Wind 10 m: 13.6 km/h um 19:00
+Maximum Böen 10 m: 28.1 km/h um 18:00
+Maximum Böendifferenz: 15.9 km/h um 20:00
+Maximum Wind 180 m: 33.6 km/h um 03:00
+Luftdruck MSL: 1022.7 bis 1026.4 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+02:00 |   15.9 |  14.5 |     1022.7 | 16°NNO/9       |   17 |     7 | 31°NNO/32       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+03:00 |   15.2 |  13.6 |     1023.4 | 31°NNO/10      |   21 |    10 | 38°NO/34        |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+04:00 |   14.2 |  12.9 |     1023.9 | 36°NO/8        |   21 |    12 | 45°NO/32        |  0.00 |    0.00 |   0.00 | 0 Klar
+05:00 |   13.3 |  12.0 |     1024.3 | 39°NO/8        |   16 |     8 | 51°NO/30        |  0.00 |    0.00 |   0.00 | 0 Klar
+06:00 |   12.6 |  11.4 |     1024.7 | 39°NO/7        |   16 |     8 | 56°NO/30        |  0.00 |    0.00 |   0.00 | 0 Klar
+07:00 |   12.8 |  11.8 |     1025.1 | 57°ONO/6       |   14 |     8 | 72°ONO/28       |  0.00 |    0.00 |   0.00 | 0 Klar
+08:00 |   14.0 |  12.9 |     1025.7 | 47°NO/7        |   15 |     8 | 70°ONO/23       |  0.00 |    0.00 |   0.00 | 0 Klar
+09:00 |   15.8 |  14.7 |     1026.0 | 51°NO/8        |   18 |    10 | 54°NO/12        |  0.00 |    0.00 |   0.00 | 0 Klar
+10:00 |   17.6 |  15.8 |     1026.1 | 52°NO/11       |   22 |    12 | 54°NO/16        |  0.00 |    0.00 |   0.00 | 0 Klar
+11:00 |   19.0 |  17.3 |     1026.4 | 51°NO/12       |   24 |    13 | 53°NO/17        |  0.00 |    0.00 |   0.00 | 0 Klar
+12:00 |   20.5 |  19.1 |     1026.2 | 47°NO/12       |   25 |    13 | 49°NO/18        |  0.00 |    0.00 |   0.00 | 0 Klar
+13:00 |   21.8 |  21.0 |     1026.0 | 45°NO/12       |   26 |    14 | 45°NO/17        |  0.00 |    0.00 |   0.00 | 0 Klar
+14:00 |   23.0 |  22.5 |     1025.7 | 39°NO/12       |   23 |    11 | 39°NO/18        |  0.00 |    0.00 |   0.00 | 0 Klar
+15:00 |   23.9 |  22.7 |     1025.3 | 39°NO/13       |   23 |    11 | 39°NO/18        |  0.00 |    0.00 |   0.00 | 0 Klar
+16:00 |   24.4 |  22.7 |     1024.9 | 38°NO/12       |   24 |    12 | 38°NO/19        |  0.00 |    0.00 |   0.00 | 0 Klar
+17:00 |   24.5 |  22.0 |     1024.5 | 36°NO/13       |   27 |    14 | 38°NO/21        |  0.00 |    0.00 |   0.00 | 0 Klar
+18:00 |   24.0 |  21.5 |     1024.3 | 42°NO/14       |   28 |    15 | 42°NO/23        |  0.00 |    0.00 |   0.00 | 0 Klar
+19:00 |   23.3 |  20.4 |     1024.3 | 37°NO/14       |   28 |    14 | 40°NO/25        |  0.00 |    0.00 |   0.00 | 0 Klar
+20:00 |   22.2 |  20.1 |     1024.3 | 45°NO/11       |   27 |    16 | 48°NO/25        |  0.00 |    0.00 |   0.00 | 0 Klar
+21:00 |   20.2 |  18.6 |     1024.6 | 43°NO/7        |   21 |    13 | 51°NO/29        |  0.00 |    0.00 |   0.00 | 0 Klar
+22:00 |   18.9 |  17.7 |     1025.1 | 52°NO/6        |   14 |     8 | 56°NO/28        |  0.00 |    0.00 |   0.00 | 0 Klar
+23:00 |   17.5 |  16.6 |     1025.5 | 45°NO/5        |   11 |     6 | 62°ONO/26       |  0.00 |    0.00 |   0.00 | 0 Klar
+
+======================================================================
+MITTWOCH, 12.08.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 29.6 °C um 17:00
+Minimum Temperatur: 13.2 °C um 07:00
+Maximum Wind 10 m: 13.4 km/h um 22:00
+Maximum Böen 10 m: 27.0 km/h um 22:00
+Maximum Böendifferenz: 16.1 km/h um 23:00
+Maximum Wind 180 m: 42.5 km/h um 22:00
+Luftdruck MSL: 1023.7 bis 1026.5 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   16.5 |  15.6 |     1026.0 | 42°NO/5        |    8 |     3 | 62°ONO/25       |  0.00 |    0.00 |   0.00 | 0 Klar
+01:00 |   15.7 |  14.6 |     1026.3 | 55°NO/6        |   10 |     4 | 72°ONO/32       |  0.00 |    0.00 |   0.00 | 0 Klar
+02:00 |   15.2 |  13.6 |     1026.5 | 65°ONO/7       |   13 |     6 | 80°O/32         |  0.00 |    0.00 |   0.00 | 0 Klar
+03:00 |   14.6 |  13.1 |     1026.3 | 60°ONO/6       |   13 |     7 | 86°O/27         |  0.00 |    0.00 |   0.00 | 0 Klar
+04:00 |   14.3 |  12.9 |     1025.9 | 72°ONO/6       |   12 |     6 | 93°O/27         |  0.00 |    0.00 |   0.00 | 0 Klar
+05:00 |   13.7 |  12.6 |     1025.8 | 75°ONO/4       |   10 |     6 | 100°O/21        |  0.00 |    0.00 |   0.00 | 0 Klar
+06:00 |   13.4 |  12.3 |     1025.9 | 90°O/4         |    6 |     3 | 103°OSO/20      |  0.00 |    0.00 |   0.00 | 0 Klar
+07:00 |   13.2 |  12.2 |     1026.3 | 100°O/4        |    6 |     2 | 113°OSO/19      |  0.00 |    0.00 |   0.00 | 0 Klar
+08:00 |   14.8 |  14.5 |     1026.4 | 81°O/2         |    6 |     4 | 120°OSO/12      |  0.00 |    0.00 |   0.00 | 0 Klar
+09:00 |   17.9 |  17.5 |     1026.4 | 104°OSO/1      |    5 |     4 | 114°OSO/9       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+10:00 |   20.0 |  19.6 |     1026.3 | 72°ONO/2       |    7 |     5 | 76°ONO/3        |  0.00 |    0.00 |   0.00 | 0 Klar
+11:00 |   22.3 |  22.1 |     1026.2 | 67°ONO/3       |    8 |     6 | 76°ONO/4        |  0.00 |    0.00 |   0.00 | 0 Klar
+12:00 |   24.9 |  24.9 |     1025.9 | 84°O/4         |   10 |     6 | 90°O/6          |  0.00 |    0.00 |   0.00 | 0 Klar
+13:00 |   26.8 |  26.6 |     1025.6 | 98°O/5         |   14 |     9 | 98°O/8          |  0.00 |    0.00 |   0.00 | 0 Klar
+14:00 |   28.0 |  28.2 |     1025.3 | 69°ONO/7       |   16 |     9 | 76°ONO/9        |  0.00 |    0.00 |   0.00 | 0 Klar
+15:00 |   28.8 |  28.8 |     1025.0 | 58°ONO/8       |   19 |    11 | 63°ONO/11       |  0.00 |    0.00 |   0.00 | 0 Klar
+16:00 |   29.3 |  29.1 |     1024.5 | 54°NO/10       |   21 |    11 | 58°ONO/14       |  0.00 |    0.00 |   0.00 | 0 Klar
+17:00 |   29.6 |  28.6 |     1024.0 | 58°ONO/10      |   22 |    12 | 60°ONO/15       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+18:00 |   29.3 |  27.7 |     1023.7 | 58°ONO/11      |   24 |    12 | 61°ONO/19       |  0.00 |    0.00 |   0.00 | 0 Klar
+19:00 |   28.4 |  26.5 |     1023.7 | 60°ONO/12      |   24 |    12 | 62°ONO/24       |  0.00 |    0.00 |   0.00 | 0 Klar
+20:00 |   26.8 |  24.7 |     1023.7 | 59°ONO/11      |   24 |    13 | 63°ONO/30       |  0.00 |    0.00 |   0.00 | 0 Klar
+21:00 |   24.5 |  22.2 |     1023.7 | 63°ONO/12      |   22 |    11 | 69°ONO/42       |  0.00 |    0.00 |   0.00 | 0 Klar
+22:00 |   23.1 |  20.3 |     1023.8 | 70°ONO/13      |   27 |    14 | 83°O/42         |  0.00 |    0.00 |   0.00 | 0 Klar
+23:00 |   22.4 |  20.4 |     1024.1 | 96°O/10        |   26 |    16 | 122°OSO/37      |  0.00 |    0.00 |   0.00 | 0 Klar
+
+======================================================================
+DONNERSTAG, 13.08.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 34.7 °C um 17:00
+Minimum Temperatur: 18.7 °C um 06:00
+Maximum Wind 10 m: 11.7 km/h um 11:00
+Maximum Böen 10 m: 30.2 km/h um 11:00
+Maximum Böendifferenz: 18.6 km/h um 11:00
+Maximum Wind 180 m: 41.6 km/h um 23:00
+Luftdruck MSL: 1017.9 bis 1024.2 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   22.0 |  20.1 |     1024.1 | 111°OSO/8      |   17 |     8 | 125°SO/40       |  0.00 |    0.00 |   0.00 | 0 Klar
+01:00 |   21.3 |  19.5 |     1024.2 | 122°OSO/7      |   15 |     8 | 131°SO/40       |  0.00 |    0.00 |   0.00 | 0 Klar
+02:00 |   20.5 |  18.6 |     1023.9 | 127°SO/6       |   13 |     7 | 134°SO/38       |  0.00 |    0.00 |   0.00 | 0 Klar
+03:00 |   19.8 |  17.8 |     1023.6 | 124°OSO/5      |   10 |     5 | 138°SO/37       |  0.00 |    0.00 |   0.00 | 0 Klar
+04:00 |   19.3 |  17.2 |     1023.4 | 124°OSO/5      |   10 |     5 | 144°SO/36       |  0.00 |    0.00 |   0.00 | 0 Klar
+05:00 |   18.9 |  16.8 |     1023.3 | 124°OSO/5      |   10 |     5 | 149°SSO/36      |  0.00 |    0.00 |   0.00 | 0 Klar
+06:00 |   18.7 |  16.6 |     1023.1 | 127°SO/5       |   11 |     5 | 152°SSO/35      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+07:00 |   18.8 |  16.9 |     1023.1 | 129°SO/5       |   10 |     5 | 152°SSO/35      |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+08:00 |   21.0 |  19.3 |     1023.3 | 132°SO/5       |   11 |     6 | 151°SSO/35      |  0.00 |    0.00 |   0.00 | 0 Klar
+09:00 |   23.9 |  21.7 |     1023.3 | 144°SO/8       |   21 |    12 | 149°SSO/35      |  0.00 |    0.00 |   0.00 | 0 Klar
+10:00 |   26.3 |  23.7 |     1023.2 | 144°SO/12      |   29 |    17 | 144°SO/21       |  0.00 |    0.00 |   0.00 | 0 Klar
+11:00 |   28.3 |  25.8 |     1022.9 | 146°SSO/12     |   30 |    19 | 146°SO/19       |  0.00 |    0.00 |   0.00 | 0 Klar
+12:00 |   30.2 |  28.6 |     1022.6 | 146°SO/11      |   29 |    18 | 146°SO/17       |  0.00 |    0.00 |   0.00 | 0 Klar
+13:00 |   31.9 |  30.8 |     1021.9 | 145°SO/11      |   28 |    17 | 145°SO/16       |  0.00 |    0.00 |   0.00 | 0 Klar
+14:00 |   33.1 |  32.1 |     1021.3 | 144°SO/10      |   28 |    18 | 143°SO/16       |  0.00 |    0.00 |   0.00 | 0 Klar
+15:00 |   34.0 |  32.9 |     1020.6 | 142°SO/10      |   27 |    17 | 143°SO/15       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+16:00 |   34.5 |  33.1 |     1019.9 | 141°SO/10      |   27 |    17 | 141°SO/15       |  0.00 |    0.00 |   0.00 | 0 Klar
+17:00 |   34.7 |  32.5 |     1019.1 | 143°SO/10      |   26 |    16 | 144°SO/15       |  0.00 |    0.00 |   0.00 | 0 Klar
+18:00 |   34.5 |  31.8 |     1018.7 | 146°SSO/9      |   25 |    16 | 147°SSO/15      |  0.00 |    0.00 |   0.00 | 0 Klar
+19:00 |   33.8 |  31.3 |     1018.5 | 146°SO/8       |   23 |    15 | 149°SSO/15      |  0.00 |    0.00 |   0.00 | 0 Klar
+20:00 |   32.1 |  30.1 |     1018.4 | 124°OSO/6      |   21 |    14 | 139°SO/19       |  0.00 |    0.00 |   0.00 | 0 Klar
+21:00 |   29.0 |  27.2 |     1018.2 | 109°OSO/6      |   14 |     8 | 137°SO/29       |  0.00 |    0.00 |   0.00 | 0 Klar
+22:00 |   27.3 |  25.7 |     1018.1 | 118°OSO/6      |   14 |     8 | 147°SSO/37      |  0.00 |    0.00 |   0.00 | 0 Klar
+23:00 |   26.3 |  24.6 |     1017.9 | 126°SO/7       |   14 |     7 | 151°SSO/42      |  0.00 |    0.00 |   0.00 | 0 Klar
+
+======================================================================
+FREITAG, 14.08.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 26.3 °C um 00:00
+Minimum Temperatur: 25.9 °C um 01:00
+Maximum Wind 10 m: 7.4 km/h um 00:00
+Maximum Böen 10 m: 16.2 km/h um 01:00
+Maximum Böendifferenz: 9.2 km/h um 01:00
+Maximum Wind 180 m: 44.4 km/h um 00:00
+Luftdruck MSL: 1017.5 bis 1017.7 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   26.3 |  24.4 |     1017.7 | 137°SO/7       |   16 |     8 | 158°SSO/44      |  0.00 |    0.00 |   0.00 | 0 Klar
+01:00 |   25.9 |  24.3 |     1017.5 | 145°SO/7       |   16 |     9 | 163°SSO/44      |  0.00 |    0.00 |   0.00 | 0 Klar
+
+--- Erläuterungen ---
+
+Wind10 = Wind in 10 m über Grund.
+Böen = maximale Windböe in 10 m über Grund.
+Böen+ = Böengeschwindigkeit minus mittlere Windgeschwindigkeit in 10 m.
+Wind180 = Wind in 180 m über Grund.
+Ri = meteorologische Windrichtung; angegeben wird die Richtung, aus der der Wind kommt.
+Druck = auf Meereshöhe reduzierter Luftdruck (MSL).
+Regen = großräumiger Regen.
+Schauer = konvektiver Niederschlag.
+NV = Wert nicht verfügbar.
+
+Hinweis: Diese Daten sind Modellvorhersagen des DWD ICON-Systems über Open-Meteo und ersetzen keine amtlichen Flugwetterinformationen.
+
+=== ENDE WOLFSAAP WETTER 2 ===
