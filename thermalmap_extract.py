@@ -28,7 +28,7 @@ LONGITUDE = 6.850662
 LOCATION_NAME = "Düsseldorf-Wolfsaap"
 LOCATION_CODE = "Dues-W"
 CLUB = "SFG"
-DAYS = 5
+DAYS = 3
 INTERVAL = 1
 TIMEZONE = ZoneInfo("Europe/Berlin")
 
