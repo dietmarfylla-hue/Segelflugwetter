@@ -7,99 +7,97 @@
 3-Tage-Prognose für Sichtflug und Luftsport
 
 für
-Dienstag, den 11.08.2026
+Mittwoch, den 12.08.2026
 bis
-Donnerstag, den 13.08.2026
+Freitag, den 14.08.2026
 
 herausgegeben von der Luftfahrtberatungszentrale Hamburg
 
-am 10.08.2026 um 13.00 Uhr UTC
+am 11.08.2026 um 13.00 Uhr UTC
 
 --- WETTERLAGE DEUTSCHLAND ---
 
-Am DIENSTAG, 11.08.2026 bestimmt
-ein Hoch über der Nordsee das Wettergeschehen in Deutschland und stabilisiert
-die Luftmassen. Im Norden hält sich dabei unterhalb einer Absinkinversion noch
-etwas feuchtere und kühlere Luft, während die sehr warme bis heiße Luft im Süden
-allmählich abtrocknet.
-Am MITTWOCH, 12.08.2026 liegt das Hoch mit seinem
-Schwerpunkt über Norddeutschland. Die stabil geschichtete Luft erwärmt sich
-weiter, auch im Norden, und trocknet weiter ab.
-Am DONNERSTAG, 13.08.2026 liegt das Hoch über Polen,
-und über Deutschland stellt sich eine südliche Strömung ein, welche auch im
-Norden zunehmend heiße, im Süden teils auch sehr heiße und allgemein weiterhin
-recht trockene Luft heranführt.
+Ein umfangreiches
+Hochdruckgebiet liegt am MITTWOCH, 12.08.2026 über Mitteleuropa und verlagert seinen
+Schwerpunkt am DONNERSTAG, 13.08.2026 in Richtung Polen und Baltikum. Das Hoch ist mit
+weitgehend trockener und zunehmend heißer Luft wetterbestimmend. Über den Alpen
+liegt feucht-labile Luft, weshalb dort tagsüber mit hochreichender Konvektion
+zu rechnen ist.
+Am FREITAG, 14.08.2026 verlagert sich das Hoch in
+Richtung Osteuropa. An der Südwestflanke eines Tiefs bei Island gelangt mit
+westlicher Strömung ein wenig feuchtere Luft nach Deutschland. Vor allem über
+Nordwestdeutschland setzt sich dazu hochreichend labile Luft durch, wodurch
+lokal das Risiko für Konvektion steigt. Über den Alpen gibt es tagsüber
+weiterhin hochreichende Konvektion.
 
 Vorhersage für den Bereich Nord
 (GAFOR-Gebiete 00 bis 23 und 31 bis 36)
 
 --- SICHTFLUGWETTER ---
 
-An ALLEN DREI TAGEN sind im Gesamtbereich meist störungsfreie Sichtflugwetterbedingungen
-zu erwarten.
+Am
+MITTWOCH, 12.08.2026 zeigen sich gebietsweise SCT, vor allem an der Nordseeküste auch BKN
+SC mit Untergrenzen in 2500-3500 FT AMSL. Stellenweise haben sich in der Nacht
+flache Dunst- oder Nebelfelder gebildet, die sich nach Sonnenaufgang allerdings
+rasch auflösen.
+
+Im
+Laufe des Vormittags geht die Bewölkung vor allem östlich der Elbe und über
+Schleswig-Holstein SCT/BKN CU bei zunächst 2000-3000 FT AMSL über, die am
+Nachmittag abseits der Küsten auf 4000-5000 FT AMSL ansteigen und sich am
+späten Nachmittag bereits wieder auflösen.
 
 Die
-Sichtweiten liegen verbreitet bei 30-60 km, Einschränkungen infolge von
-Niederschlag oder Dunst/Nebel wird es kaum geben, allenfalls kurzzeitig sind
-jeweils um den Sonnenaufgang herum in Feuchtniederungen flache
-Wiesennebelfelder möglich, am DIENSTAGmorgen kann es vor allem im Südwesten
-gebietsweise auch etwas dunstig sein mit Sichtweiten 2-5 km.
-Zeitweise können, vor allem im Norden, FEW/SCT, ab MITTWOCH, 12.08.2026 teils auch BKN CI
-oberhalb FL180 durchziehen. Ab MITTWOCHabend sind im Norden/Nordosten zeitweise
-auch SCT/BKN LYR AC/CI oberhalb FL130 möglich.
-
-Darunter
-zeigen sich am DIENSTAG, 11.08.2026 über der Nordsee ganztägig SCT/BKN SC mit Untergrenzen
-zwischen 2500 und 3500 FT AMSL. Im Nordwesten und im Osten gibt es am Morgen
-FEW/SCT, im Nordosten teils auch BKN CU/SC in 2500-5000 FT AMSL. Daraus erfolgt
-im Tagesgang ein Übergang zu SCT/BKN CU/SC mit Basis bei 4000-5000 FT AMSL im
-Nordwesten und bei 5000 FT AMSL  FL060 im Osten, die nach Süden hin am
-Nachmittag zum Teil abtrocknen und sich im übrigen Binnenland am Abend auflösen
-werden. Der Südwesten wird voraussichtlich bereits ab dem Morgen frei von CU/SC
-sein.
-
-Der
-MITTWOCH, 12.08.2026 bringt über der Nordsee und im Osten anfangs gebietsweise nochmal
-FEW/SCT CU/SC in 2000-4000 FT AMSL, die sich im Tagesverlauf auflösen werden,
-dies geschieht über der Nordsee und im Südosten schneller als im Nordosten. Der
-Südwesten verbleibt weiterhin frei von CU/SC.
+Sichtweiten liegen am Morgen bei 15-25 km, in vereinzelten flachen Dunst- und
+Nebelfeldern auch unter 5 km und steigen am Vormittag auf 30-60 km an.
 
 Am
-DONNERSTAG, 13.08.2026 wird es im gesamten Vorhersagebereich keine CU/SC-Bewölkung geben.
+DONNERSTAG, 13.08.2026 ist und bleibt es abgesehen von vereinzelten FEW/SCT CI-Feldern
+oberhalb von FL200 verbreitet wolkenlos.
+
+Die
+Sichtweiten werden bei 25-60 km erwartet.
+
+Am
+FREITAG, 14.08.2026 ist ebenso zunächst verbreitet im gesamten Vorhersagebereich wolkenlos.
+Am Abend steigt in einem Streifen von der Kölner Bucht über das südliche
+Emsland bis zur Elbmündung das Risiko für kräftige Schauer und Gewitter aus
+ISOL CU/CB mit Basis bei FL055-FL075. Diese werden auch meist von kräftig
+auffrischenden und auf NW drehenden Böen und lokal von Starkregen und Hagel
+begleitet. Diese CB erreichen in der ersten Nachthälfte die Linie Angeln-Altes
+Land-Weserbergland. Die Entwicklung dieser CB sowie Schauer und Gewitter ist
+derzeit noch sehr unsicher.
+
+Die
+Sichtweiten liegen bei 30-60 km. In eventuellen Schauern und Gewittern gehen
+die Sichten auf 4-8 km, mit Hagel auch auf Werte um 2 km zurück.
 
 --- SEGELFLUGWETTER ---
 
 Am
-DIENSTAG, 11.08.2026 wird es bei CU-Basen 1500-1800 m im Osten meist gute, im Nordwesten bei
-Untergrenzen 1200-1500 m mäßig bis gute Wolkenthermik geben, die durch
-Ausbreitungen gestört werden wird. Im Südwesten ist mäßige Blauthermik mit
-maximalen Arbeitshöhen bis 1400 m zu erwarten.
-
-Der
-MITTWOCH, 12.08.2026 bringt im Westen und im Südosten überwiegend Blauthermik, im Westen
-meist in mäßiger Intensität mit Arbeitshöhen zwischen 800 m im Norden und bis
-zu 1400 m in NRW, im Südosten wird es zum Teil für gute Blauthermik mit
-Arbeitshöhen um 1700 m reichen. Im Nordosten wird es vorübergehend nochmals
-Wolkenthermik geben, bei CU-Basen bis 900-1100 m jedoch meist nur in mäßiger
-Intensität, im Tagesverlauf erfolgt jedoch auch hier ein Übergang zu
-Blauthermik.
+MITTWOCH, 12.08.2026 oft mäßige Blauthermik mit Arbeitshöhen um 1200 m AMSL, östlich der
+Elbe und über Schleswig-Holstein gute Wolkenthermik mit maximaler CU-Basis um
+1500 m AMSL.
 
 Am
-DONNERSTAG, 13.08.2026 ist in überwiegend heißer Luft verbreitet Blauthermik zu erwarten:
-Im Norden bei Arbeitshöhen um 1500 m meist in mäßiger bis guter Intensität, im
-Süden bei Arbeitshöhen 1700-2100 m vorherrschend in guter Intensität.
+DONNERSTAG, 13.08.2026 verbreitet mäßige Blauthermik mit Arbeitshöhen um 1200 m AMSL.
+
+Am
+FREITAG, 14.08.2026 erneut mäßige, teils auch gute Blauthermik mit Arbeitshöhen bei
+1200-1700 m AMSL. Am späten Nachmittag und Abend im äußersten Westen und
+Nordwesten ansteigendes Konvektionsrisiko, dann lokal durch Überentwicklungen
+gestört und von auffrischenden Böen zerrissen.
 
 --- NULLGRADGRENZE ---
 
-DIENSTAGfrüh
-an der Ostsee teils mehrfach zwischen FL075 und FL100, nach Südwesten hin
-anhebend auf FL120-FL135 in NRW. Bis zum Abend weiter ansteigend auf
-FL115-FL130 im Nordosten und FL135-FL145 im Südwesten.
+Am
+MITTWOCH, 12.08.2026 zwischen FL120 über der Oder und Neiße und FL135 über der Ems.
 
 Am
-MITTWOCHmorgen noch unverändert zwischen FL115 an der Ostsee und FL145 am
-Rhein, bis zum Abend an der Ostsee weiter ansteigend auf FL130.
-Am DONNERSTAG, 13.08.2026 weiterhin zwischen FL120 und FL130 an der Ostsee und FL145 im
-Südwesten.
+DONNERSTAG, 13.08.2026 zunächst zwischen FL120 über der Ostsee und FL145 über dem
+Ruhrgebiet, im Tagesverlauf auf FL135-FL150 ansteigend.
+
+Am
+FREITAG, 14.08.2026 bei FL130-FL140.
 
 === ENDE DWD 3-TAGES-PROGNOSE NORD ===
