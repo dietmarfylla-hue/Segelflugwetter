@@ -1,0 +1,107 @@
+=== DWD 3-TAGES-PROGNOSE NORD ===
+
+=== FLUGWETTER / SEGELFLUG ===
+
+--- VORHERSAGE ---
+
+3-Tage-Prognose für Sichtflug und Luftsport
+
+für
+Donnerstag, den 13.08.2026
+bis
+Samstag, den 15.08.2026
+
+herausgegeben von der Luftfahrtberatungszentrale Hamburg
+
+am 12.08.2026 um 13.00 Uhr UTC
+
+--- WETTERLAGE DEUTSCHLAND ---
+
+DONNERSTAG, 13.08.2026:
+Ein umfangreiches Hochdruckgebiet liegt
+mit seinem Schwerpunkt über Polen und dem Baltikum. Dabei ist trockene, stabile
+und zunehmend heiße Luft wetterbestimmend.
+FREITAG, 14.08.2026:
+Das Hoch schwächt sich ab und verlagert
+sich weiter in Richtung Osteuropa. Es bildet sich langsam südlich von Island
+bis in die Nordsee eine Tiefdruckrinne aus, wobei die Strömung auf Südwest
+dreht. Dadurch wird etwas feuchtere und sehr heiße Luft nach Deutschland
+transportiert.
+SONNABEND:
+Ausgehend von einem Tiefdrucksystem
+über Skandinavien erstreckt sich in einer Tiefdruckrinne eine Kaltfront über
+den Norden Deutschland bis nach Frankreich. Dabei wird feuchtere und labil
+geschichtete Luft herangeführt, die ab dem späten Nachmittag und Abend langsam
+die noch sehr heiße Luft in weiten Teilen des Landes verdrängt.
+
+Vorhersage für den Bereich Nord
+(GAFOR-Gebiete 00 bis 23 und 31 bis 36)
+
+--- SICHTFLUGWETTER ---
+
+DONNERSTAGmorgen
+zeigen sich nördlich einer Linie Dollart  Oderbruch einzelne flache Dunst-
+oder Nebelfelder, welche sich am Morgen rasch auflösen. Während im äußersten
+Nordosten im Tagesverlauf einzelne FEW/SCT AC/CI-Felder oberhalb von FL140
+durchziehen können, bleibt es sonst vollkommen wolkenlos. Die Sichtweiten
+liegen bei 50-70 km, im morgendlichen Dunst oder Nebel reduzieren sie sich auf
+0,5-4 km.
+
+FREITAG, 14.08.2026
+bis in den Nachmittag hinein wolkenlos, dann von Südwesten Aufzug von FEW/SCT
+CU mit Basis in FL100. Am frühen Abend verdichtet sich die Bewölkung über der
+nordwestlichen Deutschen Bucht zu SCT/BKN AC/CI oberhalb von FL170. Die
+Sichtweiten liegen bei 50-70 km.
+
+SONNABEND
+zeigt sich zu Beginn nordwestlich einer Linie Niederrhein  Fehmarn
+geschichtete BKN/OVC AC/CI-Bewölkung oberhalb von FL060-080. Darunter hat sich,
+vor allem über der Nordsee, BKN/OVC ST mit Untergrenzen in 400-800 FT AGL, über
+der See teils auch aufliegend, gebildet. Vorderseitig über der Mitte sowie dem
+Südosten des Vorhersagebereichs ist es wolkenlos. Über den Tag verlagert sich
+die Bewölkung nach Südosten. Dabei eilt die höhere AC/CI-Bewölkung der tieferen
+Bewölkung voraus und erreicht gegen Mittag bereits eine Linie Pommersche Bucht
+ Leipziger Tiefland. Dabei bleibt sie an der Südostseite weiterhin vielfach
+geschichtet, während sie im Nordwesten kompakter wird und die einzelnen
+Schichten zunehmend miteinander verschmelzen. Die darunterliegende tiefe
+BKN/OVC ST-Bewölkung geht in SCT/BKN CU über, die Untergrenzen steigen über der
+See auf 800-1500 FT AGL und über Land auf 1500-2500 FT AMSL an. Vereinzelt
+können ein paar Tropfen Regen fallen. Am Nachmittag können sich gebietsweise
+Schauer ausbilden, die je nach Schichtung der Bewölkung aus ISOL (eher im
+Südosten) oder EMBD (eher im Nordwesten) CB fallen. Auch einzelne Gewitter sind
+dabei, vor allem am späten Nachmittag zwischen Weser und Münsterland, möglich.
+Am Abend schichtet die Bewölkung im Nordwesten bereits wieder aus, es bleibt
+SCT/BKN CU/SC mit Untergrenzen in 1500-2500 FT AMSL zurück. Die Sichtweiten
+liegen bei 50-70 km, unter tiefer Bewölkung liegen sie meist bei 20-40 km. Im
+Niederschlag erfolgt je nach Intensität ein Rückgang auf 3-8 km.
+
+--- SEGELFLUGWETTER ---
+
+DONNERSTAG, 13.08.2026
+im Nordwesten mäßige Blauthermik bis etwa 900-1100 m AMSL, nach Südosten hin
+auf maximal 1600 m AMSL ansteigend und somit gerade gut.
+
+FREITAG, 14.08.2026
+im Osten mäßige, selten gute Blauthermik bis etwa 1300-1600 m AMSL, in der
+Landesmitte gute Blauthermik bis etwa 1800-2200 m AMSL. Nach Westen hin gute
+bis sehr gute Blauthermik bis etwa 2500 m AMSL, im Südwesten sehr gute
+Blauthermik, gelegentlich auch Wolkenthermik bis etwa 3000 m AMSL.
+
+SONNABEND
+nordwestlich einer Linie Stettiner Haff  Harz durch Abschattung keine
+Segelflugbedingungen, im Südosten sehr gute Blauthermik oder Wolkenthermik bis
+etwa 3000 m AMSL.
+
+--- NULLGRADGRENZE ---
+
+DONNERSTAG, 13.08.2026
+zwischen FL120 im Nordosten und FL140 im Südwesten, bis zum Abend auf FL130-150
+ansteigend.
+
+FREITAG, 14.08.2026
+im Nordosten FL125-130, im Südwesten FL135-140.
+
+SONNABEND
+im Nordwesten um FL120, im Südosten um FL130.
+
+=== ENDE DWD 3-TAGES-PROGNOSE NORD ===
