@@ -143,6 +143,14 @@ jobs:
         run: |
           python dwd_gebiet36_extract.py
 
+      # ==========================================================
+      # 9. DWD GAFOR West VOR 
+      # ==========================================================
+
+      - name: DWD-Skript ausführen (DWD GAFOR West VOR)
+        run: |
+          python GAFOR_West.py
+
 
       # ==========================================================
       # Ergebnisse anzeigen
