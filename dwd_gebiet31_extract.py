@@ -1,4 +1,3 @@
-traktor final · PY
 """
 DWD Segelflug-Daten Extraktor – GAFOR-Gebiet 31 (Niederrheinisches Tiefland)
 =============================================================================
