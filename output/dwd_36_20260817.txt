@@ -4,8 +4,8 @@ Vorhersage: Vorhersage ausgegeben 17.08.2026 17:00 UTC (ICON-EU 2026-08-17 12 UT
 Gültig für: Vorhersagen für Montag, 17.08.2026
 
 --- Astronomische Angaben ---
-Sonnenaufgang: 04:16 UTC = 05:16 Lokalzeit
-Sonnenuntergang: 18:45 UTC = 19:45 Lokalzeit
+Sonnenaufgang: 04:16 UTC = 06:16 Lokalzeit
+Sonnenuntergang: 18:45 UTC = 20:45 Lokalzeit
 Mondphase: 4 Tage nach Neumond
 
 --- Thermik-Gebietsangaben ---
@@ -13,24 +13,42 @@ Mondphase: 4 Tage nach Neumond
   Maximum im Gebiet: Beginn /, Ende --, PFD/Tag / km
   Referenzstation: Beginn /, Ende --, PFD/Tag / km
 
-Thermik Gebietsmittel (Lokal | Arbeitshöhe | Steigen | PFD/1h):
+Thermik Gebietsmittel:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+      01:00 |                     - |                     - |           -
+
+Thermik Maximum im Gebiet:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+      01:00 |                     - |                     - |           -
 
 --- Referenzstation (stündliche Werte) ---
 Alle Windangaben in km/h. Windrichtung in Grad.
 
 Stunde(Lok) | Temp°C | Taupunkt°C | WindRi° | WindMittel | Böen | Wetter | BewTief/8 | BewMittel/8 | BewHoch/8 | Steigen m/s | ArbHöhe m
 --------------------------------------------------------------------------------------------------------------
-     19:00 |    14 |        12 |    320 |          7 |   26 |      - |         6 |           4 |         1 |           - |          -
-     20:00 |    13 |        12 |    310 |          4 |   19 |      - |         5 |           2 |         2 |           - |          -
-     21:00 |    13 |        12 |    280 |          2 |   11 |      - |         5 |           0 |         7 |           - |          -
-     22:00 |    12 |        11 |    270 |          2 |    6 |      - |         4 |           0 |         4 |           - |          -
-     23:00 |    12 |        11 |    240 |          2 |    7 |      - |         4 |           6 |         4 |           - |          -
-     00:00 |    12 |        11 |    240 |          4 |    6 |      - |         4 |           7 |         4 |           - |          -
+     20:00 |    14 |        12 |    320 |          7 |   26 |      - |         6 |           4 |         1 |           - |          -
+     21:00 |    13 |        12 |    310 |          4 |   19 |      - |         5 |           2 |         2 |           - |          -
+     22:00 |    13 |        12 |    280 |          2 |   11 |      - |         5 |           0 |         7 |           - |          -
+     23:00 |    12 |        11 |    270 |          2 |    6 |      - |         4 |           0 |         4 |           - |          -
+     00:00 |    12 |        11 |    240 |          2 |    7 |      - |         4 |           6 |         4 |           - |          -
+     01:00 |    12 |        11 |    240 |          4 |    6 |      - |         4 |           7 |         4 |           - |          -
 
 --- Höhenwinde Referenzstation (Grad/km/h) ---
   Wind 3000 FT (914 m) AMSL [° km/h]:
-    19:00=310/30, 20:00=310/30, 21:00=310/30, 22:00=310/20, 23:00=310/20, 00:00=290/20
+    20:00=310/30, 21:00=310/30, 22:00=310/30, 23:00=310/20, 00:00=310/20, 01:00=290/20
   Wind 5000 FT (1524 m) AMSL [° km/h]:
-    19:00=310/35, 20:00=320/35, 21:00=310/30, 22:00=310/30, 23:00=300/30, 00:00=300/30
+    20:00=310/35, 21:00=320/35, 22:00=310/30, 23:00=310/30, 00:00=300/30, 01:00=300/30
 
 === ENDE DWD-DATEN ===

@@ -6,7 +6,7 @@ Quelle:            Thermalmap.info
 Standort:           Düsseldorf-Wolfsaap (Dues-W)
 Verein:             SFG
 Koordinaten:        51.2645 N / 6.850662 E
-Ausfuehrung:        17.08.2026 21:58:14
+Ausfuehrung:        17.08.2026 22:06:47
 Zeitfenster:        17.08.2026 - 19.08.2026 (3 Tage)
 Aufloesung:         stuendlich, 07:00 - 17:00 Uhr UTC
 =======================================================
