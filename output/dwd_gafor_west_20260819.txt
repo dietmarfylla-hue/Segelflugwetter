@@ -1,0 +1,132 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 19.08.2026
+
+Gebiet | Name                        | 03-05 UTC      | 05-07 UTC      | 07-09 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | M5 ISOL SHRA   | M5 ISOL RADZ   | M2 ISOL RADZ  
+32     | Münsterland                 | M5 ISOL SHRA   | M5 ISOL SHRA   | M2 ISOL SHRA  
+33     | Ruhrgebiet und Ostwestfalen | M5 ISOL SHRA   | M5 ISOL RADZ   | M2 ISOL RADZ  
+34     | Niederrheinische Bucht      | D1             | D1             | D1            
+35     | Bergisches Land             | X ISOL RADZ    | X ISOL RADZ    | M5 ISOL RADZ  
+36     | Sauerland                   | X ISOL RADZ    | X ISOL RADZ    | X ISOL RADZ   
+37     | Eifel                       | M2             | M2             | M2            
+38     | Neuwieder Becken            | O              | O              | O             
+39     | Westerwald                  | X              | X              | X             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+652 
+FBEU40 EDZE 190300 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 19.08.2026, 03.00 UTC bis 20.08.2026, 00.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Das Vorhersagegebiet liegt unter dem Einfluss einer umfangreichen 
+Tiefdruckzone über Nord- und Nordwesteuropa bei einer westlichen 
+Strömung in feuchter und teils leicht labiler Luft. 
+
+Wettergeschehen: 
+BKN/OVC AS/CI ab FL120, Obergrenzen im Süden um FL190, im Norden 
+oberhalb FL245. Darunter SCT/BKN LYR SC mit Untergrenzen in 1500-3000 
+FT AMSL, Obergrenzen 5000 FT AMSL bis FL060. Gebietsweise im 
+Flachland, im Bergland häufig BKN ST mit Untergrenzen in 300-1200 FT 
+AGL, das höhere Bergland liegt oft in Wolken. Aus der Bewölkung fällt 
+vor allem in der Nordosthälfte zeitweise leichter Regen und 
+Sprühregen, zusätzlich sind ISOL TCU eingelagert, Tops um FL150, die 
+den Regen teils kräftig schauerartig verstärken. 
+
+Im Laufe des Vormittags teilweise Auflösung/Anheben des ST, 
+Untergrenzen von BKN LYR SC/AS/CI dann weiterhin bei 1500-3000 FT 
+AMSL. Obergrenzen oberhalb FL245, im Südwesten noch um FL190. Es 
+fällt zeitweise leichter bis mäßiger, vereinzelt durch ISOL EMBD TCU 
+mit Tops bis FL130 Regen und Sprühregen. Im Niederschlag vereinzelt 
+auch im Flachland noch Untergrenzen in 800-1500 FT AGL. 
+
+Am Nachmittag im Norden nur noch zeitweise leichter Regen und stärker 
+ausschichtende Bewölkung, Untergrenzen unverändert, die Obergrenzen 
+beginnen auf FL070-FL100 zu sinken. In der Mitte und im Süden 
+hingegen verdichtende Bewölkung und Übergang in BKN/OVC NS mit 
+Untergrenzen in 1500-3000 FT AMSL, Obergrenzen oberhalb FL245, daraus 
+zunächst leichter Regen, ab dem Abend auch mäßig. Im Süden etwa ab 
+dem Abend zudem EMBD CB mit Tops bis FL300, diese verstärken den 
+Regen teils kräftig, Gewitter möglich. Im Bereich des Regens im Laufe 
+des Abends zunehmend SCT/BKN ST mit Untergrenzen in 300-1000 FT AGL, 
+das Bergland liegt zunehmend in Wolken. 
+
+Im Laufe der ersten Nachthälfte zieht der Regen südostwärts ab. In 
+der Nordhälfte dann SCT/BKN SC zwischen 2000 FT AMSL bis FL070. Im 
+Süden beginnt die kompakte Bewölkung auszuschichten, weiterhin jedoch 
+oft BKN ST in 300-1000 FT AGL und Obergrenzen oberhalb FL245. 
+
+In der zweiten Nachthälfte im gesamten Vorhersagegebiet SCT/BKN SC 
+mit Untergrenzen in 2000-3000 FT AMSL und Obergrenzen um FL070. 
+Darunter breitet sich nun auch im Norden zunehmend BKN ST aus. Zum 
+Donnerstagmorgen können im äußersten Norden ISOL TCU mit Tops bis 
+FL120 und leichte Schauer durchziehen. 
+
+Sichtweite: 
+10-25 km. Unter ST und bei Regen oft 2-8 km, im kräftigen Regen 
+örtlich unter 2 km. Im Bergland bei aufliegender Bewölkung unter 300 
+m. In der Nacht zum Donnerstag gebietsweise Dunst mit 2-5 km, 
+vereinzelt Nebel mit Sichten unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     06 UTC    |     18 UTC    | 
+ 500FT | 230/15KT  18C | 220/10KT  16C | 
+1000FT | 230/20KT  17C | 230/10KT  15C | 
+1500FT | 240/25KT  15C | 250/15KT  14C | 
+2000FT | 250/25KT  14C | 260/15KT  14C | 
+3000FT | 250/25KT  14C | 260/15KT  12C | 
+5000FT | 250/25KT  10C | 250/20KT  09C | 
+FL100  | 260/40KT  02C | 270/35KT  03C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     06 UTC    |     18 UTC    | 
+1000FT | 210/15KT  17C | 190/10KT  15C | 
+1500FT | 230/20KT  16C | 250/15KT  14C | 
+2000FT | 230/20KT  15C | 270/20KT  13C | 
+3000FT | 250/25KT  13C | 240/20KT  12C | 
+5000FT | 250/30KT  10C | 260/35KT  11C | 
+FL100  | 260/40KT  03C | 270/45KT  01C | 
+
+Turbulenz: 
+In und in der Nähe von TCU/CB mäßig bis stark. Zudem zeitweise mäßig 
+zwischen FL080 und FL160, am Nachmittag und Abend örtlich stark, in 
+der ersten Nachthälfte ostwärts abziehend. 
+
+Vereisung: 
+In TCU/CB mäßig bis stark. Mäßig in Schichtbewölkung zwischen FZLVL 
+und FL230, ab dem Abend von Norden her nachlassend. 
+
+Nullgradgrenze: 
+Im Norden FL095-FL100, im Südwesten bis FL130. Am Vormittag FL100-105 
+in der Nordhälfte, FL110-125 in der Südhälfte. Ab dem Abend leicht 
+sinkend, im Norden auf FL095-FL100, im Süden FL110-FL120. Zum 
+Donnerstagmorgen in der Nordhälfte FL085-FL090, im Süden weiterhin 
+FL110-FL120. 
+
+Inversionen: 
+Nicht signifikant. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    03.47 | 04.25 | 18.47 | 19.22 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 05.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/vh 
+
+
+
+=== ENDE DWD-DATEN ===
