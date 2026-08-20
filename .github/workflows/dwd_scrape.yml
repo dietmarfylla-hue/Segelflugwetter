@@ -94,9 +94,9 @@ jobs:
       # 3. Thermalmap
       # ==========================================================
 
-      - name: Thermalmap-Skript ausführen
-        run: |
-          python thermalmap_extract.py
+     # - name: Thermalmap-Skript ausführen
+      #  run: |
+     #     python thermalmap_extract.py
 
 
       # ==========================================================
