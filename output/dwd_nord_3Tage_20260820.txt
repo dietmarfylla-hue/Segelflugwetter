@@ -7,259 +7,170 @@
 3-Tage-Prognose für Sichtflug und Luftsport
 
 für
-Donnerstag, den 20.08.2026
+Freitag, den 21.08.2026
 bis
-Samstag, den 22.08.2026
+Sonntag, den 23.08.2026
 
 herausgegeben von der Luftfahrtberatungszentrale Hamburg
 
-am 19.08.2026 um 13.00 Uhr UTC
+am 20.08.2026 um 13.00 Uhr UTC
 
 --- WETTERLAGE DEUTSCHLAND ---
 
-DONNERSTAG, 20.08.2026
-Ausgehend von einem Tief über dem
-Baltikum erstreckt sich ein wellendes Frontensystem morgens über Polen,
-Tschechien, Süddeutschland, dem Alpenraum und Frankreich mit feuchter und meist
-labiler Luft. Diese trennt wärmere Luft über Süddeutschland von kühlerer Luft
-über Norddeutschland. Über der Mitte Deutschlands trocknet die Luft ein wenig
-ab. Das Wettergeschehen über Norddeutschland wird durch mehrere ostwärts
-durchziehende Randtiefs mit ebenfalls feuchter und labiler Luft beeinflusst. Im
-Tagesverlauf zieht das Tief über dem Baltikum gen Nordosteuropa. Die zugehörige
-Front beschert Süddeutschland und den Alpen weiterhin hochreichende Konvektion,
-die voraussichtlich bis zum Abend anhält und erst später am Abend abschwächen
-wird. Über der Mitte Deutschlands bleibt das Wettergeschehen weitgehend ruhig.
-Über Norddeutschland bleibt kühle und labile Meeresluft wetterbestimmend.
-Verbreitet herrscht tagsüber eine lebhafte südwestliche bis westliche Strömung
-vor.
 FREITAG, 21.08.2026
-Ein Tief über Südskandinavien lenkt mit
-westlicher Strömung kühle bis mäßig warme Meeresluft in weite Teile Deutschlands.
-Über dem äußersten Süddeutschland und über den Alpen verweilt die wellende
-Front von DONNERSTAG, 20.08.2026 mit hochreichend feucht-labiler Luft.
+Ein umfangreicher Höhentrog erstreckt
+sich von Skandinavien über die Nordsee bis zu den Britischen Inseln. Mit
+westlicher Strömung fließt kühle bis mäßig warme Meeresluft in weite Teile
+Deutschlands.
+Über dem Nordwesten der Republik folgen
+konvektive Umlagerungen, über dem äußersten Süddeutschland und den Alpen
+verweilt die wellende Front mit hochreichend feucht-labiler Luft.
+Ein breiter Streifen mittig, diagonal
+von Südwest nach Nordost, liegt folglich in einer Zone relativen Absinkens.
 SAMSTAG, 22.08.2026
-Das Tief über Südskandinavien bleibt
-über der Nordhälfte Deutschlands mit kühler und labiler Meeresluft
-wetterbestimmend. Über der Mitte und dem Süden Deutschlands ist die Luft etwas
-trockener, weist jedoch in den unteren Luftschichten noch eine gewisse
-Labilität auf. Über dem Alpenraum ist tagsüber weiterhin mit Konvektion zu
-rechnen.
+Das Tief über Südskandinavien bleibt zunächst
+wetterbestimmend.
+Die Strömung dreht auf Nordwest und
+führt eine Kaltfront von Nordwest nach Südost, dadurch wird die Konvektion
+erneut entfacht.
+SONNTAG, 23.08.2026
+Der Höhentrog zieht ostwärts ab, von
+Westen her steilt die Strömung auf und es bildet sich ein Bodenhoch über den
+Britischen Inseln. Letzte konvektive Umlagerungen im Bereich der Ostsee,
+ansonsten trocknet die Luft allmählich unter Absinkvorgängen ab.
 
 Vorhersage für den Bereich Nord
 (GAFOR-Gebiete 00 bis 23 und 31 bis 36)
 
 --- SICHTFLUGWETTER ---
 
-Dazwischen sowie
-über dem östlichen Niedersachsen, Brandenburg und Sachsen-Anhalt
-SCT/BKN SC
-,
-Untergrenzen 12002500 FT AMSL, darüber örtlich SCT AC. Über der Deutschen
-Bucht und den Inseln meist
-SCT/BKN CU/SC
-mit Untergrenzen 20004000 FT
-AMSL und überwiegend guten Sichten.
+Zusammenfassend
+wird an einer schrittweisen Wetterbesserung gearbeitet, gleichwohl die
+nordwestliche, frische Strömung weiterhin feuchte Meeresluft heranführt. Der
+aufmerksame Leser vernimmt daher, dass der SONNTAG, 23.08.2026 wettertechnisch von allen
+drei Tagen am günstigsten ist. Die Detailvorhersage wie gewohnt im folgenden
+Text.
 
-Am Vormittag löst sich BR
-/FG weitgehend auf. Im nordwestlichen Niedersachsen
-und lokal zwischen Bremen und Hamburg können
-BKN/OVC ST/SC
-mit
-Untergrenzen von 4001000 FT AGL noch bis etwa 0809 UTC bestehen bleiben.
-Sonst Übergang zu
-BKN SC/CU
-mit Untergrenzen 12002500 FT AMSL.
+Am FREITAG, 21.08.2026 zeigt sich in der Südosthälfte, etwa südöstlich einer Linie Rügen 
+Eifel SCT, gebietsweise BKN, SC/AC LYR CI Felder oberhalb von FL060-FL100. Im
+Bergland haben sich zudem FEW/SCT, vereinzelt BKN, SC-Felder in 3000-4000 FT
+AMSL gebildet. In Tal und Muldenlagen treten zudem Wald- und Wiesennebelfelder
+auf, welche sich in der Früh auflösen werden. Hochlagen sind dabei teils in
+Wolken gehüllt.
+Auf einer Achse Emsland  Kieler Bucht dominieren hingegen SCT/BKN ST/SC mit
+Untergrenzen in 100-400 FT AGL, welcher mit Starkdunst oder Nebel einhergeht.
+Aus dem SC, welcher auch nordwestlich und südöstlich der Achse in 2500-3500 FT
+AMSL vorhanden ist, bilden sich vereinzelt TCU, im Nordwesten auch CBs, welche
+Schauer und Gewitter mit sich bringen.
 
-Von der Deutschen
-Bucht erste SHRA, dabei örtlich TCU. Über Schleswig-Holstein und dem
-Küstenumfeld rasche konvektive Verstärkung.
+Im
+Laufe des Freitags geht der ST/SC zu SCT/BKN CU über. Die Untergrenzen steigen
+dabei bis zum Mittag schrittweise auf 3500-4500 FT AMSL, im zuvor beschriebenen
+ST-Streifen auf 2500-3500 FT AMSL an. Dabei bilden sich in diesem Bereich
+zahlreiche, teils in Linien oder Clustern angeordnet und nur langsam ziehende
+CBs mit Schauern und Gewittern. Mit jenen Niederschlägen sinken die
+Untergrenzen gebietsweise nochmal auf 1500-2500 FT AMSL ab. Der Schwerpunkt
+liegt in der Früh etwa von den Nordfriesischen Inseln bis nach Angeln,
+verlagert sich bis zum Mittag auf eine Achse Niederrhein  Elbmündung  Kieler
+Bucht und bis zum Abend auf eine Achse Eifel  Oldenburger Münsterland 
+Mecklenburgische Ostseeküste. Auch im Bergland bilden sich im Laufe des Tages
+einzelne CBs, die ebenfalls zu Gewittern führen können.
+In zuvor wolkenfreien Bereichen bilden sich zudem FEW/SCT, vereinzelt BKN, CU.
+Die Untergrenzen liegen hier anfänglich bei 2500-3500 FT AMSL, steigen aber
+zügig bis zum frühen Nachmittag auf 4500 FT AMSL  FL060 an und löse sich am
+Nachmittag meist wieder auf.
+Über dieser Bewölkung zieht ab Mittag von Süden her BKN/OVC AS/AC/CI auf. Diese
+Aufzugsbewölkung breitet sich östlich einer Linie Harz  Wendland  Darß aus.
+Die Untergrenzen liegen dabei am Vorderrand dieser Bewölkung bei FL150-FL180,
+sinken am Nachmittag schrittweise auf FL080-FL110 ab. Vereinzelt fällt dabei von
+der Leipziger Tieflandsbucht bis in die Lausitz ein paar Tropfen Regen, meist
+bleibt es aber niederschlagsfrei. Gebietsweise bilden sich SCT/BKN SC-Felder in
+FL050-FL080 aus.
+Die Sichtweiten liegen am Morgen zwischen 20 und 40 km, bei Dunst bei 1-5 km
+und in Wiesennebelfelder um 500 m. Niederschläge führen zu Sichtrückgängen
+zwischen 3 und 6 km, bei kräftigen Gewittern oder Schauern örtlich um 1 km. Im
+Tagesverlauf steigen die Sichtweiten auf 30-60 km an. Leichter Regen im
+Südosten führt zu lokalen Sichtrückgängen auf 6-10 km.
+Am SAMSTAG, 22.08.2026 zum Sonnenaufgang zeigt sich streckenweise SCT/BKN SC/AC bei meist uneinheitlichen
+Untergrenzen zwischen 2500-3500 FT AMSL (besonders in der Südosthälfte, im
+Bergland und im Küstenbereich) gebietsweise aber auch höher in FL060-FL080.
+Besonders in einem Streifen von der Lüneburger Heide bis nach Mecklenburg
+deuten sich größere Lücken als FEW/SCT an. Aus der SC-Bewölkung mit Schwerpunkt
+einer Achse Eifel  Rothaargebirge, sowie im Dreieck Leipziger Tieflandsbucht 
+Lausitz  Usedom bilden sich daraus immer wieder CBs mit Schauern und
+Gewittern. Dabei bilden sich SCT/BKN ST-Felder in 600-1000 FT AGL aus. Ein
+ähnliches Schicksal trifft Anrainergebiete der Nordsee, wobei hier die Tops
+niedriger liegen und nur TCUs ein paar Schauer bringen. Die Untergrenzen sinken
+hier auf 1500-2500 FT AMSL ab. Während die Schauer- und Gewitteraktivität im
+Süden und Osten zunächst nachlässt, wandern Nordseeschauer am Morgen zunehmend
+ins Landesinnere. Dabei geht am Vormittag der ST/SC wieder schrittweise zu SCT,
+gebietsweise BKN CU über. Die Untergrenzen steigen auf 3000-4000 FT AMSL am
+Mittag und bis zum Nachmittag auf maximal 4500 FT AMSL bis FL055 an.
+Ausgenommen davon ist der Küstenbereich. Ab Mittag muss auch abseits der Küste strichweise
+mit TCUs und Schauern gerechnet werden. Im Bergland sind einzelne CBs möglich,
+welche auch zu einzelnen Gewittern führen werden. Mit diesen Niederschlägen
+sinken die Untergrenzen auf 1500-2500 FT AMSL ab. Das Bergland kann dabei
+zeitweise in Wolken gehüllt werden.
 
-Am Mittag und Nachmittag v
-on der Deutschen Bucht über Schleswig-Holstein,
-Hamburg und das nördliche Niedersachsen
-SCT/BKN CU/TCU
-, örtlich
-BKN/OVC SC/TCU
-,
-Untergrenzen meist 18003000 FT AMSL. ISOL, zeitweise örtlich OCNL CB mit SHRA
-und TSRA. Vorübergehend EMBD CB möglich.
-
-Der
-wahrscheinlichste Gewitterschwerpunkt liegt zwischen etwa 11 und 15 UTC von der
-Deutschen Bucht über Schleswig-Holstein und Hamburg bis in das nördliche und
-mittlere Niedersachsen. Im Verlauf Ausweitung nach Mecklenburg-Vorpommern.
-Unter kräftigen Zellen Absinken der Untergrenzen auf 8001500 FT AMSL und der
-Sicht auf 14 km.
-
-Über Westfalen, dem
-Niederrhein und dem Bergischen Land ebenfalls einzelne SHRA, ISOL TCU/CB,
-jedoch geringere Gewitterdichte. Von Magdeburger Börde bis Brandenburg zunächst
-eher
-SCT,
-lokal BKN CU/SC
-mit Untergrenzen 30005000 FT AMSL.
-
-Im weiteren Verlauf k
-onvektiver Schwerpunkt zunehmend über
-Schleswig-Holstein, Mecklenburg-Vorpommern, Altmark und dem nördlichen
-Brandenburg. Dort
-SCT/BKN CU/TCU
-, ISOL CB mit SHRA/TSRA. Über dem mittleren
-und südlichen Niedersachsen sowie Nordrhein-Westfalen größere Auflockerungen zu
-FEW/SCT CU
-,
-allerdings rückseitig noch einzelne Schauer.
-
-Am Abend ü
-berwiegend nachlassende Konvektion. Über Mecklenburg-Vorpommern
-und küstennah noch ISOL SHRA/CB. Auch im westlichen Niedersachsen örtlich ein
-letzter Schauer. Sonst
-FEW/SCT CU/SC
-, Untergrenzen 30005000 FT
-AMSL. Über der Deutschen Bucht weiterhin
-SCT/BKN CU
-.
-
-Sicht außerhalb der
-Frühnebelfelder zunächst 820 km, tagsüber meist 2550 km. In SHRA 48 km, in
-TSRA 14 km.
-
-Bodenwind:
-In kräftigen Schauern und Gewittern lokal Böen 25-35 KT
-möglich.
-
-Über Nordsee
-BKN CU/SC
-,
-Untergrenzen 15002500 FT AMSL, einzelne SHRA. Südöstlich der Linie
-RostockHannoverMünster meist
-FEW/SCT SC
-, lokal BKN, Untergrenzen
-20004000 FT AMSL. Brandenburg, Börde, Leipziger Tieflandsbucht und
-Niederlausitz weitgehend frei von tiefer Bewölkung.
-
-ST und BR/FG lösen
-sich bis etwa 09 UTC auf. Über Nordsee, Schleswig-Holstein und dem nördlichen
-Niedersachsen
-SCT/BKN
-CU/SC
-, Untergrenzen 18003000 FT AMSL, einzelne SHRA.
-
-Von Hannover
-ostwärts überwiegend
-FEW/SCT CU
-, Untergrenzen 35005000 FT AMSL und meist
-trocken. Aus Südwesten zunehmend SCT/BKN AC/AS/CI.
-
-Am Nachmittag ü
-ber dem nordwestlichen Niedersachsen sowie vom
-Münsterland über Ruhrgebiet und Bergisches Land bis zum Sauerland
-SCT/BKN CU/TCU
-,
-Untergrenzen 25004000 FT AMSL. ISOL CB mit SHRA; ein kurzes Gewitter ist
-möglich, die Gewitterwahrscheinlichkeit liegt aber deutlich unter der des
-Donnerstags.
-
-Zwischen Hannover,
-Lüneburger Heide und westlichem Mecklenburg einzelne SHRA. Im östlichen
-Mecklenburg, Brandenburg, Sachsen-Anhalt und der Leipziger Tieflandsbucht meist
-FEW/SCT CU
-bei Untergrenzen von 40005500 FT AMSL. Darüber
-SCT/BKN AC/AS/CI
-,
-Untergrenzen etwa FL100140.
-
-Am Abend i
-m Westen und Nordwesten noch ISOL SHRA, anschließend
-nachlassend. Sonst
-FEW/SCT CU/SC
-, im Osten SCT/BKN AC/AS/CI. Sicht
-außerhalb von Schauern 3060 km, in SHRA 48 km.
-
-Vom Raum Hannover
-bis zum Harzvorland sowie lokal in Altmark, Börde und Fläming
-BKN SC
-,
-Untergrenzen 8001500 FT AGL. Über westlichem Nordrhein-Westfalen gleichzeitig
-einzelne eingelagerte TCU/CB und SHRA.
-
-An Nord- und Ostsee
-sowie in Mecklenburg-Vorpommern meist
-SCT, lokal BKN SC/CU
-, Untergrenzen 15003000
-FT AMSL und überwiegend
-
-Bis zum Mittag Auflösung von
-ST/ beziehungsweise Übergang in
-BKN SC/CU
-über. Im Westen, südlichen Niedersachsen und über dem Bergland Anhebung der Untergrenzen.
-Dabei einzelne SHRA.
-
-Von
-Schleswig-Holstein über Mecklenburg-Vorpommern bis an die Oder
-SCT/BKN SC/CU
-geringe Schauerneigung. Im Bereich Börde  Leipziger Tieflandsbucht  Niederlausitz
-Ausbildung von SCT/BKN CU/TCU mit einzelnen Schauern.
-
-Am Nachmittag allgemein
-insbesondere nach Südosten und Süden ISOL TCU/CB
-mit SHRA und lokal TSRA.
-
-Über der Nordsee,
-Schleswig-Holstein und Mecklenburg-Vorpommern von Norden zunehmend
-FEW/SCT CU/SC
-,
-meist trocken. Untergrenzen 30004500 FT AMSL.
-
-Am Abend v
-on Norden und Westen allgemein abnehmende Quellbewölkung zu
-FEW/SCT CU/SC
-.
-Im Südosten noch ISOL SHRA/TCU. Über Nordrhein-Westfalen nur noch geringe
-Schauerneigung. Im Küstenumfeld SCT SC/CU Felder.
+Schwerpunkt
+der Schauer werden die Küstenbereiche sein. Zum Abend lösen sich CU wieder
+zunehmend auf, gebietsweise verbleiben SC/AC-Felder oberhalb von 4500 FT AMSL 
+FL055. Die Sichtweiten liegen am Morgen zwischen 20 und 40 km. Niederschläge
+führen zu Sichtrückgängen zwischen 3 und 6 km, bei kräftigen Gewittern oder
+Schauern um 1 km. Im Tagesverlauf steigen die Sichtweiten auf 40-60 km an.
+Am SONNTAG, 23.08.2026 überwiegt SCT/BKN SC in 3000-4000 FT AMSL, im Küstenbereich als CU
+in 2000-3000 FT AMSL. Im Nordosten ziehen von der Ostsee einzelne TCU/CBs durch
+mit Schauern und Gewittern, dabei sinken die Untergrenzen auf 1500-2500 FT AMSL
+ab. Daran ändert sich im Laufe des Sonntags allgemein wenig.
+Im Südwesten zeigt sich unter dem SC zudem SCT/BKN ST-Bewölkung in 500-1000 FT
+AGL, in windschwachen Tieflagen (Kölner Bucht, Niederrheinisches Tiefland)
+können zudem Nebelschwaden oder ST-Bewölkung in 100-300 FT AGL auftreten.
+Insbesondere, wenn die SC-Felder größere Lücken aufweisen. Hierzu gibt es aber
+noch größere Modellunterschiede. Nebel und ST lösen sich am Vormittag meist
+auf, teils geht der ST über SC zu CU über. Die Untergrenzen des CU starten bei
+1500-2500 FT AMSL, meist als FEW/SCT. Sie steigen im Laufe des Tages aber rasch
+auf das Niveau des SCs an. Am Nachmittag erreichen die Untergrenzen 4500 FT
+AMSL  FL060. Ausgenommen davon der Norden, wo die Untergrenzen nicht weiter
+ansteigen. Vereinzelt treten ab Mittag einzelne schwache Schauer auf, große
+Niederschlagssummen werden aber nicht erreicht werden. Die Sichtweiten liegen
+am Morgen zwischen 20 und 40 km, bei Dunst bei 1-5 km und in Nebel um 500 m.
+Schauer im Nordosten führen zu Sichtrückgängen zwischen 3 und 6 km, bei
+kräftigen Gewittern oder Schauern im Norden um 1 km. Schwache Schauer am
+Nachmittag führen nicht zu signifikanten Sichtrückgängen. Im Tagesverlauf
+steigen die Sichtweiten auf 30-60 km an.
 
 --- SEGELFLUGWETTER ---
 
-DONNERSTAG, 20.08.2026
+Am
+FREITAG, 21.08.2026 mäßige bis gute Wolkenthermik, teilweise im Südosten am Nachmittag
+durch hohe Bewölkung abgeschirmt. Zudem durch Überentwicklungen im Nordwesten
+gestört. Die maximalen Arbeitshöhen liegen meist zwischen 1200 und 1600 m, im
+Nordwesten um 600 m.
 
-Im Nordwesten verspäteter Thermikbeginn und nur
-geringe bis mäßige Wolkenthermik. Häufige Überentwicklungen und Schauer, Basen
-6001000 m. Von Börde und Brandenburg bis zur Leipziger Tieflandsbucht mäßige
-bis gute Thermik mit Basen 12001800 m, örtlich um 2000 m. Thermikende 1718
-UTC.
+Am
+SAMSTAG, 22.08.2026 mäßige bis gute Wolkenthermik, im Bergland und im Küstenumfeld durch
+Überentwicklungen gestört. Die maximalen Arbeitshöhen liegen bei 1000-1500 m.
+Im Norden zudem teils zerrissen und voraussichtlich kaum nutzbar.
 
-FREITAG, 21.08.2026
-
-Im Westen und
-Nordwesten mäßige, durch Überentwicklungen gestörte Wolkenthermik mit Basen von
-8001300 m. Im Osten zunächst gute Thermik mit Basen 14001800 m, später
-Beeinträchtigung durch AC/AS. Thermikende 1718 UTC.
-
-SAMSTAG, 22.08.2026
-
-Nach Auflösung der
-tiefen Bewölkung überwiegend mäßige Wolkenthermik. Im Westen und im Bergland
-durch Schauer gestört, Basen 8001200 m. Über Niedersachsen, Sachsen-Anhalt und
-Brandenburg 10001600 m. An den Küsten durch kräftigeren Wind und SC-Felder
-eingeschränkt.
+Am
+SONNTAG, 23.08.2026 gute, gebietsweise mäßige Wolkenthermik bei Arbeitshöhen zwischen 1200
+m und 1600 m. Im Küstenbereich zwischen 800 m und 1200 m. Im Nordosten zeigt
+sich die Thermik dazu zerrissen.
 
 --- NULLGRADGRENZE ---
 
-DONNERSTAG, 20.08.2026
+Am
+FREITAG, 21.08.2026 im Norden zwischen FL080 und FL090, sonst FL090 und FL110 im Süden,
+dort am Nachmittag auf FL090-FL100 absinkend. Sonst wenig Änderung.
 
-FL080085
-über Deutscher Bucht und Schleswig-Holstein, nach Südosten auf FL095100
-ansteigend.
+Am
+SAMSTAG, 22.08.2026 in der Westhälfte zwischen FL070-FL080, im Osten zwischen FL080 und
+FL090, dort im Laufe des Tages auf FL070-FL080 absinkend.
 
-FREITAG, 21.08.2026
-
-FL080
-im Nordwesten, FL085095 im Binnenland und Osten
-
-SAMSTAG, 22.08.2026
-
-Absinkend
-auf FL065075 über Nord- und Ostsee, sonst FL075085
-.
+Am
+SONNTAG, 23.08.2026 im Osten anfangs zwischen FL065 und FL080, im Westen bei FL080-FL090.
+Im Übergangsbereich mehrfach zwischen FL060 und FL080. Im Laufe des Tages im
+Südwesten auf FL110-FL100 ansteigend, im Osten auf FL075-FL090. Im Nordwesten
+auf FL085-FL100 ansteigend.
 
 === ENDE DWD 3-TAGES-PROGNOSE NORD ===
