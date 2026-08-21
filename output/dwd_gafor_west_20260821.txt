@@ -1,0 +1,132 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 21.08.2026
+
+Gebiet | Name                        | 03-05 UTC      | 05-07 UTC      | 07-09 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | O              | D1             | O             
+32     | Münsterland                 | O              | D1             | O             
+33     | Ruhrgebiet und Ostwestfalen | C              | O              | O             
+34     | Niederrheinische Bucht      | C              | C              | C             
+35     | Bergisches Land             | C              | C              | O             
+36     | Sauerland                   | C              | C              | O             
+37     | Eifel                       | C              | C              | C             
+38     | Neuwieder Becken            | C              | C              | C             
+39     | Westerwald                  | C              | C              | C             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+377 
+FBEU40 EDZE 210300 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 21.08.2026, 03.00 UTC bis 22.08.2026, 00.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Westdeutschland befindet sich am Rande eines Tiefdruckkomplexes über 
+Nordwesteuropa in einer zunächst noch südwestlichen Strömung, mit der 
+mäßig warme Meeresluft herangeführt wird. In den Frühstunden ist im 
+Nordwesten des Vorhersagebereichs teils eine feuchte Grundschicht 
+vorherrschend, die am Vormittag wieder abtrocknet. 
+Die Kaltfront eines Bodentiefs bei Skandinavien zieht ab dem 
+Nachmittag bis Mitternacht südostwärts durch, die Strömung dreht auf 
+Nordwest. Auch nachfolgend sorgt ein Höhentrog weiter für konvektive 
+Umlagerungen in labil geschichteter Luft. In Staulagen der 
+Mittelgebirge bildet sich zudem eine feuchte Grundschicht. 
+
+Wettergeschehen: 
+In den Frühstunden vor allem im Norden und Nordwesten des 
+Vorhersagebereichs SCT/BKN SC zwischen 2000 und 3500 FT AMSL, 
+darunter vom unteren Niederrhein bis ins Münsterland aufkommender BKN 
+ST ab 500-1000 FT AGL. Außerdem von Süden aufkommender BKN CI 
+oberhalb FL180, am Morgen im Südwesten auch SCT/BKN LYR AC/CI ab 
+FL100. Verbreitet niederschlagsfrei. 
+
+Am Vormittag Übergang zu meist SCT/BKN CU, im Süden/Südosten auch nur 
+FEW/SCT CU. Basis auf 2000-3500 FT AMSL ansteigend, Obergrenzen bei 
+4000 FT AMSL bis FL090. Mittelhohe und hohe Bewölkung tagsüber 
+weitgehend unverändert. 
+
+Ab dem Mittag im Nordwesten des Vorhersagebereichs erste Schauer aus 
+ISOL TCU mit Tops bis FL120. 
+Am Nachmittag im Südosten SCT, vereinzelt BKN CU von 4000-5000 FT 
+AMSL bis FL090-130, im Nordwesten BKN CU weiterhin ab 2000-3500 FT 
+AMSL, Tops verschieden. Hier ISOL/OCNL TCU/CB mit Tops zwischen FL180 
+und FL320, einige Schauer und teils Gewitter mit Starkregen und Böen 
+aus West um 30 KT, dabei teils auf 1500 FT AMSL absinkende Basis. Die 
+Bedingungen aus dem Nordwesten erreichen am späten Abend auch den 
+Südosten des Bereichs. 
+
+In der Nacht zum Samstag etwa in der Mitte und im Süden des Bereichs 
+von Westen Reaktivierung von Schauern und Gewittern, teils mit 
+Starkregen. Bewölkung im Nordwesten und Norden auflockernd zu SCT SC 
+zwischen 2000 und 5000 FT AMSL, darüber noch hohe Bewölkung. In der 
+Mitte und im Süden teils kompakte BKN SC/AC/AS/CI-Bewölkung mit Basis 
+in 1500-3000 FT AMSL, Obergrenzen oberhalb FL245, mit ISOL/OCNL EMBD 
+TCU/CB. Darunter in Staulagen zunehmend BKN ST mit Basis unterhalb 
+1000 FT AGL, Berge in Wolken geratend. 
+
+Sichtweite: 
+20-50 km, vereinzelt dunstig unter 5 km. Im Tagesverlauf 25-60 km. In 
+aufkommenden Schauern/Gewittern 2-10 km. In der Nacht zum Samstag 
+Rückgang auf 20-5 km, gebietsweise Dunst bei unter 5 km, bei 
+aufliegender Bewölkung unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     06 UTC    |     18 UTC    | 
+ 500FT | 210/10KT  15C | 330/05KT  16C | 
+1000FT | 230/15KT  14C | 330/10KT  15C | 
+1500FT | 250/20KT  13C | 330/10KT  13C | 
+2000FT | 250/20KT  11C | 330/10KT  12C | 
+3000FT | 250/20KT  10C | 320/10KT  10C | 
+5000FT | 250/20KT  08C | 310/10KT  08C | 
+FL100  | 250/25KT M01C | 290/10KT M02C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     06 UTC    |     18 UTC    | 
+1000FT | 200/05KT  15C | 280/05KT  16C | 
+1500FT | 240/10KT  14C | 300/10KT  14C | 
+2000FT | 240/15KT  13C | 300/15KT  13C | 
+3000FT | 250/20KT  10C | 290/15KT  11C | 
+5000FT | 250/20KT  08C | 270/15KT  08C | 
+FL100  | 250/30KT M00C | 250/15KT M02C | 
+
+Turbulenz: 
+In und in der Nähe von TCU/CB mäßig bis stark. Sonst meist nicht 
+signifikant, nur tagsüber im Osten teils zeitweise mal mäßig oberhalb 
+FL210. 
+
+Vereisung: 
+In TCU/CB mäßig bis stark. Sonst nur vereinzelt mal mäßig in 
+mittelhoher Bewölkung oberhalb der Nullgradgrenze bis FL200. 
+
+Nullgradgrenze: 
+Verbreitet bei FL095, im Tagesverlauf um FL090. In der Nacht zum 
+Samstag von Nordwesten auf FL080 absinkend. 
+
+Inversionen: 
+Gebietsweise Bodeninversion unterhalb von 1500 FT AGL, nach 
+Sonnenaufgang wieder auflösend. In der Nacht zum Samstag im 
+Nordwesten und Norden teils erneut Bildung einer schwachen 
+Bodeninversion unterhalb 1500 FT AMSL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    03.51 | 04.28 | 18.43 | 19.19 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 05.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/dt 
+
+
+
+=== ENDE DWD-DATEN ===
