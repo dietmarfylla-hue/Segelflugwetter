@@ -1,0 +1,127 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 25.08.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | C              | C              | C             
+32     | Münsterland                 | C              | C              | C             
+33     | Ruhrgebiet und Ostwestfalen | C              | C              | C             
+34     | Niederrheinische Bucht      | C              | C              | C             
+35     | Bergisches Land             | C              | C              | C             
+36     | Sauerland                   | C              | C              | C             
+37     | Eifel                       | C              | O ISOL RA      | O ISOL RA     
+38     | Neuwieder Becken            | C              | C              | C             
+39     | Westerwald                  | C              | C              | C             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+132 
+FBEU40 EDZE 250600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 25.08.2026, 06.00 UTC bis 26.08.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Zwischen einem Hoch über Skandinavien und tiefem Luftdruck über dem 
+Atlantik hat sich eine östliche bis südöstliche Strömung eingestellt. 
+Während die einfließende Luft im Norden eher trocken ist, gelangt in 
+den Süden des Bereichs wärmere und feuchtere Luft. In der Nacht zum 
+Mittwoch kann sich im Süden stellenweise eine feuchte Grundschicht 
+ausbilden. 
+
+Wettergeschehen: 
+Im Norden und der Mitte verbreitet wolkenlos oder allenfalls SCT/BKN 
+CI oberhalb FL245. Gleichzeitig von Süden her verdichtende BKN/OVC 
+AS/AC/CS ab FL150-180, Obergrenzen oberhalb FL245. Darunter bereits 
+zwischen Eifel und Westerwald SCT/BKN zwischen FL060 und FL120. 
+Richtung Mosel vereinzelt etwas Regen, sonst niederschlagsfrei. 
+
+Die mittelhohe AS/AC/CS-Bewölkung kommt nur zögernd nordwärts voran, 
+am frühen Nachmittag bis zu einer Linie Selfkant-Sauerland. Im Norden 
+können sich unterhalb der CI-Felder FEW CU um 4000 FT AMSL bilden. 
+Mit jedem Kilometer nach Südwesten sinkt die Bewölkung ab: Zwischen 
+Eifel und Westerwald häufig geschichteter BKN/OVC SC/AC/AS mit 
+Untergrenzen 5000 bis 7000 FT AMSL, im Nachmittagsverlauf am Südrand 
+örtlich auf 3000-5000 FT AMSL absinkend. Vor allem hier zeitweise 
+meist leichter Regen. Die Obergrenzen sinken von Süden langsam auf 
+FL160-200 ab. 
+
+Zum Abend verlagert sich der SC/AC/AS mitsamt des meist leichten 
+Regens weiter nach Nordosten Richtung Sauerland, dort dann meist 
+Untergrenzen zwischen FL060 und FL080, im Regen vereinzelt um 4000 FT 
+AMSL. Weiter westlich am Rhein und im Norden voraussichtlich kein 
+Regen mehr bei SCT/BKN AC/CI ab FL170, darunter nur selten dünne 
+SC-Felder um 5000 FT AMSL. Im Südwesten lockern die SC/AC-Felder 
+gebietsweise auf, dort allenfalls noch FEW/SCT ab 3000-4000 FT AMSL. 
+
+In der Nacht ziehen die leichten Regenfälle ab, im gesamten 
+Vorhersagebereich werden die Wolkenschichten dünner. Vor allem im 
+Süden kann sich im Verlauf der Nacht örtlich Nebel und vorwiegend in 
+Südstaulagen der Mittelgebirge BKN ST in wenigen 100 FT AGL bilden. 
+
+Sichtweite: 
+30-60 km. Im Süden bei Niederschlägen im Tagesverlauf um 10, lokal 
+mal um 5 km. Sonst wenig Änderung. Nachmittags und abends im Süden 
+abseits des Regen 20-40 km, im Norden 30-60 km, im Regen lokal 5-10 
+km. Im Bergland bei aufliegenden Wolken unter 1 km. Nachts im Norden 
+20-50 km, im Süden 10-30 km, stellenweise dunstig bei 2-8 km, lokal 
+durch Stratus oder Nebel unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 060/05KT  17C | 160/05KT  18C | 
+1000FT | 060/05KT  16C | 140/10KT  18C | 
+1500FT | 110/15KT  15C | 110/10KT  17C | 
+2000FT | 120/15KT  15C | 110/15KT  16C | 
+3000FT | 140/15KT  14C | 110/20KT  14C | 
+5000FT | 110/10KT  11C | 120/20KT  09C | 
+FL100  | 100/15KT  03C | 120/05KT  02C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 100/10KT  18C | 080/05KT  16C | 
+1500FT | 100/10KT  16C | 110/10KT  15C | 
+2000FT | 100/10KT  15C | 120/15KT  14C | 
+3000FT | 130/15KT  15C | 120/20KT  13C | 
+5000FT | 150/10KT  11C | 120/20KT  09C | 
+FL100  | 100/15KT  02C | 080/15KT  01C | 
+
+Turbulenz: 
+Im Süden ab dem Mittag selten mäßig zwischen FL120 und FL180, nachts 
+wieder nachlassend. 
+
+Vereisung: 
+Im Süden/Südwesten, im Tagesverlauf zögernd nach Nordosten ausweitend 
+und teils mäßig zwischen FL110 und FL160. Im Laufe der Nacht wieder 
+weitgehend abklingend. 
+
+Nullgradgrenze: 
+Zwischen FL110-FL115, nachts im Osten teils bei FL105. 
+
+Inversionen: 
+Anfangs Bodeninversion unterhalb 1000-2000 FT AGL, die sich am 
+Vormittag wieder auflöst. Nachmittags vor allem im Norden schwache 
+Absinkinversion um 5000 FT AMSL, abends auflösend. Kommende Nacht 
+wieder gebietsweise Bodeninversion unterhalb von 1000 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    03.58 | 04.34 | 18.35 | 19.09 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/JK 
+
+
+
+=== ENDE DWD-DATEN ===
