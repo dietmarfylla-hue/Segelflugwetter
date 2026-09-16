@@ -1,0 +1,138 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 16.09.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | D3 ISOL FG     | D1             | O ISOL SHRA   
+32     | Münsterland                 | D3 ISOL FG     | D1             | O ISOL SHRA   
+33     | Ruhrgebiet und Ostwestfalen | M2 ISOL SHRA   | D1             | O             
+34     | Niederrheinische Bucht      | O              | D1             | O             
+35     | Bergisches Land             | M2             | D1             | O             
+36     | Sauerland                   | X ISOL SHRA    | M2             | O             
+37     | Eifel                       | M2 ISOL RADZ   | D1             | O ISOL SHRA   
+38     | Neuwieder Becken            | D1 ISOL RADZ   | O              | O             
+39     | Westerwald                  | X ISOL RADZ    | M2             | O             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+122 
+FBEU40 EDZE 160600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 16.09.2026, 06.00 UTC bis 17.09.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Die Kaltfront eines Tiefs bei Norwegen zieht zu Berichtsbeginn auch 
+aus dem Osten des Bereichs ab. Dahinter fließt mit westlicher bis 
+nordwestlicher Strömung labile und deutlich kühlere Meeresluft als 
+zuletzt ein. Erst in der Nacht zum Donnerstag stabilisiert sich die 
+Luftmasse von Südwesten. 
+
+Wettergeschehen: 
+Zu Berichtsbeginn vom Teutoburger Wald bis ins Sauerland noch 
+Regenschauer, meist leicht, aus ISOL TCU/CB; Gewitter nur noch gering 
+wahrscheinlich, Tops in FL200-240. Über der Südosthälfte noch BKN 
+ST/SC/AS mit stark schwankenden Untergrenzen in 400-1200 FT AGL, im 
+östlichen Bergland teils aufliegend, Obergrenzen in FL130-150 mit 
+absinkender Tendenz. In der Nordwesthälfte wechselnde 
+Bewölkungsverhältnisse: teils größere Wolkenlücken, teils SCT/BKN LYR 
+SC/AC in 4000-5000 FT AMSL, Obergrenzen FL060-070. In 
+Auflockerungszonen örtlich flache Dunst- oder Nebelfelder, rasch 
+auflösend. 
+Im gesamten Bereich noch CI-Felder oberhalb FL245. 
+Im Laufe des Morgens auch im Südosten ausschichtende Bewölkung 
+
+Im Laufe des Vormittags Übergang in BKN LYR CU/SC mit Untergrenzen in 
+2000-3500 FT AMSL und Tops in FL080-100. Ab dem Mittag erste Schauer 
+durch ISOL EMBD TCU mit Tops bis FL200 nicht ausgeschlossen. 
+
+Am Mittag und Nachmittag zunehmende Schaueraktivität und im 
+Nordwesten OCNL, von der Eifel bis zum Westerwald allenfalls ISOL 
+Schauer durch TCU mit Tops bis FL200. In der Nordhälfte einzelne, 
+kurze Gewitter durch ISOL CB mit Tops bis FL280 wahrscheinlich. 
+CU-Basis abseits von Schauern leicht ansteigend bis auf 4000 FT AMSL, 
+Obergrenzen in FL120-140. 
+
+Am Abend sowie in der ersten Nachthälfte zum Donnerstag zögerliches 
+Abklingen letzter Schauer und von Westen ausschichtende, westlich des 
+Rheins teils auflockernde Bewölkung. Zunächst im Bergland 
+gebietsweise ausbildender BKN ST in 200-600 FT AGL, teils auch 
+aufliegend. Im weiteren Verlauf der Nacht auch im Flachland im Norden 
+und Osten vereinzelt BKN ST in 200-800 FT AGL möglich. Westlich des 
+Rheins örtlich Bildung von Dunst oder Nebel. 
+
+Donnerstagfrüh im Nordwesten aufziehende BKN LYR SC/AC-Bewölkung mit 
+Untergrenzen in 3000-5000 FT AMSL und Obergrenzen um FL100. Darüber 
+noch BKN CI oberhalb FL245. Dort einzelne schwache Schauer aus ISOL 
+TCU mit Tops bis FL110 nicht ausgeschlossen, sonst verbreitet 
+niederschlagsfrei. 
+
+Sichtweite: 
+10-25 km, in vereinzelten Schauern/Gewittern noch 3-8 km. Bei 
+aufliegender Bewölkung im Bergland unter 1 km. Im Norden und 
+Nordwesten heute Morgen vereinzelt Dunst bei 1-5 km oder Nebel unter 
+1 km nicht ausgeschlossen. 
+Ab dem Vormittag verbreitet Besserung auf 20-50 km, in Schauern und 
+Gewittern weiterhin 3-8 km. 
+In der Nacht zum Donnerstag Rückgang auf 15-25 km, unter Stratus 
+sowie bei Dunst vereinzelt 2-5 km, bei aufliegender Bewölkung unter 1 
+km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 270/05KT  16C | 260/10KT  14C | 
+1000FT | 270/05KT  14C | 280/15KT  13C | 
+1500FT | 280/10KT  13C | 280/15KT  11C | 
+2000FT | 280/10KT  12C | 280/15KT  11C | 
+3000FT | 290/15KT  10C | 280/15KT  08C | 
+5000FT | 280/20KT  07C | 290/15KT  05C | 
+FL100  | 260/20KT M03C | 280/20KT M04C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 280/05KT  16C | 270/05KT  13C | 
+1500FT | 280/05KT  14C | 280/10KT  11C | 
+2000FT | 280/05KT  13C | 290/15KT  11C | 
+3000FT | 310/10KT  11C | 290/15KT  08C | 
+5000FT | 300/15KT  07C | 290/20KT  06C | 
+FL100  | 270/25KT M01C | 280/20KT M04C | 
+
+Turbulenz: 
+In und in der Umgebung von TCU/CB mäßig bis stark, sonst nicht 
+signifikant. 
+
+Vereisung: 
+In TCU/CB generell mäßig bis stark. 
+Sonst meist nicht signifikant. 
+
+Nullgradgrenze: 
+Zwischen FL085 im Nordwesten und FL105 im Südosten. Bis zum Mittag 
+verbreitet auf FL080-085 sinkend. In der Nacht zum Donnerstag 
+FL075-080. 
+
+Inversionen: 
+Vorübergehend schwache Absinkinversion in FL070-100, im 
+Vormittagsverlauf von Nordwesten auflösend. In der Nacht zum 
+Donnerstag gebietsweise Bodeninversion unterhalb 1500 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    04.35 | 05.09 | 17.45 | 18.17 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/Wg 
+
+
+
+=== ENDE DWD-DATEN ===
