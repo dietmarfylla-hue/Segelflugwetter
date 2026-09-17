@@ -1,0 +1,105 @@
+=== DWD 3-TAGES-PROGNOSE NORD ===
+
+=== FLUGWETTER / SEGELFLUG ===
+
+--- VORHERSAGE ---
+
+3-Tage-Prognose für Sichtflug und Luftsport
+
+für
+Donnerstag, den 17.09.2026
+bis
+Samstag, den 19.09.2026
+
+herausgegeben von der Luftfahrtberatungszentrale Hamburg
+
+am 16.09.2026 um 13.00 Uhr UTC
+
+--- WETTERLAGE DEUTSCHLAND ---
+
+DONNERSTAG, 17.09.2026:
+Der Nordwesten Deutschlands steht unter
+schwachem Tiefdruckeinfluss, während der Rest des Landes sich unter
+Hochdruckeinfluss befindet. Im östlichen Alpenraum schleift am Morgen noch eine
+Kaltfront, die im Vormittagsverlauf allerdings abzieht. Mit der von westlich
+auf südwestlich drehenden Strömung fließt in den Süden und Osten des Landes
+etwas wärmere und eher trockene Luft ein. Im Tagesverlauf verstärkt sich für
+den Norden Tiefdruckeinfluss. Am Nachmittag erreicht die teilokklodierte Front
+eines Tiefs nördlich von Großbritannien den Nordwesten mit feuchter und teils
+labiler Luft. Bis zum Abend erreicht sie in etwa die Linie Lübeck-Niederrhein.
+FREITAG, 18.09.2026:
+Am Morgen verläuft die nun deutlich abgeschwächte Okklusionsfront vom Vortag
+etwa entlang einer Linie Berlin-Saarbrücken und zieht unter Abschwächung bis
+zum Abend nach Südosten ab. Unter einer teils frischen westlichen Strömung baut
+sich rückseitig dieser Front Hochdruckeinfluss unter einer kühleren und eher
+trockenen Luftmasse auf. Ausgenommen bleibt der Alpenrand, der von einem Tief
+über Italien mit Feuchte versorgt wird. Im äußersten Norden verbleibt ganztags
+zudem schwacher Tiefdruckeinfluss mit einer flach labilen Luftmasse.
+SAMSTAG, 19.09.2026:
+Das Wetter zeigt sich in einer
+Zweiteilung. Die Südosthälfte liegt, ausgehend von der Biskaya, unter schwachem
+Hochdruckeinfluss in einer stabilen und zunächst eher trocknen Luft.
+Ausgenommen die Morgenstunden, die von einer feuchten Grundschicht geprägt
+sind. Für die Nordwesthälfte ist Tiefdruckeinfluss wetterbestimmend. Ein Frontensystem
+eines neuen umfangsreichen Tiefdrucksystems über dem östlichen Atlantik führt
+feuchte, eher milde und labile Luft immer wieder heran. Die Front kommt durch
+das weiter aufwölbende Hochdruckgebiet kaum südlich voran, sodass nur feuchte
+Luft in den mittelhohen Schichten in den Süden vorankommt.
+
+Vorhersage für den Bereich Nord
+(GAFOR-Gebiete 00 bis 23 und 31 bis 36)
+
+--- SICHTFLUGWETTER ---
+
+DONNERSTAG, 17.09.2026 zeigt sich im gesamten Norden SCT/BKN ST, wobei dessen Untergrenzen zwischen 300 und 1200 FT AGL liegen. Darüber liegt im Westen SC mit Untergrenzen zwisch 5000 FT AMSL und FL080. Über der Deutschen Bucht zeigt sich verbreitet SCT/BKN CU/AC/AS/CI. Lokal kommt es in dieser Bewölkung zu ISOL EMDB TCU, deren Tops FL120 erreichen. Diese führen zu Schauern. Am Vormittag geht die ST/SC-Bewölkung in CU über, die Untergrenzen befinden sich dabei dann um 2000 FT AMSL. Auch im Osten entsteht dabei SCT/BKN CU. Gleichzeitig zieht darüber von Westen her SCT/BKN CU/AC/AS/CI auf, ab dem Mittag tritt diese Bewölkung dann verbreitet in Schleswig-Holstein und Niedersachsen auf. Zu Schauern kommt es zunächst allerdings weiterhin nur über der Nordsee und in Nordfriesland. Im Verlauf des Nachmittags dehnt sich diese Bewölkung auf den Raum westlich der Linie Rostock-Köln aus, zum Abend regnet es dabei nordwestlich der Linie Münster-Kiel. Über der Nordsee und in Küstenregionen kann dabei die Wolkenuntergrenze auf 800-1500 FT AMSL absinken. Außerhalb dieser Region überwiegt hingegen SCT/BKN CU, wobei dieser Untergrenzen um 5000 FT AMSL aufweist. Darüber zeigt sich zumeist bereits SCT/BKN AS/CI oberhalb FL120. Bis zum Abend löst sich die Quellbewölkung im Südosten auf.
+
+Die Sichtweiten liegen zwischen 20 und 60 km, im Dunst 2-5 km, lokal im Nebel unter 1 km. Im Niederschlag je nach Art und Intensität 3-8 km.
+
+Am FREITAG, 18.09.2026 erstreckt sich zum Tagesbeginn ein Regenband von der Uckermark über das Thüringer Becken bis zur Eifel, damit einhergehend zeigt sich BKN/OVC SC/AC mit Untergrenzen um 4000 FT AMSL. Lokal kann diese bei schauerartiger Verstärkung auf 2500 FT AMSL absinken. Bis zum Mittag zieht dieser Niederschlag Richtung Südosten ab.
+
+Rückseitig haben sich über Nacht gebietsweise BKN/OVC ST/SC-Felder mit Untergrenzen zwischen 400 und 800 FT AGL ausgebildet. Der Schwerpunkt der tiefen Bewölkung erstreckt sich vom Münsterland über den Raum Bremen und die Lüneburger Heide bis zur Lübecker Bucht. Lokal kann die Bewölkung als Dunst oder Nebel aufliegen. In den Vormittagsstunden hebt die Bewölkung an und löst sich teilweise auf.
+
+Über der Nordsee und an der Nordseeküste kommt es in den Morgenstunden verbreitet zu leichten bis mäßigen Schauern, welche zeit- und gebietsweise einen erhöhten Sprühregenanteil aufweisen können. Die Untergrenzen der ISOL TCU liegen zwischen 1000 und 1500 FT AMSL. Einzelne gewittrige Entwicklungen sind eher unwahrscheinlich, können jedoch nicht ausgeschlossen werden. Im Vormittagsverlauf lässt die Schaueraktivität nach und die Untergrenzen heben an, auf 2500-3000 FT AMSL.
+
+Im weiteren Tagesverlauf zeigen sich im gesamten Gebiet SCT/BKN CU/SC mit Untergrenzen zwischen 2000 und 4000 FT AMSL. Lokal können daraus ISOL TCUs entstehen, die kurzzeitige leichte bis mäßige Schauer bringen können. Zum Abend löst sich die Quellbewölkung verbreitet auf.
+
+Die Sichtweiten liegen bei meist 30-60 km. Im Niederschlag je nach Art und Intensität 3-8 km, bei erhöhtem Sprühregenanteil teils reduziert bis auf 2 km. Im Dunst 2-5 km, im Nebel unter 1 km.
+
+Am SAMSTAG, 19.09.2026 ist es südlich einer Linie Usedom  Harz  Eifel teils wolkenfrei, teils zeigt sich SCT/BKN AC mit Untergrenzen um FL100-115. Nordwestlich der Linie zeigt sich BKN/OVC SC/AC mit Untergrenzen in 1500-2500. Insbesondere über der Nordsee und in Ostfriesland kann daraus leichter bis mäßiger Regen fallen. Im kräftigerem Niederschlag können sich unterhalb der Bewölkung lokal ST-Felder um 1000 FT bilden. Bis zum Mittag verlagert sich der Niederschlagsschwerpunkt weiter nach Osten und erreicht etwa eine Linie Lübecker Bucht  Fläming.
+
+Vom Oderbruch bis zum Thüringer Wald, sowie südöstlich der Linie bleibt es weiterhin wolkenfrei, oder es zeigen sich FEW/SCT CU um 4000 FT AMSL.
+
+Bis zum Abend zeigt sich im gesamten Vorhersagegebiet SCT/BKN SC/AC in 1000-2500 FT AMSL. Lokal können die Untergrenzen zeitweise auf 500-800 FT AGL durch anhaltenden mäßigen Regen absinken. Die größte Niederschlagswahrscheinlichkeit besteht am späten Nachmittag und am Abend in Schleswig-Holstein und Niedersachsen.
+
+Die Sichtweite beträgt zwischen 30 und 60 km. Im Niederschlag je nach Intensität und Art zwischen 3 und 8 km.
+
+--- SEGELFLUGWETTER ---
+
+DONNERSTAG, 17.09.2026 zumeist mäßige Wolkenthermik. Die maximale Wolkenbasis
+
+befindet sich zwischen 500 m an der Küste und 1500 m im Sauerland.
+
+FREITAG, 18.09.2026 im Vormittagsverlauf verbreitet keine
+nutzbare Thermik, durch
+Abschirmung. Am Nachmittag mäßige, lokal gute Wolkenthermik. Die Wolkenbasis
+liegt zwischen 1000 und 1500 m.
+
+SAMSTAG, 19.09.2026 geringe bis nicht nutzbare Thermik durch
+Abschirmung.
+
+--- NULLGRADGRENZE ---
+
+DONNERSTAG, 17.09.2026 um FL075. Zum Abend von Westen her auf FL085-095
+
+ansteigend.
+
+FREITAG, 18.09.2026 zu Tagesbeginn zwischen FL075 und FL095, mit
+den höheren Werten im Südosten. Am Nachmittag und Abend im Norden und Osten um
+FL080, Richtung Südwesten ansteigend auf FL095
+.
+
+SAMSTAG, 19.09.2026 im Nordwesten um FL105, im Südwesten bis
+FL115. Im Osten zwischen FL090 und FL100, mit den höheren Werten im Süden. Im
+Tagesverlauf einheitlich um FL110.
+
+=== ENDE DWD 3-TAGES-PROGNOSE NORD ===
