@@ -1,0 +1,120 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 22.09.2026
+
+Gebiet | Name                        | 03-05 UTC      | 05-07 UTC      | 07-09 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | O ISOL FG      | O ISOL FG      | O             
+32     | Münsterland                 | O ISOL FG      | O ISOL FG      | O             
+33     | Ruhrgebiet und Ostwestfalen | O ISOL FG      | D1 ISOL FG     | D1            
+34     | Niederrheinische Bucht      | O ISOL FG      | D4 ISOL FG     | O             
+35     | Bergisches Land             | D4 ISOL FG     | M8 ISOL FG     | M2            
+36     | Sauerland                   | D1 ISOL FG     | M5 ISOL FG     | M2            
+37     | Eifel                       | O ISOL FG      | D1 ISOL FG     | D1            
+38     | Neuwieder Becken            | D1 ISOL FG     | M5 ISOL FG     | O             
+39     | Westerwald                  | D1 ISOL FG     | M5 ISOL FG     | D1            
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+151 
+FBEU40 EDZE 220300 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 22.09.2026, 03.00 UTC bis 23.09.2026, 00.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Ein Hochdruckgebiet verschiebt seinen Schwerpunkt vom Ärmelkanal nach 
+Süddeutschland und führt bei einer nördlichen Strömung mäßig warme 
+Meeresluft heran. Bei bodennah geringen Luftdruckgegensätzen hat sich 
+örtlich eine feuchte Grundschicht gebildet, die am Vormittag anhebt. 
+
+
+Wettergeschehen: 
+Neben wolkenlosen Bereichen zeigen sich örtlich SCT/BKN SC zwischen 
+2000 und 4000 FT AMSL, darüber aus Norden verdichtende BKN 
+SC/AC-Schicht ab FL065-080 mit Obergrenzen FL100-120. Im Bergland 
+breitet sich bis zum Morgen häufig ST unter 500 FT AGL aus, in den 
+Tälern und auch im Tiefland vereinzelt Dunst- und Nebelfelder. 
+
+Am Vormittag gehen die ST- und Nebelfelder zögerlich in SCT/BKN CU 
+über. Anfangsbasis oft unter 1000 FT AGL, bis zum Mittag auf 
+2000-3000 FT AMSL ansteigend. Auch im restlichen Gebiet bilden sich 
+bis zum Mittag CU mit ähnlichen Bedingungen. Darüber hauptsächlich im 
+Westen geschichtete SC/AC-Schichten ab 5000 FT AMSL mit Obergrenzen 
+um FL090. 
+
+Am Nachmittag breiten sich die CU inversionsbedingt gebietsweise zu 
+BKN CU/SC mit Untergrenzen 3500-4000 FT AMSL aus, Schwerpunkt 
+voraussichtlich östlich des Rheins. Im Westen tendenziell weniger CU 
+und nur noch im Nordwesten SC-Felder um FL060. 
+
+In der Nacht zum Mittwoch lockern die SC-Felder verbreitet auf und es 
+wird wolkenlos. Lediglich im äußersten Nordwesten ist eine dünne 
+SCT/BKN SC-Schicht zwischen 3000 und 4500 FT AMSL möglich. Später im 
+Verlauf bilden sich in den Mittelgebirgstälern und vereinzelt im 
+Tiefland Dunst- und Nebelfelder. 
+
+Sichtweite: 
+15-30 km, unter ST oder bei Dunst teilweise 2-5 km, bei Nebel und 
+aufliegenden Wolken unter 500 m. Am Vormittag auf 25-50 km bessernd. 
+Kommende Nacht erneut Rückgang auf 15-30 km, im Norden sowie im 
+Bergland erneut flache Dunst- und Nebelschwaden möglich. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     06 UTC    |     18 UTC    | 
+ 500FT | 300/05KT  12C | 010/05KT  16C | 
+1000FT | 360/05KT  12C | 030/05KT  15C | 
+1500FT | 350/05KT  10C | 040/05KT  13C | 
+2000FT | 350/05KT  09C | 040/05KT  12C | 
+3000FT | 350/10KT  08C | 050/05KT  09C | 
+5000FT | 350/15KT  08C | 010/10KT  10C | 
+FL100  | 350/25KT  04C | 020/15KT  03C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     06 UTC    |     18 UTC    | 
+1000FT | 330/05KT  11C | 040/05KT  15C | 
+1500FT | 350/05KT  10C | 040/05KT  13C | 
+2000FT | 360/05KT  09C | 040/05KT  12C | 
+3000FT | 350/05KT  07C | 040/05KT  09C | 
+5000FT | 360/15KT  08C | 020/05KT  09C | 
+FL100  | 360/30KT  05C | 020/15KT  04C | 
+
+Turbulenz: 
+Nicht signifikant. 
+
+Vereisung: 
+Nicht signifikant. 
+
+Nullgradgrenze: 
+FL110-115, vormittags im Westen auf FL120-125 steigend. In der Nacht 
+zum Dienstag im Osten weiterhin um FL110, im Westen FL120-125, an der 
+Mosel teils bis FL130. 
+
+Inversionen: 
+Bodeninversion unterhalb 1000 FT AGL sowie Absinkinversion bei 
+3000-5000 FT AMSL. Am Vormittag auflösende Bodeninversion, die 
+Absinkinversion hält sich tagsüber bei 3500-5500 FT AMSL, besonders 
+im Westen darüber weitere schwache Inversionen zwischen FL060 und 
+FL090. Kommende Nacht erneut bildende Bodeninversion, die 
+Absinkinversion kann um 500-1000 FT AMSL absinken. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    04.44 | 05.19 | 17.32 | 18.04 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 05.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/JK 
+
+
+
+=== ENDE DWD-DATEN ===
