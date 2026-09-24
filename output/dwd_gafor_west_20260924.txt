@@ -1,0 +1,107 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 24.09.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | O              | O              | O             
+32     | Münsterland                 | O              | O              | O             
+33     | Ruhrgebiet und Ostwestfalen | D1             | O              | O             
+34     | Niederrheinische Bucht      | D1             | O              | O             
+35     | Bergisches Land             | M2             | D1             | O             
+36     | Sauerland                   | X ISOL FG      | M2             | D1            
+37     | Eifel                       | M2             | D1             | O             
+38     | Neuwieder Becken            | D1             | O              | O             
+39     | Westerwald                  | M2             | M2             | D1            
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+543 
+FBEU40 EDZE 240600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 24.09.2026, 06.00 UTC bis 25.09.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Unter zunehmendem Hochdruckeinfluss bleibt in Westdeutschland stabile 
+Luft wetterbestimmend. In den Bergregionen hält sich anfangs 
+gebietsweise eine feuchte Grundschicht, die im Laufe des Vormittags 
+abtrocknet und sich in der Nacht zum Freitag erneut bildet. 
+
+Wettergeschehen: 
+Südlich vom Münsterland verbreitet BKN SC/AC mit Untergrenzen 
+1500-2500 FT AMSL und Obergrenzen FL090-130. Im Bergland gebietsweise 
+ST in 300-800 FT AGL, die höchsten Lagen geraten in Wolken. Im 
+Münsterland deutliche Auflockerung, nur noch vereinzelt sind dünne 
+SC-Felder zwischen 2500 und 4000 FT AMSL möglich. 
+
+Am Vormittag verbreitete CU-Bildung mit SCT/BKN CU mit Anfangsbasis 
+in 1500-2500 FT AMSL und Tops in 4000-5000 FT AMSL, auch Übergang 
+vorhandener SC-Felder in CU sowie des ST im Bergland. Darüber SCT/BKN 
+CI/CS oberhalb FL200. 
+Am Mittag und Nachmittag Anstieg des CU auf 4000-5000 FT AMSL mit 
+Tops um FL060. 
+Am Abend Auslösung der CU-Bewölkung. In der Nacht zum Freitag SCT/BKN 
+CI oberhalb von FL245. Gebietsweise Bildung von flachen Nebelfeldern. 
+In gesamten Zeitraum niederschlagsfrei. 
+
+Sichtweite: 
+30-60 km. Im höheren Bergland mit aufliegender Bewölkung unter 1 km. 
+Bei Auflockerungen in der Nacht zum Freitag vereinzelt flache Dunst- 
+oder Nebelfelder. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 330/10KT  13C | 030/05KT  15C | 
+1000FT | 330/10KT  12C | 040/05KT  14C | 
+1500FT | 330/10KT  10C | 030/05KT  12C | 
+2000FT | 340/15KT  09C | 360/05KT  11C | 
+3000FT | 330/15KT  07C | 290/05KT  08C | 
+5000FT | 330/15KT  04C | 340/05KT  08C | 
+FL100  | 330/40KT M00C | 350/20KT  03C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 320/05KT  12C | 360/05KT  13C | 
+1500FT | 320/10KT  10C | 340/05KT  12C | 
+2000FT | 320/10KT  09C | 350/05KT  12C | 
+3000FT | 340/15KT  07C | 340/05KT  08C | 
+5000FT | 330/20KT  03C | 340/10KT  07C | 
+FL100  | 330/40KT  00C | 340/20KT  03C | 
+
+Turbulenz: 
+Nicht signifikant. 
+
+Vereisung: 
+Nicht signifikant. 
+
+Nullgradgrenze: 
+Anfangs FL070 im Osten und FL110 im Südwesten. Bis zum Nachmittag 
+Anstieg auf FL100 im Osten und FL115 im Südwesten. In der Nacht zum 
+Freitag verbreitet zwischen FL120 und FL130. 
+
+Inversionen: 
+Tagsüber Ausbildung der Absinkinversion um FL060, am Abend auf 
+3500-4000 FT AMSL absinkend und später abschwächend. In der Nacht zum 
+Freitag Bodeninversion unterhalb von 1000 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    04.48 | 05.22 | 17.27 | 17.58 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/Oh 
+
+
+
+=== ENDE DWD-DATEN ===
