@@ -1,0 +1,114 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 26.09.2026
+
+Gebiet | Name                        | 09-11 UTC      | 11-13 UTC      | 13-15 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | C              | C              | C             
+32     | Münsterland                 | C              | C              | C             
+33     | Ruhrgebiet und Ostwestfalen | C              | C              | C             
+34     | Niederrheinische Bucht      | C              | C              | C             
+35     | Bergisches Land             | C              | C              | C             
+36     | Sauerland                   | C              | C              | C             
+37     | Eifel                       | C              | C              | C             
+38     | Neuwieder Becken            | C              | C              | C             
+39     | Westerwald                  | C              | C              | C             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+782 
+FBEU40 EDZE 260600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 26.09.2026, 06.00 UTC bis 27.09.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Hochdruckeinfluss bestimmt das Wetter im Vorhersagebereich. Die Reste 
+einer Kaltfront von einem Randtief über Skandinavien führt in 
+mittelhohen und hohen Schichten feuchtere Luft heran. 
+
+Wettergeschehen: 
+Zu Beginn im Nordwesten und Westen SCT/BKN SC/AC ab zwischen FL070 
+und FL110. Darüber BKN CI/CS oberhalb FL245. Im Vormittagsverlauf 
+verlagern sich die SC/AC-Felder langsam südostwärts, gegen Mittag 
+zieht aus Nordwesten kompaktere BKN/OVC AS/CS-Bewölkung ab FL160-200 
+auf. 
+
+Am Nachmittag liegt der Streifen des kompakten AS/CS quer über NRW, 
+Untergrenzen sinken noch minimal auf FL140-160 ab, Obergrenzen 
+oberhalb FL245. Im Norden und Süden setzt diese Schicht erst oberhalb 
+FL210 an, darunter allerdings vereinzelt FEW/SCT CU/SC zwischen 5000 
+FT AMSL und FL080 möglich. 
+
+Am Abend und in der ersten Nachthälfte zum Sonntag ändert sich wenig 
+an der mittelhohen Schicht, darunter sind örtlich dünne SC/AC-Felder 
+zwischen FL060 und FL100 möglich. Nach Mitternacht lockert die 
+Schicht von Nordwesten her zunehmend auf bzw. wird dünner. Dann sind 
+im Grenzbereich zu den Niederlanden sowie im Münsterland stellenweise 
+flache Nebelfelder wahrscheinlich. 
+
+Sichtweite: 
+30-70 km. In der Nacht zum Sonntag Rückgang auf 20 bis 40 km, 
+hauptsächlich im Nordwesten Bildung von flachen Nebelfeldern mit 
+Sichten unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 190/05KT  16C | 050/10KT  18C | 
+1000FT | 210/10KT  18C | 070/10KT  19C | 
+1500FT | 250/10KT  17C | 110/05KT  19C | 
+2000FT | 260/10KT  16C | 120/05KT  18C | 
+3000FT | 250/10KT  15C | 160/10KT  16C | 
+5000FT | 220/15KT  12C | 190/15KT  13C | 
+FL100  | 270/20KT  01C | 210/20KT  01C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 110/05KT  17C | 080/05KT  19C | 
+1500FT | 170/10KT  16C | 130/10KT  19C | 
+2000FT | 190/10KT  17C | 150/15KT  19C | 
+3000FT | 220/10KT  16C | 170/15KT  17C | 
+5000FT | 220/05KT  12C | 190/15KT  14C | 
+FL100  | 280/20KT  01C | 230/15KT  02C | 
+
+Turbulenz: 
+Nicht signifikant. 
+
+Vereisung: 
+Oft nicht signifikant. Teils mäßig in kompakter mittelhoher Bewölkung 
+zwischen FL150 und FL180. 
+
+Nullgradgrenze: 
+Zwischen FL115 im Norden und FL120-130 im Süden, am Vormittag weiter 
+auf um FL095-105 im Nordwesten und FL110-120 im Süden absinkend. 
+Teils auch mehrfach zwischen FL100 und FL115. In der Nacht zunächst 
+allgemein zwischen FL100 und FL115. In der zweiten Nachthälfte im 
+Westen auf FL125 bis FL130 ansteigend. 
+
+Inversionen: 
+Zu Beginn teils markante Bodeninversion unterhalb von 1500 FT AGL. Am 
+Vormittag anhebend auf 2000-4000 FT AMSL und nachfolgend auflösend. 
+Darüber schwache Absinkinversion zwischen FL070 und FL100, 
+nachfolgend über FL100 ansteigend. In der kommenden Nacht erneut 
+Bodeninversion unterhalb von 2000 FT AMSL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    04.51 | 05.25 | 17.22 | 17.55 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/JK 
+
+
+
+=== ENDE DWD-DATEN ===
