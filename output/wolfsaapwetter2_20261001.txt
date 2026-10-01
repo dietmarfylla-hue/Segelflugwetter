@@ -1,0 +1,202 @@
+=== WOLFSAAP WETTER 2 ===
+Zusätzliche Wetterdaten für die Segelflug-Wetteranalyse
+
+Standort: Düsseldorf-Wolfsaap
+Code: Dues-W
+Verein: SFG
+Angefragte Koordinaten: 51.266111 N, 6.853333 E
+API-Gitterkoordinaten: 51.260002 N, 6.860000 E
+Geländehöhe API: 108 m AMSL
+Datenabruf: 01.10.2026 05:47:07 Europe/Berlin
+Modell: DWD ICON Seamless
+Datenzugriff: Open-Meteo Forecast API
+Vorhersagezeitraum: 3 Tage
+Zeitauflösung: stündlich
+Zeitangaben: Lokalzeit Europe/Berlin
+Windgeschwindigkeit: km/h
+Windrichtung: Grad meteorologisch / Kompassrichtung
+Luftdruck: hPa MSL
+Regen und Schauer: mm
+Schneefall: cm
+
+--- Tagesübersicht ---
+
+Donnerstag, 01.10.2026: Wettercode 61 (Leichter Regen)
+Freitag, 02.10.2026: Wettercode 45 (Nebel)
+Samstag, 03.10.2026: Wettercode 3 (Bedeckt)
+
+======================================================================
+DONNERSTAG, 01.10.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 19.4 °C um 02:00
+Minimum Temperatur: 16.1 °C um 23:00
+Maximum Wind 10 m: 11.6 km/h um 06:00
+Maximum Böen 10 m: 22.0 km/h um 06:00
+Maximum Böendifferenz: 13.3 km/h um 15:00
+Maximum Wind 180 m: 35.7 km/h um 06:00
+Luftdruck MSL: 1018.2 bis 1027.6 hPa
+Regen Summe: 8.20 mm
+Schauer Summe: 0.20 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+02:00 |   19.4 |  20.7 |     1018.4 | 141°SO/5       |    7 |     2 | 214°SW/10       |  0.50 |    0.00 |   0.00 | 61 Leichter Regen
+03:00 |   19.0 |  20.4 |     1018.2 | 128°SO/6       |   11 |     5 | 168°SSO/16      |  0.20 |    0.00 |   0.00 | 61 Leichter Regen
+04:00 |   19.1 |  20.3 |     1018.2 | 150°SSO/7      |   13 |     5 | 168°SSO/26      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+05:00 |   19.1 |  19.8 |     1018.3 | 152°SSO/11     |   20 |     9 | 174°S/33        |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+06:00 |   18.9 |  19.7 |     1018.8 | 164°SSO/12     |   22 |    10 | 189°S/36        |  0.10 |    0.10 |   0.00 | 61 Leichter Regen
+07:00 |   18.5 |  19.5 |     1019.3 | 170°S/11       |   21 |    10 | 188°S/30        |  0.70 |    0.00 |   0.00 | 61 Leichter Regen
+08:00 |   18.0 |  19.2 |     1019.8 | 170°S/10       |   22 |    12 | 187°S/27        |  2.10 |    0.00 |   0.00 | 61 Leichter Regen
+09:00 |   17.9 |  19.2 |     1020.3 | 164°SSO/9      |   19 |    10 | 196°SSW/21      |  1.60 |    0.10 |   0.00 | 61 Leichter Regen
+10:00 |   18.1 |  19.5 |     1021.1 | 178°S/9        |   19 |    10 | 202°SSW/22      |  0.90 |    0.00 |   0.00 | 61 Leichter Regen
+11:00 |   18.9 |  20.3 |     1021.7 | 184°S/10       |   19 |     9 | 206°SSW/18      |  0.00 |    0.00 |   0.00 | 61 Leichter Regen
+12:00 |   19.1 |  20.7 |     1022.2 | 227°SW/8       |   19 |    11 | 236°SW/19       |  0.00 |    0.00 |   0.00 | 61 Leichter Regen
+13:00 |   18.8 |  19.7 |     1022.6 | 268°W/9        |   20 |    11 | 269°W/18        |  0.10 |    0.00 |   0.00 | 61 Leichter Regen
+14:00 |   18.5 |  19.1 |     1023.1 | 268°W/10       |   20 |     9 | 272°W/19        |  0.00 |    0.00 |   0.00 | 61 Leichter Regen
+15:00 |   17.6 |  18.8 |     1023.5 | 273°W/7        |   20 |    13 | 278°W/15        |  1.40 |    0.00 |   0.00 | 61 Leichter Regen
+16:00 |   18.1 |  19.3 |     1023.6 | 291°WNW/7      |   15 |     8 | 289°WNW/16      |  0.50 |    0.00 |   0.00 | 61 Leichter Regen
+17:00 |   18.0 |  19.5 |     1024.0 | 279°W/4        |   13 |     9 | 290°WNW/13      |  0.10 |    0.00 |   0.00 | 61 Leichter Regen
+18:00 |   18.2 |  19.9 |     1024.7 | 276°W/3        |    7 |     4 | 290°WNW/12      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+19:00 |   17.9 |  19.5 |     1025.5 | 256°WSW/3      |    6 |     3 | 279°W/12        |  0.00 |    0.00 |   0.00 | 61 Leichter Regen
+20:00 |   17.5 |  19.1 |     1025.9 | 186°S/3        |    5 |     2 | 264°W/10        |  0.00 |    0.00 |   0.00 | 61 Leichter Regen
+21:00 |   17.3 |  18.9 |     1026.4 | 270°W/3        |    5 |     2 | 286°WNW/13      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+22:00 |   16.7 |  17.9 |     1027.1 | 294°WNW/4      |    8 |     4 | 319°NW/18       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+23:00 |   16.1 |  16.7 |     1027.6 | 328°NNW/5      |    9 |     4 | 331°NNW/21      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+
+======================================================================
+FREITAG, 02.10.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 19.0 °C um 16:00
+Minimum Temperatur: 11.1 °C um 08:00
+Maximum Wind 10 m: 5.5 km/h um 16:00
+Maximum Böen 10 m: 10.1 km/h um 17:00
+Maximum Böendifferenz: 7.2 km/h um 18:00
+Maximum Wind 180 m: 20.9 km/h um 00:00
+Luftdruck MSL: 1028.2 bis 1033.2 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   15.6 |  16.0 |     1028.2 | 325°NW/4       |    9 |     5 | 324°NW/21       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+01:00 |   15.0 |  15.3 |     1028.9 | 301°WNW/4      |    8 |     4 | 314°NW/20       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+02:00 |   14.4 |  14.7 |     1029.3 | 310°NW/3       |    8 |     5 | 311°NW/15       |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+03:00 |   13.7 |  13.8 |     1029.7 | 286°WNW/3      |    4 |     2 | 300°WNW/12      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+04:00 |   12.8 |  12.9 |     1030.1 | 288°WNW/2      |    4 |     1 | 294°WNW/13      |  0.00 |    0.00 |   0.00 | 0 Klar
+05:00 |   12.2 |  12.3 |     1030.4 | 279°W/2        |    3 |     1 | 287°WNW/14      |  0.00 |    0.00 |   0.00 | 0 Klar
+06:00 |   11.7 |  11.9 |     1030.8 | 252°WSW/1      |    3 |     2 | 281°WNW/13      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+07:00 |   11.3 |  11.4 |     1031.3 | 207°SSW/2      |    3 |     1 | 278°W/12        |  0.00 |    0.00 |   0.00 | 45 Nebel
+08:00 |   11.1 |  11.2 |     1031.7 | 162°SSO/1      |    2 |     1 | 281°WNW/11      |  0.00 |    0.00 |   0.00 | 45 Nebel
+09:00 |   11.8 |  11.9 |     1032.4 | 140°SO/3       |    5 |     2 | 274°W/9         |  0.00 |    0.00 |   0.00 | 45 Nebel
+10:00 |   13.5 |  14.1 |     1032.9 | 153°SSO/2      |    6 |     4 | 268°W/8         |  0.00 |    0.00 |   0.00 | 45 Nebel
+11:00 |   15.2 |  15.7 |     1033.2 | 220°SW/3       |    7 |     4 | 229°SW/3        |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+12:00 |   16.5 |  17.0 |     1033.0 | 241°WSW/4      |    9 |     5 | 241°WSW/5       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+13:00 |   17.7 |  18.1 |     1032.6 | 249°WSW/3      |    9 |     6 | 248°WSW/4       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+14:00 |   18.4 |  18.8 |     1032.3 | 270°W/2        |    9 |     7 | 270°W/3         |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+15:00 |   18.9 |  19.0 |     1031.9 | 45°NO/2        |    5 |     3 | 27°NNO/2        |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+16:00 |   19.0 |  18.4 |     1031.7 | 58°ONO/5       |    7 |     1 | 58°ONO/5        |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+17:00 |   18.7 |  18.1 |     1031.5 | 78°ONO/5       |   10 |     5 | 76°ONO/7        |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+18:00 |   18.3 |  18.2 |     1031.3 | 90°O/2         |    9 |     7 | 101°OSO/4       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+19:00 |   16.9 |  16.6 |     1031.2 | 98°O/3         |    3 |     1 | 104°OSO/4       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+20:00 |   15.0 |  14.6 |     1031.2 | 79°ONO/4       |    5 |     1 | 68°ONO/7        |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+21:00 |   13.9 |  13.2 |     1031.2 | 77°ONO/5       |    7 |     2 | 67°ONO/11       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+22:00 |   13.2 |  12.4 |     1031.3 | 82°O/5         |    9 |     3 | 85°O/16         |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+23:00 |   13.0 |  12.3 |     1031.2 | 86°O/5         |    9 |     4 | 104°OSO/18      |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+
+======================================================================
+SAMSTAG, 03.10.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 20.3 °C um 16:00
+Minimum Temperatur: 9.1 °C um 08:00
+Maximum Wind 10 m: 5.0 km/h um 00:00
+Maximum Böen 10 m: 11.2 km/h um 18:00
+Maximum Böendifferenz: 6.8 km/h um 13:00
+Maximum Wind 180 m: 19.1 km/h um 20:00
+Luftdruck MSL: 1028.2 bis 1031.2 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   12.2 |  11.5 |     1031.2 | 98°O/5         |    9 |     4 | 131°SO/15       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+01:00 |   11.1 |  10.4 |     1031.1 | 97°O/4         |    9 |     4 | 153°SSO/14      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+02:00 |   10.5 |   9.7 |     1030.8 | 92°O/4         |    8 |     4 | 157°SSO/13      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+03:00 |   10.1 |   9.3 |     1030.6 | 90°O/4         |    8 |     4 | 166°SSO/12      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+04:00 |   10.1 |   9.2 |     1030.3 | 101°OSO/4      |    7 |     3 | 164°SSO/12      |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+05:00 |    9.8 |   8.8 |     1030.2 | 90°O/4         |    6 |     3 | 155°SSO/12      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+06:00 |    9.3 |   8.3 |     1030.1 | 96°O/4         |    6 |     3 | 154°SSO/12      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+07:00 |    9.1 |   8.1 |     1030.2 | 111°OSO/3      |    6 |     3 | 160°SSO/10      |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+08:00 |    9.1 |   8.0 |     1030.3 | 104°OSO/3      |    5 |     2 | 160°SSO/7       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+09:00 |   10.3 |   9.6 |     1030.4 | 117°OSO/2      |    5 |     2 | 150°SSO/5       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+10:00 |   12.8 |  12.7 |     1030.4 | 198°SSW/1      |    5 |     4 | 144°SO/3        |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+11:00 |   15.0 |  15.1 |     1030.4 | 214°SSW/1      |    6 |     4 | 98°O/3          |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+12:00 |   17.1 |  17.3 |     1030.0 | 233°SW/2       |    7 |     5 | 90°O/1          |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+13:00 |   18.6 |  18.8 |     1029.6 | 256°WSW/1      |    8 |     7 | 270°W/1         |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+14:00 |   19.4 |  19.6 |     1029.2 | 243°WSW/1      |    7 |     6 | 270°W/0         |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+15:00 |   20.0 |  20.0 |     1028.8 | 284°WNW/1      |    6 |     4 | 297°WNW/2       |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+16:00 |   20.3 |  20.1 |     1028.5 | 338°NNW/2      |    7 |     5 | 333°NNW/2       |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+17:00 |   19.9 |  19.3 |     1028.2 | 345°NNW/4      |   10 |     6 | 340°NNW/5       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+18:00 |   19.2 |  18.5 |     1028.3 | 342°NNW/5      |   11 |     7 | 339°NNW/9       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+19:00 |   17.1 |  16.7 |     1028.4 | 338°NNW/4      |   10 |     6 | 340°NNW/15      |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+20:00 |   15.4 |  15.1 |     1028.6 | 5°N/4          |    8 |     4 | 356°N/19        |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+21:00 |   14.4 |  14.1 |     1028.8 | 27°NNO/4       |    8 |     4 | 11°NNO/18       |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+22:00 |   13.4 |  12.9 |     1029.0 | 38°NO/4        |    7 |     3 | 18°NNO/17       |  0.00 |    0.00 |   0.00 | 1 Überwiegend klar
+23:00 |   12.4 |  11.9 |     1029.0 | 49°NO/4        |    7 |     3 | 24°NNO/15       |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+
+======================================================================
+SONNTAG, 04.10.2026
+======================================================================
+
+--- Tageszusammenfassung aus Stundenwerten ---
+
+Maximum Temperatur: 11.5 °C um 00:00
+Minimum Temperatur: 10.6 °C um 01:00
+Maximum Wind 10 m: 4.0 km/h um 00:00
+Maximum Böen 10 m: 7.6 km/h um 00:00
+Maximum Böendifferenz: 4.0 km/h um 01:00
+Maximum Wind 180 m: 11.9 km/h um 00:00
+Luftdruck MSL: 1028.8 bis 1028.8 hPa
+Regen Summe: 0.00 mm
+Schauer Summe: 0.00 mm
+Schneefall Summe: 0.00 cm
+
+--- Stündliche Wetterdaten ---
+
+Zeit  | Temp°C | Gef°C | Druck hPa | Wind10 Ri/kmh | Böen | Böen+ | Wind180 Ri/kmh | Regen | Schauer | Schnee | Wetter
+--------------------------------------------------------------------------------------------------------------------------------------------
+00:00 |   11.5 |  10.9 |     1028.8 | 63°ONO/4       |    8 |     4 | 29°NNO/12       |  0.00 |    0.00 |   0.00 | 2 Teilweise bewölkt
+01:00 |   10.6 |  10.1 |     1028.8 | 27°NNO/3       |    7 |     4 | 13°NNO/9        |  0.00 |    0.00 |   0.00 | 3 Bedeckt
+
+--- Erläuterungen ---
+
+Wind10 = Wind in 10 m über Grund.
+Böen = maximale Windböe in 10 m über Grund.
+Böen+ = Böengeschwindigkeit minus mittlere Windgeschwindigkeit in 10 m.
+Wind180 = Wind in 180 m über Grund.
+Ri = meteorologische Windrichtung; angegeben wird die Richtung, aus der der Wind kommt.
+Druck = auf Meereshöhe reduzierter Luftdruck (MSL).
+Regen = großräumiger Regen.
+Schauer = konvektiver Niederschlag.
+NV = Wert nicht verfügbar.
+
+Hinweis: Diese Daten sind Modellvorhersagen des DWD ICON-Systems über Open-Meteo und ersetzen keine amtlichen Flugwetterinformationen.
+
+=== ENDE WOLFSAAP WETTER 2 ===

@@ -1,0 +1,142 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 01.10.2026
+
+Gebiet | Name                        | 03-05 UTC      | 05-07 UTC      | 07-09 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | O OCNL RA      | X ISOL RA      | M5 ISOL RA    
+32     | Münsterland                 | O ISOL RA      | M2 ISOL RA     | M5 OCNL RA    
+33     | Ruhrgebiet und Ostwestfalen | O ISOL RA      | M2 OCNL RA     | M5 OCNL RA    
+34     | Niederrheinische Bucht      | O OCNL RA      | D1 OCNL RA     | O ISOL RA     
+35     | Bergisches Land             | D1 ISOL RA     | M8 OCNL RA     | X ISOL RA     
+36     | Sauerland                   | C ISOL RA      | D1 ISOL RA     | X OCNL RA     
+37     | Eifel                       | M5 OCNL RA     | X OCNL RA      | X ISOL RA     
+38     | Neuwieder Becken            | C ISOL RA      | O ISOL RA      | D1 ISOL RA    
+39     | Westerwald                  | C ISOL RA      | D1 ISOL RA     | M5 ISOL RA    
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+753 
+FBEU40 EDZE 010300 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 01.10.2026, 03.00 UTC bis 02.10.2026, 00.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Die Kaltfront eines nach Island ziehenden Tiefs greift von Westen her 
+auf das Gebiet über und führt hochreichend sehr feuchte und teils 
+labile Luft heran. Diese Front bewegt sich am Donnerstag nur langsam 
+unter leichter Wellenbildung nach Osten voran. Rückseitig dreht am 
+Abend die Strömung auf westliche Richtungen wobei die Luftmasse vor 
+allem in hohen Schichten abtrocknet, während sich bodennah eine 
+feuchte Grundschicht bildet. 
+
+Wettergeschehen: 
+Verbreitet kompakter OVC SC/AS/CS ab FL060-080 mit Obergrenzen bis 
+über FL245, im Westen darunter auch tieferer BKN SC in 2000-4000 FT 
+ASML. Vereinzelt auch als ST in 1000 FT AMSL, sodass besonders im 
+Bergland die Bewölkung auch aufliegen kann. Gebietsweise Regen mit 
+einzelnen kurzen Pausen, Ausgangs der Nacht sind diese etwa westlich 
+des Rheins durch EMBD TCU/CB mit stark variierenden TOPs zwischen 
+FL260 und FL350 schauerartig verstärkt. Kurze Gewitter sind nicht 
+gänzlich ausgeschlossen. 
+
+Am Donnerstagvormittag tritt in der Westhälfte, besonders im 
+Nordwesten, sowie im Bergland, der BKN ST um 1000 FT AMSL häufiger 
+auf. Hochalgen weiterhin in Wolken. Die schauerartigen Niederschläge 
+betreffen voraussichtlich einen breiten Streifen, der sich vom 
+westlichen Münsterland über Köln Richtung Luxemburg erstreckt. Hier 
+liegen die Untergrenzen oberhalb vom ST um 2000 FT AMSL. Weiterhin 
+sind EMBD CB mit TS nicht ausgeschlossen. Östlich der Front meist 
+noch stratiformer Regen. Bis zum Mittag löst sich der ST rückseitig 
+der Front im Westen/Nordwesten allmählich auf. 
+
+Bis zum späteren Nachmittag erreicht die Kaltfront mit dem teils 
+starken schauerartigen, vereinzelt gewittrigen Regen dann etwa den 
+Bereich Eggegebirge, Westerwald und Saarland. Rückseitig davon 
+schichtet die Bewölkung nur leicht aus. Es kann westlich der Front 
+aus dem weiterhin kompakten Wolkenbereich zwischen FL090 und FL220 - 
+darunter und darüber weitere Schichten ab 1000-1500 FT AMSL in 
+unterschiedlichen Höhen, Berge teils in Wolken - noch leichten Regen 
+geben. 
+
+Am Abend und in der Nacht zum Freitag schichtet die Bewölkung von 
+Westen zunächst über alle Höhen aus. Untergrenzen daher meist 
+zwischen 2000 und 4000 FT AMSL. Zum Ende der ersten Nachthälfte 
+sinken die Obergrenzen etwa westlich des Rheins rasch auf FL110-FL130 
+ab. Östlich hält sich weiterhin die dichtere BKN SC/AS/CS Bewölkung 
+mit Untergrenzen zwischen 1500 und 3500 FT AMSL, die im Bergland 
+weiterhin aufliegt. Daraus weiterhin verbreitet Regen. 
+
+In der zweiten Nachthälfte schichtet die Bewölkung auch nach Osten 
+hin zunehmend aus und die Niederschläge klingen ab. Im Westen bildet 
+sich bei größeren Auflockerungen gebietsweise Dunst und Nebel oder 
+tiefer BKN/OVC ST in 300 bis 1000 FT AGL, vereinzelt hält sich 
+darüber noch SCT LYR SC zwischen 2000 FT AMSL und FL060 
+
+Sichtweite: 
+20-40 km. In der Nacht zum Donnerstag im schauerartigen Regen je nach 
+Intensität 4-8 km, bei einem Volltreffer mit Starkregen um 2 km. In 
+der Nacht zum Freitag vor allem im Westen Dunst zwischen 1 und 5 km 
+oder Nebel unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     06 UTC    |     18 UTC    | 
+ 500FT | 160/15KT  18C | 270/10KT  17C | 
+1000FT | 190/20KT  18C | 280/10KT  16C | 
+1500FT | 220/20KT  17C | 290/15KT  14C | 
+2000FT | 230/20KT  17C | 300/15KT  13C | 
+3000FT | 240/20KT  15C | 300/15KT  11C | 
+5000FT | 230/20KT  12C | 290/15KT  09C | 
+FL100  | 230/20KT  03C | 220/20KT  00C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     06 UTC    |     18 UTC    | 
+1000FT | 160/05KT  19C | 290/05KT  16C | 
+1500FT | 190/10KT  17C | 300/10KT  14C | 
+2000FT | 200/10KT  16C | 300/15KT  14C | 
+3000FT | 230/20KT  15C | 300/15KT  11C | 
+5000FT | 220/20KT  12C | 290/10KT  09C | 
+FL100  | 220/20KT  04C | 220/20KT  02C | 
+
+Turbulenz: 
+In und in der Umgebung von eingelagerten TCU/CB mäßig bis stark. 
+Zudem gegen Mittag mäßig zwischen FL110 und FL200. Am Abend erreicht 
+dieses Gebiet eine Linie vom Münster bis ins Saarland, dann teils 
+mäßig bis stark zwishcenFL130 und FL240. 
+
+Vereisung: 
+In der frontalen Bewölkung verbreitet mäßig bis FL230. Zusätzlich in 
+TCU/CB stark. Am Donnerstagabend mit absinkender Wolkenobergrenze von 
+Westen zunehmend nicht mehr signifikant oder keine. 
+
+Nullgradgrenze: 
+FL110-115, mit Durchzug der Front bis zum Abend auf FL085-FL095 
+sinkend. 
+
+Inversionen: 
+Im Osten Bodeninversion unterhalb 1000 FT AGL am Vormittag auflösend. 
+In der Nacht zum Freitag von Westen ausbildende Absinkinversion 
+zwischen FL070 und FL100. Dann auch erneute Ausbildung einer 
+Bodeninversion unterhalb von 1000 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    05.00 | 05.33 | 17.11 | 17.45 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 05.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/LS 
+
+
+
+=== ENDE DWD-DATEN ===
