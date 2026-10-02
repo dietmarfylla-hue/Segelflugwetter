@@ -1,0 +1,113 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 02.10.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | O ISOL FG      | D1             | O             
+32     | Münsterland                 | X OCNL FG      | M8 ISOL FG     | O             
+33     | Ruhrgebiet und Ostwestfalen | D4 ISOL RA     | M2             | O             
+34     | Niederrheinische Bucht      | M6 ISOL FG     | D4             | O             
+35     | Bergisches Land             | X FRQ FG       | M8 ISOL FG     | O             
+36     | Sauerland                   | X FRQ FG       | M5 ISOL FG     | D1            
+37     | Eifel                       | X FRQ FG       | M8 ISOL FG     | O             
+38     | Neuwieder Becken            | X OCNL FG      | M5 ISOL FG     | O             
+39     | Westerwald                  | X FRQ FG       | M5 ISOL FG     | O             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+139 
+FBEU40 EDZE 020600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 02.10.2026, 06.00 UTC bis 03.10.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Unter zunehmendem Hochdruckeinfluss mit Schwerpunkt über Frankreich 
+und Westdeutschland sickert bei schwachen Strömungsverhältnissen sehr 
+milde Luft ein. Dabei zeigt sich zunächst eine feuchte Grenzschicht, 
+die sich im Tagesverlauf anhebt und auflöst, und in der Nacht zum 
+Samstag erneut ausbildet. 
+
+
+Wettergeschehen: 
+Im Norden und im Bergland verbreitet Nebel, teils als OVC ST zwischen 
+Boden und 1000 FT AGL. An Rhein und Ruhr häufig Dunst- und 
+Nebelfelder und darüber SCT LYR ST/SC in 1500-2500 FT AMSL, 
+Obergrenze bis 5000 FT AMSL. Im Rheinland stellenweise wolkenfrei. 
+
+Im Laufe des Vormittags Übergang zu SCT/BKN CU/ST in 1000-2000 FT 
+AGL, Obergrenze um 3500 FT AMSL. 
+
+Am Mittag verbreitet SCT, teils BKN CU/SC in 2500-3500 FT AMSL, mit 
+Tops um 5000 FT AMSL, darüber CI-Felder oberhalb von FL245. 
+Am Nachmittag auf 4000-5000 FT AMSL ansteigende CU-Basis, Obergrenzen 
+bis FL060, gebietsweise auch Auflösung der CU-Bewölkung. 
+
+Am Abend noch örtlich SCT/BKN SC zwischen 4500 FT AMSL und FL060, 
+sowie einzelne flache CI-Felder oberhalb von FL200. Daher bilden sich 
+zunächst mit Schwerpunkt im Bergland Dunst und Nebel. Zum Ende der 
+Nacht weitet sich dieser auch auf große Teile des Gebietes aus. 
+
+Sichtweite: 
+Zunächst im Norden und im Bergland verbreitet Nebel und unter 1 km 
+Sicht, angrenzend häufig Dunst bei 2-5 km. Anfangs nur an Rhein und 
+Ruhr 10-20 km. Bis zum Mittag Besserung auf 20-40 km. 
+In der Nacht zum Samstag erneut Dunst und Nebel. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 200/05KT  14C | 070/05KT  17C | 
+1000FT | 190/05KT  13C | 100/05KT  16C | 
+1500FT | 260/05KT  13C | 120/05KT  15C | 
+2000FT | 260/05KT  12C | 130/05KT  14C | 
+3000FT | 260/05KT  09C | 160/05KT  11C | 
+5000FT | 280/05KT  07C | 190/05KT  08C | 
+FL100  | 270/05KT M00C | 180/05KT  02C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 310/05KT  14C | 080/05KT  15C | 
+1500FT | 310/05KT  12C | 110/10KT  15C | 
+2000FT | 340/05KT  12C | 120/10KT  14C | 
+3000FT | 320/05KT  09C | 140/10KT  11C | 
+5000FT | 310/05KT  06C | 180/10KT  08C | 
+FL100  | 230/05KT  00C | 190/05KT  02C | 
+
+Turbulenz: 
+Nicht signifikant. 
+
+Vereisung: 
+Keine. 
+
+Nullgradgrenze: 
+Zwischen FL085 und FL095. Bis zum Mittag auf FL090-110 ansteigend und 
+am Abend FL110 bis FL120 erreichend. Höhere Werte jeweils im 
+Südwesten. 
+
+Inversionen: 
+Absinkinversion zwischen FL080 und FL100, sowie eine weitere 
+schwächere zwischen 3000 und 5000 FT AMSL. Zudem heute Morgen örtlich 
+Bodeninversion unterhalb von 1000 FT AGL, die am Vormittag abgebaut 
+wird und sich in der Nacht zum Samstag erneut ausbildet. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    05.02 | 05.35 | 17.09 | 17.42 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/Wg 
+
+
+
+=== ENDE DWD-DATEN ===
