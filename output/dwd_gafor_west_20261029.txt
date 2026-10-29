@@ -1,0 +1,135 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 29.10.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | C ISOL FG      | C              | C             
+32     | Münsterland                 | O ISOL DZ      | O ISOL DZ      | D1 ISOL DZ    
+33     | Ruhrgebiet und Ostwestfalen | O ISOL DZ      | D1 ISOL DZ     | D1 ISOL DZ    
+34     | Niederrheinische Bucht      | O ISOL FG      | C              | C             
+35     | Bergisches Land             | O ISOL FG      | O ISOL FG      | O             
+36     | Sauerland                   | M2 ISOL FG     | M2 ISOL FG     | D1            
+37     | Eifel                       | O ISOL FG      | O ISOL FG      | C             
+38     | Neuwieder Becken            | X OCNL FG      | X ISOL FG      | O             
+39     | Westerwald                  | O ISOL FG      | D1 ISOL FG     | O             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+781 
+FBEU40 EDZE 290600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 29.10.2026, 06.00 UTC bis 30.10.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Unter Hochdruckeinfluss ist bei schwachen Strömungsverhältnissen 
+besonders in der unteren Atmosphäre eine milde und feuchte Luftnasse 
+vorherrschend. Diese trocknet im Tagesverlauf zögerlich ab. In der 
+Nacht zum Freitag bildet sich recht verbreitet eine feuchte 
+Grundschicht aus. 
+
+Wettergeschehen: 
+Am Morgen etwa nördlich der Sieg recht verbreitet BKN/OVC SC/AC mit 
+Untergrenzen in 3000 bis 4500 FT AMSL. Abseits von Nordweststaulagen 
+unterhalb bis oft FL075 LYR. Obergrenzen um FL100. In Eifel und 
+Westerwald meist wolkenfrei. Gebietsweise Dunst- und Nebelfelder, 
+besonders in Flusstälern teils als hochnebelartig aufliegender ST mit 
+Obergrenzen bis 1000 FT AGL. 
+
+Im Vormittagsverlauf im Süden zögerliches Auflösen der Dunst- und 
+Nebelfelder, besonders in den Flusstälern aber teils auch bis zum 
+Nachmittag anhaltend. Zudem linksrheinisch örtlich auflockernde zu 
+SCT/BKN SC/AC Bewölkung. In Westfalen hingegen örtlich etwas 
+Sprühregen und auf 1000 FT AGL bis 2000 FT AMSL absinkende 
+Untergrenzen. 
+
+Am Nachmittag in Westfalen abklingender Sprühregen und Untergrenzen 
+des BKN/OVC SC wieder verbreitet auf 1500 bis 3000 FT AMSL steigend, 
+Obergrenzen auf 4000 bis 5000 FT AMSL sinkend. Darüber BKN LYR SC/AC 
+bis FL090. 
+In der Südwesthälfte SCT/BKN SC mit Untergrenzen in 4500 FT AMSL bis 
+FL060 und Obergrenzen bis FL090. Darunter gebietsweise SCT CU ab 2000 
+FT AMSL. In der Eifel gebietsweise auch wolkenfrei. 
+
+Am Abend im Westen rasches Auflösen der Bewölkung. Im Osten hingegen 
+noch BKN/OVC SC zwischen 3500 und 5000 FT AMSL, der sich im Verlauf 
+der Nacht zögerlich auflöst. 
+In der Nacht zum Freitag im Westen dann rasch recht verbreitet 
+Bildung von Dunst- und Nebel. Im Osten im Verlauf ebenfalls bei 
+Aufklaren zunehmend Bildung von Dunst und Nebelfeldern. Im Verlauf 
+der Nacht gebietsweise Verdichtung zu hochnebelartigem BKN/OVC ST mit 
+Obergrenzen bis 1000 FT AGL. Vom Sauerland bis zum Westerwald in der 
+Nacht BKN/OVC ST/SC mit Untergrenzen in 0 bis 500 FT AGL und 
+Obergrenzen bis 4000 FT AMSL. Am ehesten in der Eifel überörtlich 
+klar. 
+
+Sichtweite: 
+Allgemein 15-30 km, im Mittelgebirge unter tieferen Wolken um 8 km, 
+bei Dunst unter 5 km, bei Nebel unter 1 km. Am Vormittag Besserung 
+auf 35-50 km. In Westfalen im Sprühregen zeitweise auf 2-6 km 
+absinkend. Am Nachmittag verbreitet 25-50 km. 
+In der Nacht zum Freitag rascher Rückgang auf 10-20 km. Zunächst im 
+Westen, im Verlauf aber im gesamten Gebiet überörtlich Bildung von 
+Dunst mit 1-8 km und örtlichem Nebel unter 1 km. Von Sauerland bis 
+Westerwald häufig auch bei aufliegender Bewölkung unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 170/05KT  09C | 080/05KT  12C | 
+1000FT | 210/05KT  09C | 090/10KT  11C | 
+1500FT | 260/05KT  09C | 090/10KT  10C | 
+2000FT | 280/05KT  08C | 090/10KT  09C | 
+3000FT | 310/05KT  07C | 100/05KT  07C | 
+5000FT | 360/05KT  04C | 070/05KT  05C | 
+FL100  | 350/10KT M02C | 040/15KT M02C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 120/05KT  08C | 070/05KT  11C | 
+1500FT | 200/05KT  08C | 100/10KT  10C | 
+2000FT | 250/05KT  08C | 110/10KT  09C | 
+3000FT | 010/05KT  06C | 100/10KT  07C | 
+5000FT | 040/05KT  04C | 080/10KT  05C | 
+FL100  | 020/10KT M04C | 060/15KT M02C | 
+
+Turbulenz: 
+Nicht signifikant. 
+
+Vereisung: 
+Vereinzelt mäßig im AC zwischen FZLVL und FL100. Ab dem Nachmittag 
+mit absinkenden Obergrenzen der Bewölkung meist nicht mehr 
+signifikant. 
+
+Nullgradgrenze: 
+FL070-FL075. Im Verlauf des Nachmittags auf FL075-FL080 steigend. Im 
+Verlauf der Nacht zum Freitag westlich des Rheins weiterer Anstieg 
+auf FL080-FL085. 
+
+Inversionen: 
+Absinkinversion in FL090-FL100. Am Nachmittag auf FL075-FL090 
+sinkend, am Abend abschwächend und meist auflösend oder nicht mehr 
+signifikant. In der Nacht zum Freitag abseits des ST Bildung einer 
+Bodeninversion unterhalb 1000 FT AGL. Zudem vom Sauerland bis zum 
+Westerwald schwache Absinkinversion um 4000 FT AMSL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    05.46 | 06.20 | 16.12 | 16.46 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/LU 
+
+
+
+=== ENDE DWD-DATEN ===
