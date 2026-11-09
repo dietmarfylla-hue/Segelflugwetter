@@ -1,0 +1,153 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 09.11.2026
+
+Gebiet | Name                        | 06-08 UTC      | 08-10 UTC      | 10-12 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | M6 ISOL FG     | D3 ISOL FG     | O             
+32     | Münsterland                 | D3 ISOL FG     | D3 ISOL FG     | O             
+33     | Ruhrgebiet und Ostwestfalen | O ISOL FG      | O              | O             
+34     | Niederrheinische Bucht      | O ISOL FG      | D1             | O             
+35     | Bergisches Land             | M2 ISOL FG     | M2 ISOL FG     | D1            
+36     | Sauerland                   | X OCNL FG      | X OCNL FG      | X OCNL FG     
+37     | Eifel                       | X OCNL FG      | X OCNL FG      | X ISOL FG     
+38     | Neuwieder Becken            | M5 ISOL FG     | M2 ISOL FG     | D1            
+39     | Westerwald                  | X OCNL FG      | X OCNL FG      | X ISOL FG     
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+682 
+FBEU40 EDZE 090600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 09.11.2026, 06.00 UTC bis 10.11.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Unter Einfluss eines Hochdruckgebiets über Osteuropa ist bei bodennah 
+schwachen Strömungsverhältnissen eine feuchte Grundschicht 
+vorherrschend, die sich im Tagesverlauf nur zum Teil auflöst. In 
+höheren Schichten ist bei einer Südwest- bis Westströmung eine 
+trockene Luftmasse vorherrschend. In der Nacht zum Dienstag verlagert 
+sich ein Höhentief von der Nordsee in die Ostsee. An dessen Südrand 
+nimmt die Höhenströmung vorübergehend zu und dreht auf Nordwest. 
+
+Wettergeschehen: 
+Am Morgen von der Eifel bis zum Hochsauerland recht verbreitet 
+hochnebelartiger BKN/OVC ST/SC mit Untergrenzen in 2000 bis 3000 FT 
+AGL, in höheren Lagen entsprechend häufig aufliegend. Im Verlauf des 
+Morgens von der Eifel bis zum Westerwald auf 1500 bis 2500 FT AMSL 
+absinkende Untergrenzen. Obergrenzen in 3500 bis 5000 FT AMSL. Zudem 
+Ostwestfalen örtlich noch SCT/BKN AS zwischen FL060 und FL100, bis 
+zum Mittag abziehend. Ansonsten meist recht klar oder nur örtlich 
+SCT/BKN SC Felder um 4500 FT AMSL. Gebietsweise Dunst und Nebel - 
+besonders vom Niederrhein bis in das westliche Münsterland teils auch 
+überörtlich Nebel. 
+
+Vormittagsverlauf Auflösung von Dunst- und Nebelfeldern, örtlich 
+vorübergehend in tiefen SCT CU in 500 bis 1500 FT AGL übergehend. 
+Beim ST/CU im Süden bis in der ersten Tageshälfte kaum signifikante 
+Änderungen und weiterhin oftmals aufliegende Bewölkung. 
+Ab dem Mittag im Süden wieder ansteigende Untergrenzen des ST/SC auf 
+2000 bis 3000 FT AMSL. Obergrenzen in der Eifel um 3500 FT AMSL, dort 
+auch gebietsweise auflockernde Bewölkung. Östlich des Rheins ST/SC 
+kompakter und höchste Lagen ganztägig in Wolken. Obergrenzen dort bis 
+5000 FT AMSL. Im Nachtmittagsverlauf BKN/OVC SC nordwärts bis etwa 
+zur Lippe ausbreitend. 
+Am Nachmittag auch im Flachland Untergrenzen um 2000 FT AMSL. 
+
+Am Abend von Süden weiter ausbreitender SC. Dann recht verbreitet 
+BKN/OVC SC mit Untergrenzen zwischen 2000 und 3000 FT AMSL und 
+Obergrenzen in 4500 bis 5000 FT AMSL. Besonders linksrheinisch 
+örtlich auch größere Auflockerungen Im Bergland Untergrenzen des 
+ST/SC gebietsweise auf 1500 FT AMSL absinkend und wieder häufiger 
+aufliegende Bewölkung. 
+
+In der Nacht zum Dienstag im Norden rasch auflösende Bewölkung und 
+dann auch recht verbreitet Bildung von Dunst und Nebel. Bis zur 
+zweiten Nachthälfte auch in der Südhälfte meist auflösender ST/SC und 
+Bildung von Dunst- und Nebel. Im Verlauf der zweiten Nachthälfte 
+vorwiegend nördlich der Ruhr und in Flussniederrungen des Berglandes 
+Nebel zu aufliegendem BKN/OVC ST mit Obergrenzen in 500 bis 1000 FT 
+AGL übergehend. In der zweiten Nachthälfte vereinzelt auch 
+gefrierender Nebel gering wahrscheinlich. 
+
+Sichtweite: 
+Am Morgen meist 10-20 km. Gebietsweise Dunst mit 1-8 km, vereinzelt 
+Nebel unter 1 km. Im höheren Bergland bei aufliegender Bewölkung 
+teils ganztägig unter 1 km. 
+Im Laufe des Vormittags im Bergland nur zögerliche Sichtbesserung, im 
+Flachland meist wieder 15-30 km. 
+Am Nachmittag verbreitet 25-50 km, im Bergland unter tiefem ST 
+örtlich dunstig bei 3-6 km, im Hochsauerland teils weiterhin 
+aufliegende Bewölkung. 
+In der Nacht zum Dienstag Rückgang auf 15-30 km. Bei Aufklaren 
+besonders nördlich der Ruhr und in Flussniederrungen des Berglandes 
+häufig Bildung von Dunst bei 1-5 km und gebietsweise Nebel unter 1 km 
+(vereinzelt FZFG gering wahrscheinlich). Auch abseits davon 
+gebietsweise Dunstbildung. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 140/05KT  06C | 120/05KT  08C | 
+1000FT | 150/15KT  06C | 130/05KT  07C | 
+1500FT | 150/10KT  05C | 120/05KT  04C | 
+2000FT | 150/10KT  04C | 110/05KT  03C | 
+3000FT | 130/10KT  02C | 080/05KT  02C | 
+5000FT | 130/05KT M00C | 300/05KT  01C | 
+FL100  | 250/15KT M08C | 280/25KT M08C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 110/05KT  05C | 060/05KT  06C | 
+1500FT | 130/10KT  04C | 120/05KT  04C | 
+2000FT | 140/15KT  04C | 180/05KT  04C | 
+3000FT | 160/10KT  02C | 190/05KT  01C | 
+5000FT | 170/05KT M00C | 290/05KT  02C | 
+FL100  | 240/15KT M08C | 270/30KT M07C | 
+
+Turbulenz: 
+Meist nicht signifikant. 
+
+Vereisung: 
+Allenfalls am Vormittag in Ostwestfalen teils noch mäßig zwischen 
+FL060 und FL100, ab dem Mittag meist nicht mehr signifikant. In der 
+Nacht zum Dienstag vereinzelt FZFG gering wahrscheinlich. 
+
+Nullgradgrenze: 
+Zwischen 4500 FT AMSL im Nordosten und FL055 im Südwesten. Im Laufe 
+des Vormittags dort auf FL060-065 steigend, bis zu einer Linie 
+EDGS-EDLN am Vormittag auf FL055 ansteigend, nordöstlich davon noch 
+um 4500 FT AMSL. Am Nachmittag im Norden und Nordosten 4500 FT AMSL, 
+von EDLV bis EDGS um FL055, im äußersten Südwesten FL070-075. Am 
+Abend kaum Änderungen. Im Verlauf der Nacht vereinzelt zusätzlich am 
+Boden oder in Bodennähe. 
+
+Inversionen: 
+Gebietsweise Bodeninversion unterhalb 1000 FT AGL, im 
+Vormittagsverlauf auflösend. Zudem vorwiegend im Süden 
+Absinkinversion zwischen 3000 und 4500 FT AMSL, im Osten um 5000 FT 
+AMSL, am Nachmittag auf die Nordhälfte ausbreitend, in der ersten 
+Nachthälfte meist auflösend. In der Nacht zum Dienstag erneut Bildung 
+einer Bodeninversion unterhalb 1000 FT AGL; bei ST Absinkinversion 
+zwischen 500 und 1000 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    06.03 | 06.39 | 15.53 | 16.28 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/LU 
+
+
+
+=== ENDE DWD-DATEN ===
