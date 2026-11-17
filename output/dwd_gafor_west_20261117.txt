@@ -1,0 +1,124 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 17.11.2026
+
+Gebiet | Name                        | 12-14 UTC      | 14-16 UTC      | 16-18 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | D1 ISOL RA     | O              | O ISOL SHRA   
+32     | Münsterland                 | M8 OCNL RA     | O ISOL RA      | O             
+33     | Ruhrgebiet und Ostwestfalen | D4 OCNL RA     | O              | O             
+34     | Niederrheinische Bucht      | O ISOL RA      | O              | O ISOL SHRA   
+35     | Bergisches Land             | M8 OCNL RA     | O              | O             
+36     | Sauerland                   | X OCNL RA      | D4 ISOL RA     | O             
+37     | Eifel                       | M2 ISOL RA     | O              | M2 ISOL SHRA  
+38     | Neuwieder Becken            | O ISOL RA      | O              | O             
+39     | Westerwald                  | X OCNL RA      | D1 ISOL RA     | O             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+210 
+FBEU40 EDZE 171800 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 17.11.2026, 18.00 UTC bis 18.11.2026, 15.00 UTC 
+
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Im Einflussbereich eines Tiefdruckkomplexes, der sich vom 
+Nordostatlantik bis nach Skandinavien erstreckt, fließt mit einer 
+lebhaften westlichen Strömung labil geschichtete Luft ein. Am Abend 
+und in der Nacht zieht ein Höhentrog durch. Am Mittwoch liegt das 
+Vorhersagegebiet weiterhin in leicht labiler Luft, der Norden wird 
+zudem von einer schleifenden Frontalzone beeinflusst. 
+
+Wettergeschehen: 
+FEW/SCT CU/SC mit Untergrenzen in 2000-4000 FT AMSL, teils 
+Überentwicklungen zu einzelnen Regenschauern mit BKN TCU und Tops um 
+FL150. Von Westen ab dem Abend Aufzug von BKN/OVC SC/AS/CS mit 
+Untergrenzen in 2000-4000 FT AMSL und Obergrenzen oberhalb FL245. 
+Daraus schauerartig verstärkter Regen, einzelne, eingelagerte 
+Gewitter gering wahrscheinlich. In kräftigen Schauern kurzzeitig auf 
+500-1000 FT AGL sinkende Untergrenzen. Südwestwind mit Böen 25-35 KT, 
+mit Schauern vereinzelt 40 KT. 
+
+In der zweiten Nachthälfte zeitweise ausschichtende Bewölkung, die 
+Untergrenzen liegen dann meist bei 1500-3000 FT AMSL, höhere Lagen 
+zeitweise in Wolken. Weiterhin ISOL TCU mit Tops bis FL120 und 
+leichten Regenschauern möglich. In Regenschauern kurzzeitig auf 
+800-1500 FT AGL sinkende Untergrenzen. 
+
+Zum Mittwochmorgen von Westen erneut verdichtende Bewölkung zu BKN 
+SC/AC/CI, Untergrenzen in 1500-3000 FT AMSL, Obergrenzen meist 
+oberhalb FL245. Daraus zeitweise Regen, örtlich durch EMBD ISOL 
+TCU/CB mit Tops bis FL150 schauerartig verstärkt. Bei kräftigem Regen 
+kurzzeitig auf 500-1000 FT AGL sinkende Untergrenzen. Am Vormittag 
+erneut auffrischender Südwestwind, dann verbreitet Böen 25-35 KT, im 
+Bergland in exponierten Lagen 40 KT. Am Mittag und Nachmittag kaum 
+Änderung, dann jedoch zusätzlich ISOL (EMBD) CB mit Tops bis FL200 
+und kurzen Gewittern möglich. 
+
+Sichtweite: 
+Im leichten Regen und außerhalb von Regen 10-20 km, im Regen 
+gebietsweise Rückgang auf 2-8 km. Im Bergland bei aufliegender 
+Bewölkung unter 500 m. Ab dem Nachmittag frontrückseitig 20-40 km, 
+bei Schauern oder in schauerartigem Regen teils 4-10 km, im höheren 
+Bergland bei zeitweise aufliegender Bewölkung weiterhin unter 500 m. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     21 UTC    |     09 UTC    | 
+ 500FT | 210/25KT  11C | 250/25KT  10C | 
+1000FT | 220/35KT  10C | 250/30KT  09C | 
+1500FT | 220/40KT  09C | 250/40KT  07C | 
+2000FT | 230/45KT  08C | 250/40KT  06C | 
+3000FT | 240/55KT  06C | 260/50KT  04C | 
+5000FT | 250/55KT  02C | 270/55KT  01C | 
+FL100  | 250/45KT M07C | 270/45KT M10C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     21 UTC    |     09 UTC    | 
+1000FT | 200/15KT  11C | 250/20KT  09C | 
+1500FT | 210/30KT  09C | 250/30KT  07C | 
+2000FT | 210/35KT  09C | 250/35KT  06C | 
+3000FT | 230/45KT  06C | 260/50KT  04C | 
+5000FT | 240/60KT  02C | 270/50KT  00C | 
+FL100  | 250/55KT M06C | 270/50KT M08C | 
+
+Turbulenz: 
+In und um TCU/CB mäßig bis stark. Mäßig, zeitweise auch stark 
+unterhalb 5000 FT AMSL, in der Nacht zum Mittwoch etwas nachlassend, 
+meist noch mäßig unterhalb 4000 FT AMSL. Ab Mittwochfrüh erneut mäßig 
+bis stark unterhalb von 5000 FT AMSL. 
+
+Vereisung: 
+Mäßig bis stark in TCU/CB. Im gesamten Zeitraum mäßig zwischen FL060 
+und FL180, mit Ausschichtungen in der zweiten Nachthälfte 
+vorrübergehend nicht signifikant. 
+
+Nullgradgrenze: 
+FL065-FL075, am Abend auf FL060-FL065 sinkend, am Montag verbreitet 
+um FL060. 
+
+Inversionen: 
+Nicht signifikant. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    06.17 | 06.55 | 15.40 | 16.16 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung - morgen 
+SA/SU   = Sonnenauf/untergang - morgen 
+
+Die nächste planmäßige Aktualisierung erfolgt am 18.11.2026 um 05.00 
+UTC 
+
+Regionale Wetterberatungszentrale Essen/vh/ld 
+
+
+
+=== ENDE DWD-DATEN ===

@@ -1,0 +1,56 @@
+=== DWD SEGELFLUG-DATEN ===
+Gebiet: GAFOR-Gebiet 33 - Ruhrgebiet und Ostwestfalen (244 m)
+Vorhersage: Vorhersage ausgegeben 17.11.2026 17:00 UTC (ICON-EU 2026-11-17 12 UTC)
+Gültig für: Vorhersagen für Dienstag, 17.11.2026
+
+--- Astronomische Angaben ---
+Sonnenaufgang: 06:51 UTC = 07:51 Lokalzeit
+Sonnenuntergang: 15:37 UTC = 16:37 Lokalzeit
+Mondphase: 7 Tage vor Vollmond
+
+--- Thermik-Gebietsangaben ---
+  Gebietsmittel: Beginn /, Ende --, PFD/Tag / km
+  Maximum im Gebiet: Beginn /, Ende --, PFD/Tag / km
+  Referenzstation: Beginn /, Ende --, PFD/Tag / km
+
+Thermik Gebietsmittel:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      19:00 |                     - |                     - |           -
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+
+Thermik Maximum im Gebiet:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      19:00 |                     - |                     - |           -
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+
+--- Referenzstation (stündliche Werte) ---
+Alle Windangaben in km/h. Windrichtung in Grad.
+
+Stunde(Lok) | Temp°C | Taupunkt°C | WindRi° | WindMittel | Böen | Wetter | BewTief/8 | BewMittel/8 | BewHoch/8 | Steigen m/s | ArbHöhe m
+--------------------------------------------------------------------------------------------------------------
+     19:00 |    12 |         8 |    220 |         20 |   54 |      - |         5 |           8 |         5 |           - |          -
+     20:00 |    11 |         9 |    220 |         17 |   57 |    -RA |         6 |           8 |         8 |           - |          -
+     21:00 |    11 |         9 |    220 |         17 |   46 |    -RA |         7 |           8 |         8 |           - |          -
+     22:00 |    11 |         9 |    200 |         15 |   61 |     RA |         7 |           8 |         8 |           - |          -
+     23:00 |    11 |         8 |    220 |         22 |   57 |    -RA |         7 |           8 |         8 |           - |          -
+     00:00 |    11 |         9 |    230 |         19 |   59 |    -RA |         8 |           8 |         8 |           - |          -
+
+--- Höhenwinde Referenzstation (Grad/km/h) ---
+  Wind 2000 FT (610 m) AMSL [° km/h]:
+    19:00=230/75, 20:00=230/75, 21:00=240/75, 22:00=220/75, 23:00=230/85, 00:00=240/75
+  Wind 3000 FT (914 m) AMSL [° km/h]:
+    19:00=240/95, 20:00=240/95, 21:00=250/100, 22:00=230/95, 23:00=240/95, 00:00=250/85
+  Wind 5000 FT (1524 m) AMSL [° km/h]:
+    19:00=250/95, 20:00=250/95, 21:00=250/120, 22:00=240/110, 23:00=250/95, 00:00=260/85
+
+=== ENDE DWD-DATEN ===

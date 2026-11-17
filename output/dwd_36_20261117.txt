@@ -1,0 +1,54 @@
+=== DWD SEGELFLUG-DATEN ===
+Gebiet: GAFOR-Gebiet 36 - Sauerland (731 m)
+Vorhersage: Vorhersage ausgegeben 17.11.2026 17:00 UTC (ICON-EU 2026-11-17 12 UTC)
+Gültig für: Vorhersagen für Dienstag, 17.11.2026
+
+--- Astronomische Angaben ---
+Sonnenaufgang: 06:46 UTC = 07:46 Lokalzeit
+Sonnenuntergang: 15:36 UTC = 16:36 Lokalzeit
+Mondphase: 7 Tage vor Vollmond
+
+--- Thermik-Gebietsangaben ---
+  Gebietsmittel: Beginn /, Ende --, PFD/Tag / km
+  Maximum im Gebiet: Beginn /, Ende --, PFD/Tag / km
+  Referenzstation: Beginn /, Ende --, PFD/Tag / km
+
+Thermik Gebietsmittel:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      19:00 |                     - |                     - |           -
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+
+Thermik Maximum im Gebiet:
+Stunde(Lok) |  Arbeitshöhe [m AMSL] |  Mittl. Steigen [m/s] | PFD/1h [km]
+-------------------------------------------------------------------------
+      19:00 |                     - |                     - |           -
+      20:00 |                     - |                     - |           -
+      21:00 |                     - |                     - |           -
+      22:00 |                     - |                     - |           -
+      23:00 |                     - |                     - |           -
+      00:00 |                     - |                     - |           -
+
+--- Referenzstation (stündliche Werte) ---
+Alle Windangaben in km/h. Windrichtung in Grad.
+
+Stunde(Lok) | Temp°C | Taupunkt°C | WindRi° | WindMittel | Böen | Wetter | BewTief/8 | BewMittel/8 | BewHoch/8 | Steigen m/s | ArbHöhe m
+--------------------------------------------------------------------------------------------------------------
+     19:00 |     9 |         7 |    230 |         19 |   48 |      - |         5 |           8 |         8 |           - |          -
+     20:00 |     9 |         8 |    220 |         15 |   50 |    -RA |         8 |           8 |         8 |           - |          -
+     21:00 |     9 |         8 |    220 |         19 |   48 |    -RA |         5 |           7 |         8 |           - |          -
+     22:00 |     9 |         8 |    210 |         20 |   52 |    -RA |         5 |           8 |         8 |           - |          -
+     23:00 |     9 |         7 |    220 |         22 |   59 |    -RA |         7 |           8 |         8 |           - |          -
+     00:00 |     9 |         8 |    230 |         20 |   57 |    -RA |         7 |           8 |         8 |           - |          -
+
+--- Höhenwinde Referenzstation (Grad/km/h) ---
+  Wind 3000 FT (914 m) AMSL [° km/h]:
+    19:00=240/75, 20:00=240/75, 21:00=240/85, 22:00=220/85, 23:00=230/85, 00:00=240/85
+  Wind 5000 FT (1524 m) AMSL [° km/h]:
+    19:00=250/95, 20:00=250/100, 21:00=250/120, 22:00=230/110, 23:00=250/100, 00:00=250/95
+
+=== ENDE DWD-DATEN ===
