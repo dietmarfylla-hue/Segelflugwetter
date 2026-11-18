@@ -1,12 +1,12 @@
 === DWD SEGELFLUG-DATEN ===
 Gebiet: GAFOR-Gebiet 36 - Sauerland (731 m)
-Vorhersage: Vorhersage ausgegeben 17.11.2026 17:00 UTC (ICON-EU 2026-11-17 12 UTC)
-Gültig für: Vorhersagen für Dienstag, 17.11.2026
+Vorhersage: Vorhersage ausgegeben 18.11.2026 17:00 UTC (ICON-EU 2026-11-18 12 UTC)
+Gültig für: Vorhersagen für Mittwoch, 18.11.2026
 
 --- Astronomische Angaben ---
-Sonnenaufgang: 06:46 UTC = 07:46 Lokalzeit
-Sonnenuntergang: 15:36 UTC = 16:36 Lokalzeit
-Mondphase: 7 Tage vor Vollmond
+Sonnenaufgang: 06:48 UTC = 07:48 Lokalzeit
+Sonnenuntergang: 15:35 UTC = 16:35 Lokalzeit
+Mondphase: 6 Tage vor Vollmond
 
 --- Thermik-Gebietsangaben ---
   Gebietsmittel: Beginn /, Ende --, PFD/Tag / km
@@ -38,17 +38,17 @@ Alle Windangaben in km/h. Windrichtung in Grad.
 
 Stunde(Lok) | Temp°C | Taupunkt°C | WindRi° | WindMittel | Böen | Wetter | BewTief/8 | BewMittel/8 | BewHoch/8 | Steigen m/s | ArbHöhe m
 --------------------------------------------------------------------------------------------------------------
-     19:00 |     9 |         7 |    230 |         19 |   48 |      - |         5 |           8 |         8 |           - |          -
-     20:00 |     9 |         8 |    220 |         15 |   50 |    -RA |         8 |           8 |         8 |           - |          -
-     21:00 |     9 |         8 |    220 |         19 |   48 |    -RA |         5 |           7 |         8 |           - |          -
-     22:00 |     9 |         8 |    210 |         20 |   52 |    -RA |         5 |           8 |         8 |           - |          -
-     23:00 |     9 |         7 |    220 |         22 |   59 |    -RA |         7 |           8 |         8 |           - |          -
-     00:00 |     9 |         8 |    230 |         20 |   57 |    -RA |         7 |           8 |         8 |           - |          -
+     19:00 |     7 |         6 |    260 |         17 |   50 |  -SHRA |         7 |           6 |         0 |           - |          -
+     20:00 |     7 |         6 |    260 |         15 |   44 |    -RA |         8 |           7 |         0 |           - |          -
+     21:00 |     7 |         6 |    250 |         15 |   41 |      - |         7 |           8 |         1 |           - |          -
+     22:00 |     7 |         6 |    250 |         17 |   41 |    -RA |         7 |           5 |         0 |           - |          -
+     23:00 |     7 |         6 |    250 |         15 |   39 |    -RA |         8 |           6 |         0 |           - |          -
+     00:00 |     7 |         6 |    240 |         15 |   41 |      - |         6 |           4 |         0 |           - |          -
 
 --- Höhenwinde Referenzstation (Grad/km/h) ---
   Wind 3000 FT (914 m) AMSL [° km/h]:
-    19:00=240/75, 20:00=240/75, 21:00=240/85, 22:00=220/85, 23:00=230/85, 00:00=240/85
+    19:00=270/65, 20:00=270/55, 21:00=260/55, 22:00=260/55, 23:00=260/55, 00:00=250/55
   Wind 5000 FT (1524 m) AMSL [° km/h]:
-    19:00=250/95, 20:00=250/100, 21:00=250/120, 22:00=230/110, 23:00=250/100, 00:00=250/95
+    19:00=270/65, 20:00=270/65, 21:00=270/65, 22:00=260/65, 23:00=260/65, 00:00=260/65
 
 === ENDE DWD-DATEN ===
