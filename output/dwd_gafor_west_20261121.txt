@@ -1,0 +1,110 @@
+=== DWD FLUGWETTERPROGNOSE BEREICH WEST ===
+Bereich: Flugwetterprognose für die Luftfahrt Bereich West
+Seitentitel: Wetter und Klima - Deutscher Wetterdienst   -  Flugwetterprognose für die Luftfahrt Bereich West
+
+--- GAFOR-Übersichtstabelle ---
+GAFOR Bereich RWZ Essen 21.11.2026
+
+Gebiet | Name                        | 09-11 UTC      | 11-13 UTC      | 13-15 UTC     
+---------------------------------------------------------------------------------------
+31     | Niederrheinisches Tiefland  | D3 ISOL FG     | C              | C             
+32     | Münsterland                 | D3 ISOL SHRA   | O ISOL SHRA    | O ISOL SHRA   
+33     | Ruhrgebiet und Ostwestfalen | D1 ISOL FG     | O              | O ISOL SHRA   
+34     | Niederrheinische Bucht      | O              | C              | C             
+35     | Bergisches Land             | O ISOL FG      | O ISOL FG      | C             
+36     | Sauerland                   | X ISOL FZFG    | O ISOL FG      | O             
+37     | Eifel                       | D3 ISOL FZFG   | O ISOL FG      | C             
+38     | Neuwieder Becken            | D3 ISOL FZFG   | O ISOL FG      | C             
+39     | Westerwald                  | D4 ISOL FZFG   | O ISOL FG      | O             
+
+Hinweis: Bedeutung der GAFOR-Kategorien (O/M/D/C/X) siehe offizielle DWD-GAFOR-Legende (gafor_legende.jpg auf der Quellseite).
+
+--- Flugwetterübersicht Bereich West (Volltext-Bulletin) ---
+
+807 
+FBEU40 EDZE 210600 
+Deutscher Wetterdienst 
+Flugwetterübersicht Bereich West 
+gültig vom 21.11.2026, 06.00 UTC bis 22.11.2026, 03.00 UTC 
+
+Vorhersagebereich: GAFOR-Gebiete 31 bis 39 
+
+Wetterlage und -entwicklung: 
+Rückseitig der nach Süden abgezogenen Tiefdruckrinne fließt mit einer 
+nordwestlichen Strömung kalte Luft ein, die unter Hochdruckeinfluss 
+gerät und allmählich abtrocknet. Zunächst und auch in der Nacht zum 
+Sonntag ist eine feuchte Grundschicht wetterbestimmend. 
+
+Wettergeschehen: 
+Teils SKC, zeitweise Durchzug von FEW/SCT SC/AC in 2500 bis 4000 FT 
+AMSL und Obergrenzen um FL090. 
+Vor allem im Bergland SCT/BKN ST unter 1500 FT AGL, Berge in Wolken. 
+Sonst gebietsweise flache Dunst- und Nebelfelder, teils gefrierend. 
+
+Am Samstagvormittag von Norden her ausbreitende SCT/BKN SC/CU mit 
+Untergrenzen zwischen 1500 und 3000 FT AMSL und Obergrenzen bis 
+FL090. Der ST im Bergland löst sich langsam auf oder geht in 
+SC/CU-Bewölkung über. Im Tagesverlauf anhebende Untergrenzen des 
+SC/CU auf 2500-4000 FT AMSL. Im äußersten Norden einzelne leichte 
+Schauer aus ISOL TCU mit Tops bis FL120 möglich. Sonst 
+niederschlagsfrei. Im Bereich der Eifel bleibt es nach Auflösung 
+etwaiger Dunst- und Nebelfelder gering bewölkt, teils SKC. 
+
+Ab dem Abend im Norden und im Bergland Bildung von BKN/OVC ST unter 
+1000 FT AGL. Sonst kaum Bewölkungsänderung. 
+
+Sichtweite: 
+10 bis 30 km. Gebietsweise bis zum Samstagvormittag flache 
+Dunstfelder mit 1-5 km, örtlich Nebel unter 1 km. Vereinzelt auch 
+FZFG. Im Tagesverlauf Sichtbesserung auf 20 bis 50 km. In der Nacht 
+zum Sonntag allgemein Rückgang auf 10 bis 30 km, im Dunst Sichtweiten 
+zwischen 2 und 5 km, örtlich Nebel unter 1 km. 
+
+Höhenwind und -temperatur: 
+GAFOR-Gebiete 31 - 34: 
+AMSL   |     09 UTC    |     21 UTC    | 
+ 500FT | 210/10KT  02C | 210/05KT  05C | 
+1000FT | 250/15KT  03C | 250/05KT  05C | 
+1500FT | 270/15KT  03C | 260/05KT  04C | 
+2000FT | 270/15KT  03C | 260/05KT  03C | 
+3000FT | 280/15KT  01C | 270/05KT  00C | 
+5000FT | 280/15KT M03C | 260/10KT M02C | 
+FL100  | 320/15KT M11C | 300/20KT M09C | 
+
+GAFOR-Gebiete 35 - 39: 
+AMSL   |     09 UTC    |     21 UTC    | 
+1000FT | 200/05KT  02C | 120/05KT  04C | 
+1500FT | 260/10KT  01C | 250/05KT  03C | 
+2000FT | 270/15KT  01C | 260/05KT  03C | 
+3000FT | 290/15KT M01C | 270/05KT M00C | 
+5000FT | 290/15KT M04C | 280/10KT M02C | 
+FL100  | 300/15KT M11C | 300/20KT M09C | 
+
+Turbulenz: 
+Bei TCU mäßig bis stark. 
+
+Vereisung: 
+In TCU mäßig bis stark. In der Nacht zum Sonntag teils FZFG. 
+
+Nullgradgrenze: 
+Um 3000 FT AMSL, örtlich zudem SFC. Am Samstag tagsüber kaum 
+Änderung. In der Nacht zum Sonntag zwischen 2500 FT AMSL im Nordosten 
+und 4000 FT AMSL im Südwesten. 
+
+Inversionen: 
+Gebietsweise Bodeninversion unterhalb 1500 FT AGL, im 
+Vormittagsverlauf auflösend. In der Nacht zum Sonntag Bildung einer 
+Bodeninversion unterhalb 1000 FT AGL. 
+
+Zeiten in UTC: BDA  |  SA   |  SU   |  BDE 
+Düsseldorf    06.23 | 07.00 | 15.37 | 16.15 
+BDA/BDE = Anfang/Ende Bürgerliche Dämmerung 
+SA/SU   = Sonnenauf/untergang 
+
+Die nächste planmäßige Aktualisierung erfolgt um 11.00 UTC 
+
+Regionale Wetterberatungszentrale Essen/jb 
+
+
+
+=== ENDE DWD-DATEN ===
